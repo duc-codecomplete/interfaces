@@ -1,0 +1,61 @@
+DIALOG "Win_Storage" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title1" "" "" 100 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Txt_BagNum" "" "" 210 38 0 0 6 10 7 255 255 255 255
+IMAGEPICTURE "Item_00" "" "" 16 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_01" "" "" 53 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_02" "" "" 90 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_03" "" "" 127 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_04" "" "" 164 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_05" "" "" 201 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_06" "" "" 16 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_07" "" "" 53 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_08" "" "" 90 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_09" "" "" 127 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_10" "" "" 164 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_11" "" "" 201 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_12" "" "" 16 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_13" "" "" 53 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_14" "" "" 90 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_15" "" "" 127 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_16" "" "" 164 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_17" "" "" 201 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_18" "" "" 16 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_19" "" "" 53 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_20" "" "" 90 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_21" "" "" 127 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_22" "" "" 164 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_23" "" "" 201 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_24" "" "" 16 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_25" "" "" 53 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_26" "" "" 90 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_27" "" "" 127 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_28" "" "" 164 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_29" "" "" 201 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_30" "" "" 16 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_31" "" "" 53 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_32" "" "" 90 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_33" "" "" 127 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_34" "" "" 164 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_35" "" "" 201 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_36" "" "" 16 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_37" "" "" 53 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_38" "" "" 90 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_39" "" "" 127 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_40" "" "" 164 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_41" "" "" 201 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_42" "" "" 16 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_43" "" "" 53 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_44" "" "" 90 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_45" "" "" 127 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_46" "" "" 164 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_47" "" "" 201 338 36 36 1 0 "Icon\Frame.tga" ""
+SCROLL "Scl_Item" "" "" 246 60 12 335 "ListBox\DragSlot.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragButton.tga" 1 
+IMAGEPICTURE "Img_FrameMoney" "" "" 86 403 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Txt_Money3" "" "" 227 403 0 0 8 10 9 255 255 255 255
+LABEL "Txt_Money2" "" "" 188 403 0 0 10 10 11 255 255 255 255
+LABEL "Txt_Money1" "" "" 151 403 0 0 12 10 13 255 255 255 255
+LABEL "Lab_Expand" "" "" 44 359 162 40 14 10 15 255 255 255 255
+LABEL "Lab_Money" "" "" 20 403 0 0 16 10 17 213 191 164 255
+LABEL "Title2" "" "" 90 3 0 0 18 16 19 254 231 174 255
+STILLIMAGEBUTTON "Btn_Arrange" "arrange" "" 193 378 45 21 0 0 0 0 20 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 21 1 0

@@ -1,0 +1,3 @@
+DIALOG "Win_MidMap" 0 0 528 528 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+IMAGEPICTURE "Img_MidMap" "" "" 0 0 528 528 1 0 ""
+SLIDER "Sld_MidMap" "" "" 400 508 120 8 "ListBox\DragSlotA.tga" "ListBox\DragButton.tga" 255 1

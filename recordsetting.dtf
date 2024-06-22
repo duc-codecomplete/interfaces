@@ -1,0 +1,16 @@
+DIALOG "Win_RecordSetting" 0 0 183 191 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+CHECK "Chk_1" "" "" 10 30 20 20 "Extra\Check.tga"
+CHECK "Chk_2" "" "" 10 50 20 20 "Extra\Check.tga"
+CHECK "Chk_3" "" "" 10 70 20 20 "Extra\Check.tga"
+CHECK "Chk_4" "" "" 10 110 20 20 "Extra\Check.tga"
+CHECK "Chk_5" "" "" 10 130 20 20 "Extra\Check.tga"
+CHECK "Chk_6" "" "" 10 90 20 20 "Extra\Check.tga"
+LABEL "Txt_1" "" "" 38 30 0 0 2 10 3 255 255 255 255
+LABEL "Txt_2" "" "" 38 50 0 0 4 10 5 255 255 255 255
+LABEL "Txt_3" "" "" 38 70 0 0 6 10 7 255 255 255 255
+LABEL "Txt_4" "" "" 38 110 0 0 8 10 9 255 255 255 255
+LABEL "Txt_5" "" "" 38 130 0 0 10 10 11 255 255 255 255
+LABEL "Txt_6" "" "" 38 90 0 0 12 10 13 255 255 255 255
+LABEL "Lab_Title" "" "" 10 8 0 0 14 10 15 254 231 174 255
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 36 158 50 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 97 158 50 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 19 1 0

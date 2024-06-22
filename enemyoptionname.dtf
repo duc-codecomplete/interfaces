@@ -1,0 +1,6 @@
+POPUP "EnemyOptionName" 0 0 150 60 0 1 10 "Window\Window.tga" "" "" 0 0 0 0 "" 0 0 255 255 255 255 1
+HILIGHT "Listbox\Create_SelectR.tga"
+MENUITEM 101 "Whisper"
+MENUITEM 103 "Update"
+MENUITEM 105 "DeleteEnemy"
+MENUITEM 107 "CopyName"

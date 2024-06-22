@@ -1,0 +1,49 @@
+DIALOG "Win_SoulCombine" 0 0 405 620 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 140 6 0 0 2 16 3 206 181 149 255
+EDIT "Edit_Product" "" "" 227 37 170 301 "Frame\Frame.tga" 4 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Title_Prolist" "" "" 85 44 0 0 5 10 6 206 181 149 255
+LABEL "Title_Product" "" "" 306 46 0 0 7 10 8 206 181 149 255
+EDIT "Edit_Material" "" "" 12 343 385 230 "Frame\Frame.tga" 9 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 333 584 45 21 0 0 0 0 10 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 1
+LABEL "Title_Material" "" "" 147 361 0 0 12 10 13 206 181 149 255
+IMAGEPICTURE "Item_1" "" "" 59 408 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_2" "" "" 217 408 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_3" "" "" 59 458 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_4" "" "" 217 458 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_5" "" "" 59 509 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_6" "" "" 217 509 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Txt_name1" "" "" 106 410 0 0 14 10 15 206 181 149 255
+LABEL "Txt_name2" "" "" 264 410 0 0 16 10 17 206 181 149 255
+LABEL "Txt_name3" "" "" 106 461 0 0 18 10 19 206 181 149 255
+LABEL "Txt_name4" "" "" 264 461 0 0 20 10 21 206 181 149 255
+LABEL "Txt_name5" "" "" 106 512 0 0 22 10 23 206 181 149 255
+LABEL "Txt_name6" "" "" 264 512 0 0 24 10 25 206 181 149 255
+LABEL "Txt_no1" "" "" 106 426 0 0 26 10 27 206 181 149 255
+LABEL "Txt_no2" "" "" 264 426 0 0 28 10 29 206 181 149 255
+LABEL "Txt_no3" "" "" 106 477 0 0 30 10 31 206 181 149 255
+LABEL "Txt_no4" "" "" 264 477 0 0 32 10 33 206 181 149 255
+LABEL "Txt_no5" "" "" 106 527 0 0 34 10 35 206 181 149 255
+LABEL "Txt_no6" "" "" 264 527 0 0 36 10 37 206 181 149 255
+LABEL "Txt_Rate1" "" "" 234 74 0 0 38 10 39 206 181 149 255
+LABEL "Txt_Rate2" "" "" 234 153 0 0 40 10 41 206 181 149 255
+LABEL "Txt_Rate3" "" "" 234 235 0 0 42 10 43 206 181 149 255
+IMAGEPICTURE "Item_Product1" "" "" 234 96 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_Product2" "" "" 234 177 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_Product3" "" "" 234 259 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Txt_Product1" "" "" 274 105 0 0 44 10 45 206 181 149 255
+LABEL "Txt_Product2" "" "" 274 185 0 0 46 10 47 206 181 149 255
+LABEL "Txt_Product3" "" "" 274 268 0 0 48 10 49 206 181 149 255
+TREE "Tv_Recipe" "" "" 13 68 212 270 50 10 255 255 255 255 "Frame\Frame.tga" "Listbox\Create_Select.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+STILLIMAGEBUTTON "Btn_Max" "max" "" 22 584 72 21 0 0 0 0 51 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 52 1 0
+STILLIMAGEBUTTON "Btn_Add" "add" "" 154 588 13 13 0 0 0 0 53 10 255 0 255 255 "Button\RightTurn.tga" "Button\RightTurnDown.tga" "" 54 1 0
+STILLIMAGEBUTTON "Btn_Minus" "minus" "" 102 588 13 13 0 0 0 0 55 10 255 0 255 255 "Button\LeftTurn.tga" "Button\LeftTurnDown.tga" "" 56 1 0
+EDIT "Txt_Number" "" "" 113 584 42 21 "Editbox\Input.tga" 57 10 255 255 255 "TEXT" 0 0 5 0
+STILLIMAGEBUTTON "Btn_Produce" "begin" "" 173 584 45 21 0 0 0 0 58 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 59 1 0
+STILLIMAGEBUTTON "Btn_Stop" "stop" "" 279 584 45 21 0 0 0 0 60 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 61 1 0
+PROGRESS "Prgs_1" "" "" 24 577 355 6 "Frame\Clarity.bmp" "Progress\VpColor.bmp" 0 0 0 0 0
+IMAGEPICTURE "Img_Product" "" "" 230 66 163 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Img_Prolist" "" "" 13 67 212 2 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Img_Material" "" "" 13 380 380 3 1 0 "Icon\Compart.tga" ""
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 356 8 19 20 0 0 0 0 62 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 63 1 1
+EDIT "Edit_Prolist" "" "" 13 37 212 30 "Frame\Frame.tga" 64 10 255 255 255 "TEXT" 1 0 20 0
+COMBO "Combo_Prolist" "prolist" "" 155 42 61 21 65 10 255 255 255 255 "Editbox\CChannel.tga" "Listbox\Create_SelectR.tga" 0

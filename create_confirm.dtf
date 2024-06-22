@@ -1,0 +1,2 @@
+DIALOG "Win_CreateConfirm" 0 0 136 33 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 0 0 136 33 0 0 0 0 2 10 255 255 255 255 "Button\ServerList_Confirm.tga" "Button\ServerList_ConfirmDown.tga" "" 3 1 1

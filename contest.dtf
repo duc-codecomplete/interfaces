@@ -1,0 +1,43 @@
+DIALOG "Win_Contest" 0 0 538 470 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+EDIT "Edit_fenshu" "" "" 354 45 165 89 "Frame\Frame.tga" 2 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Edit_Main" "" "" 17 77 333 260 "Frame\Frame.tga" 3 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 473 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 0
+LABEL "Title" "" "" 228 3 0 0 6 16 7 254 231 174 255
+LABEL "Txt_Question" "" "" 35 83 299 91 8 11 9 128 255 255 255
+CHECK "Chk_Answer1" "answer1" "" 31 181 18 18 "Extra\Check.tga"
+LABEL "Txt_Answer1" "" "" 72 181 259 37 10 11 11 255 255 255 255
+CHECK "Chk_Answer2" "answer2" "" 31 218 18 18 "Extra\Check.tga"
+LABEL "Txt_Answer2" "" "" 73 218 259 37 12 11 13 255 255 255 255
+CHECK "Chk_Answer3" "answer3" "" 31 255 18 18 "Extra\Check.tga"
+LABEL "Txt_Answer3" "" "" 72 255 259 37 14 11 15 255 255 255 255
+CHECK "Chk_Answer4" "answer4" "" 31 292 18 18 "Extra\Check.tga"
+LABEL "Txt_Answer4" "" "" 74 291 259 37 16 11 17 255 255 255 255
+LABEL "Lab_Time" "" "" 19 46 0 0 18 10 19 255 204 0 255
+IMAGEPICTURE "Img_LuckStar3" "" "" 292 36 36 36 2 0 "Extra\Quest_StarNew.tga" ""
+IMAGEPICTURE "Img_LuckStar1" "" "" 220 36 36 36 2 0 "Extra\Quest_StarNew.tga" ""
+IMAGEPICTURE "Img_LuckStar2" "" "" 256 36 36 36 2 0 "Extra\Quest_StarNew.tga" ""
+LABEL "Lab_Grade" "" "" 360 135 0 0 20 10 21 255 204 0 255
+LABEL "Lab_Grade1" "" "" 467 135 0 0 22 10 23 255 204 0 255
+LIST "Lst_Place" "" "" 353 154 170 181 24 10 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "123 +23" 0
+LABEL "Lab_Score" "" "" 378 57 0 0 25 10 26 255 204 0 255
+LABEL "Txt_Score" "" "" 459 57 0 0 27 10 28 255 255 255 255
+IMAGEPICTURE "Img_Result" "" "" 196 177 140 70 2 0 "Extra\Contest.tga" ""
+LABEL "Lab_Hit" "" "" 376 81 0 0 29 10 30 255 204 0 255
+LABEL "Txt_Hit" "" "" 458 81 0 0 31 10 32 255 255 255 255
+LABEL "Lab_CorrectNum" "" "" 375 105 0 0 33 10 34 255 204 0 255
+LABEL "Txt_CorrectNum" "" "" 457 105 0 0 35 10 36 255 255 255 255
+IMAGEPICTURE "Img_Status" "" "" 198 247 140 70 2 0 "Extra\Contest_start.tga" ""
+LABEL "Lab_Intro1" "" "" 19 358 0 0 37 10 38 221 255 255 255
+LABEL "Lab_Lucky" "" "" 19 339 0 0 39 10 40 221 255 255 255
+STILLIMAGEBUTTON "Btn_ExitAnswer" "IDCANCEL" "" 456 435 62 20 0 0 0 0 41 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 42 1 0
+STILLIMAGEBUTTON "Btn_Mini" "mini" "" 388 436 62 20 0 0 0 0 43 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 44 1 0
+STILLIMAGEBUTTON "Btn_MiniSmall" "mini" "" 452 4 22 22 0 0 0 0 45 10 255 255 255 255 "Button\最小化方形.tga" "Button\最小化方形按下.tga" "" 46 1 0
+LABEL "Lab_Intro3" "" "" 58 394 0 0 47 10 48 221 255 255 255
+LABEL "Lab_Intro2" "" "" 58 376 0 0 49 10 50 221 255 255 255
+LABEL "Lab_luckstar" "" "" 179 46 0 0 51 10 52 255 204 0 255
+LABEL "Lab_Intro4" "" "" 58 412 0 0 53 10 54 221 255 255 255
+LABEL "Lab_Intro5" "" "" 58 430 0 0 55 10 56 221 255 255 255
+IMAGEPICTURE "Img_Right1" "" "" 31 181 18 17 1 0 "Extra\Right.tga" ""
+IMAGEPICTURE "Img_Right2" "" "" 31 218 18 17 1 0 "Extra\Right.tga" ""
+IMAGEPICTURE "Img_Right3" "" "" 31 255 18 17 1 0 "Extra\Right.tga" ""
+IMAGEPICTURE "Img_Right4" "" "" 31 292 18 17 1 0 "Extra\Right.tga" ""

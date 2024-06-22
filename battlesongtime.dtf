@@ -1,0 +1,18 @@
+DIALOG "Win_BattleSongTime" 0 0 280 430 0 1 10 "Window\Window.tga" "" "" 0 0 250 27 "" 25 5 96 96 96 255 1 0
+LABEL "Lab_1" "" "" 31 47 0 0 2 10 3 254 231 174 255
+LABEL "Lab_2" "" "" 31 71 0 0 4 10 5 254 231 174 255
+LABEL "Lab_3" "" "" 30 93 0 0 6 10 7 254 231 174 255
+LABEL "Title" "" "" 8 7 0 0 8 12 9 213 190 164 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 257 2 20 20 0 0 0 0 10 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 11 1 1
+IMAGEPICTURE "Img_Bar" "" "" 5 112 270 3 1 0 "Icon\Compart.tga" ""
+LIST "Lst_Await" "listmember" "" 5 165 270 230 12 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "118 +100 +45" 0
+LABEL "Lab_Await" "" "" 7 120 0 0 13 10 14 254 231 174 255
+STILLIMAGEBUTTON "Btn_Leave" "giveup" "" 197 400 77 21 0 0 0 0 15 10 254 230 173 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Name" "sortname" "" 6 142 118 21 0 0 0 0 17 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 18 1 0
+STILLIMAGEBUTTON "Btn_Lv" "sortlevel" "" 228 142 47 21 0 0 0 0 19 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 20 1 0
+STILLIMAGEBUTTON "Btn_Desc" "sortoccupation" "" 124 142 103 21 0 0 0 0 21 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 22 1 0
+STILLIMAGEBUTTON "Btn_Pre" "last" "" 10 400 26 20 0 0 0 0 23 10 254 241 219 255 "Button\LeftTurn1.tga" "Button\LeftTurnDown1.tga" "" "" 24 1 0
+STILLIMAGEBUTTON "Btn_First" "head" "" 72 400 60 21 0 0 0 0 25 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 26 1 0
+STILLIMAGEBUTTON "Btn_Next" "next" "" 43 400 26 20 0 0 0 0 27 10 254 241 219 255 "Button\RightTurn1.tga" "Button\RightTurnDown1.tga" "" "" 28 1 0
+STILLIMAGEBUTTON "Btn_Last" "tail" "" 132 400 60 21 0 0 0 0 29 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 30 1 0
+LABEL "Lab_Page" "" "" 187 121 0 0 31 10 32 254 230 173 255

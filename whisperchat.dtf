@@ -1,0 +1,8 @@
+DIALOG "Win_WhisperChat" 0 0 257 248 0 1 10 "Window\Window.tga" "" "" 0 0 400 33 "" 30 6 96 96 96 150 1 0
+LABEL "Txt_ToWho" "" "" 6 5 0 0 2 10 3 255 255 255 255
+EDIT "DEFAULT_Txt_Speech" "send" "" 5 220 181 22 "Editbox\Input.tga" 4 10 255 255 255 "TEXT" 0 0 80 0
+STILLIMAGEBUTTON "Btn_Popface" "popface" "" 190 223 14 14 0 0 0 0 5 10 255 255 255 255 "Button\ChatFace.tga" "Button\ChatFaceDown.tga" "" 6 1 0
+STILLIMAGEBUTTON "Btn_Send" "send" "" 208 220 45 21 0 0 0 0 7 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 8 1 0
+TEXT "Txt_Chat" "" "" 5 23 248 194 9 10 255 255 255 255 "Editbox\Input.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+STILLIMAGEBUTTON "Btn_Minimize" "minimize" "" 221 5 12 15 0 0 0 0 10 15 255 255 255 255 "Button\DMove.tga" "Button\DMoveDown.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 236 1 20 20 0 0 0 0 12 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 13 1 1

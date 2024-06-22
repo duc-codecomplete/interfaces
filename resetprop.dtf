@@ -1,0 +1,17 @@
+DIALOG "Win_ResetProp" 0 0 221 224 0 1 10 "Window\Window.tga" "" "" 0 0 214 27 "" 25 5 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 199 2 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 7 4 0 0 4 16 5 254 231 174 255
+IMAGEPICTURE "Img_Item" "" "" 10 30 36 36 1 0 "Icon\Frame.tga"
+LABEL "asdf" "" "" 52 41 0 0 6 10 7 43 255 250 255
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 56 195 48 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 117 195 48 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0
+RADIO "Rdo_Item1" "" "" 15 71 20 20 "Extra\Check.tga" 0 1
+RADIO "Rdo_Item2" "" "" 15 96 20 20 "Extra\Check.tga" 1 1
+RADIO "Rdo_Item3" "" "" 15 121 20 20 "Extra\Check.tga" 2 1
+RADIO "Rdo_Item4" "" "" 15 146 20 20 "Extra\Check.tga" 3 1
+RADIO "Rdo_Item5" "" "" 15 171 20 20 "Extra\Check.tga" 4 1
+LABEL "Txt_Item1" "" "" 45 71 0 0 12 10 13 213 191 164 255
+LABEL "Txt_Item2" "" "" 45 97 0 0 14 10 15 213 191 164 255
+LABEL "Txt_Item3" "" "" 45 122 0 0 16 10 17 213 191 164 255
+LABEL "Txt_Item4" "" "" 45 147 0 0 18 10 19 213 191 164 255
+LABEL "Txt_Item5" "" "" 45 172 0 0 20 10 21 213 191 164 255

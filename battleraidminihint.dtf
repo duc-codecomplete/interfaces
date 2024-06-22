@@ -1,0 +1,3 @@
+DIALOG "Win_BattleRaidMiniHint" 0 0 190 22 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "tt" "" "" 3 2 58 14 2 10 3 254 231 174 255
+TEXT "Txt_List" "" "" 2 18 184 768 4 10 255 255 255 255 "" "" "" "" "" 0

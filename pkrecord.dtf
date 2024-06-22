@@ -1,0 +1,5 @@
+DIALOG "Win_PKRecord" 0 0 400 167 0 1 10 "Frame\Frame.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Lab_Victor" "" "" 43 17 0 0 2 30 3 255 128 128 255
+LABEL "Lab_Score" "" "" 103 77 0 0 4 16 5 255 255 0 255
+LABEL "Txt_Score" "" "" 211 77 0 0 6 16 7 255 255 0 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 135 141 130 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0

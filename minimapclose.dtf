@@ -1,0 +1,2 @@
+DIALOG "Win_MiniMapClose" 0 0 24 24 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "close" "" 0 0 24 24 0 0 0 0 2 10 255 255 255 255 "Button\SmallClose.tga" "Button\SmallCloseDown.tga" "" 3 1 1

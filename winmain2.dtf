@@ -1,0 +1,7 @@
+DIALOG "Win_Main2" 0 0 200 46 0 1 10 "Frame\SystemBack3.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_Rank" "wranklist" "" 39 8 25 25 0 0 0 0 2 18 255 255 255 255 "Button\SRank.tga" "Button\SRankDown.tga" "" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Produce" "wproduce" "" 101 10 25 25 0 0 0 0 4 18 255 255 255 255 "Button\SProduce.tga" "Button\SProduceDown.tga" "" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Action" "waction" "" 132 9 25 25 0 0 0 0 6 18 255 255 255 255 "Button\SAction.tga" "Button\SActionDown.tga" "" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Radio" "wbroadcast" "" 163 8 25 26 0 0 0 0 8 10 255 255 255 255 "Button\Radio.tga" "Button\RadioDown.tga" "" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Pet" "wpet" "" 70 9 25 25 0 0 0 0 10 10 255 255 255 255 "Button\SPetPackage.tga" "Button\SPetPackageDown.tga" "" "" 11 1 1
+STILLIMAGEBUTTON "Btn_Success" "wachiv" "" 10 8 24 25 0 0 0 0 12 18 255 255 255 255 "Button\Success.tga" "Button\SuccessDown.tga" "" "" 13 1 1

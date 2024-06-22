@@ -1,0 +1,10 @@
+DIALOG "Win_TeamMate9" 0 0 137 33 0 1 10 "Window\TeamMate.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+IMAGEPICTURE "CombatMask" "" "" 0 0 242 34 1 0 "Frame\Mask2.dds"
+PROGRESS "Prgs_HP" "" "" 19 20 112 4 "Frame\Clarity.bmp" "Progress\HpColor.tga" 0 0 0 0 0
+PROGRESS "Prgs_MP" "" "" 19 24 112 4 "Frame\Clarity.bmp" "Progress\MpColor.tga" 0 0 0 0 0
+IMAGEPICTURE "Image_Prof" "" "" 4 5 12 12 16 0 ""
+LABEL "Txt_LV" "" "" 2 16 0 0 2 8 3 167 205 255 255
+LABEL "Txt_CharName" "" "" 19 4 112 14 4 10 5 255 255 255 255
+IMAGEPICTURE "St_1" "" "" 140 14 16 16 1 0 "Frame\Clarity.bmp"
+IMAGEPICTURE "St_2" "" "" 157 14 16 16 1 0 "Frame\Clarity.bmp"
+IMAGEPICTURE "St_3" "" "" 174 14 16 16 1 0 "Frame\Clarity.bmp"

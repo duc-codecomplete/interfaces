@@ -1,0 +1,47 @@
+DIALOG "Win_PetProSetting" 0 0 265 430 0 1 10 "Frame\PetBackground1.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+EDIT "Edit_ProFight" "" "" 9 73 119 211 "Frame\Frame.tga" 2 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Limit" "" "" 25 350 0 0 3 12 4 206 181 149 255
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 82 382 100 20 0 0 0 0 5 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 6 1 1
+LABEL "Txt_FightWord01" "" "" 16 190 0 0 7 10 8 206 181 149 255
+LABEL "Txt_FightWord02" "" "" 16 208 0 0 9 10 10 206 181 149 255
+LABEL "Txt_FightWord03" "" "" 16 225 0 0 11 10 12 206 181 149 255
+LABEL "Txt_FightWord04" "" "" 16 243 0 0 13 10 14 206 181 149 255
+LABEL "Txt_FightWord05" "" "" 16 260 0 0 15 10 16 206 181 149 255
+EDIT "Edit_ProProduce" "" "" 137 73 119 211 "Frame\Frame.tga" 17 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Txt_ProduceWord01" "" "" 239 190 0 0 18 10 19 206 181 149 255
+LABEL "Txt_ProduceWord02" "" "" 239 208 0 0 20 10 21 206 181 149 255
+LABEL "Txt_ProduceWord03" "" "" 239 225 0 0 22 10 23 206 181 149 255
+LABEL "Txt_ProduceWord04" "" "" 239 243 0 0 24 10 25 206 181 149 255
+LABEL "Txt_ProduceWord05" "" "" 239 260 0 0 26 10 27 206 181 149 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 241 5 20 20 0 0 0 0 28 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 29 1 1
+RADIO "Radio_1" "" "" 48 87 40 20 "Extra\PetProSetting.tga" 1 1
+LABEL "Lab_1" "" "" 53 88 0 0 30 10 31 206 181 149 255
+RADIO "Radio_2" "" "" 48 119 40 20 "Extra\PetProSetting.tga" 2 1
+LABEL "Lab_2" "" "" 53 120 0 0 32 10 33 206 181 149 255
+RADIO "Radio_3" "" "" 48 151 40 20 "Extra\PetProSetting.tga" 3 1
+LABEL "Lab_3" "" "" 53 152 0 0 34 10 35 206 181 149 255
+RADIO "Radio_4" "" "" 48 183 40 20 "Extra\PetProSetting.tga" 4 1
+LABEL "Lab_4" "" "" 53 184 0 0 36 10 37 206 181 149 255
+RADIO "Radio_5" "" "" 48 213 40 20 "Extra\PetProSetting.tga" 5 1
+LABEL "Lab_5" "" "" 53 214 0 0 38 10 39 206 181 149 255
+RADIO "Radio_6" "" "" 48 245 40 21 "Extra\PetProSetting.tga" 6 1
+LABEL "Lab_6" "" "" 53 247 0 0 40 10 41 206 181 149 255
+RADIO "Radio_7" "" "" 178 87 40 20 "Extra\PetProSetting.tga" 7 1
+LABEL "Lab_7" "" "" 184 88 0 0 42 10 43 206 181 149 255
+RADIO "Radio_8" "" "" 178 119 40 20 "Extra\PetProSetting.tga" 8 1
+LABEL "Lab_8" "" "" 184 120 0 0 44 10 45 206 181 149 255
+RADIO "Radio_9" "" "" 178 151 40 20 "Extra\PetProSetting.tga" 9 1
+LABEL "Lab_9" "" "" 184 152 0 0 46 10 47 206 181 149 255
+RADIO "Radio_10" "" "" 179 183 40 20 "Extra\PetProSetting.tga" 10 1
+LABEL "Lab_10" "" "" 184 184 0 0 48 10 49 206 181 149 255
+RADIO "Radio_11" "" "" 178 213 40 20 "Extra\PetProSetting.tga" 11 1
+LABEL "Lab_11" "" "" 184 214 0 0 50 10 51 206 181 149 255
+RADIO "Radio_12" "" "" 178 246 40 20 "Extra\PetProSetting.tga" 12 1
+LABEL "Lab_12" "" "" 184 247 0 0 52 10 53 206 181 149 255
+RADIO "Radio_0" "" "" 111 41 40 20 "Extra\PetProSetting.tga" 0 1
+LABEL "Lab_0" "" "" 118 42 0 0 54 10 55 206 181 149 255
+LABEL "Title" "" "" 92 3 0 0 56 16 57 206 181 149 255
+STILLIMAGEBUTTON "Btn_Help" "help" "" 222 5 20 20 0 0 0 0 58 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 59 1 1
+EDIT "Edit_Civil" "" "" 10 297 242 40 "Frame\Frame.tga" 60 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Civil" "" "" 30 305 0 0 61 12 62 208 184 153 255
+LABEL "Txt_Civil" "" "" 190 305 0 0 63 12 64 208 184 153 255

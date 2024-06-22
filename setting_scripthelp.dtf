@@ -1,0 +1,17 @@
+DIALOG "Win_ScriptHelpSetting" 0 0 135 192 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+CHECK "Chk_TipType1" "" "" 14 14 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType2" "" "" 14 34 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType3" "" "" 14 54 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType4" "" "" 14 74 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType5" "" "" 14 94 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType6" "" "" 14 114 20 20 "Extra\Check.tga"
+CHECK "Chk_TipType7" "" "" 14 134 20 20 "Extra\Check.tga"
+LABEL "Control_40286829" "" "" 44 14 0 0 2 10 3 255 255 255 255
+LABEL "Control_949641854" "" "" 44 34 0 0 4 10 5 255 255 255 255
+LABEL "Control_58277856" "" "" 44 54 0 0 6 10 7 255 255 255 255
+LABEL "Control_76497272" "" "" 44 74 0 0 8 10 9 255 255 255 255
+LABEL "Control_24562770" "" "" 44 94 0 0 10 10 11 255 255 255 255
+LABEL "Control_646827064" "" "" 44 114 0 0 12 10 13 255 255 255 255
+LABEL "Control_823438" "" "" 44 134 0 0 14 10 15 255 255 255 255
+STILLIMAGEBUTTON "Btn_Ok" "confirm" "" 15 161 45 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 74 161 45 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 19 1 0

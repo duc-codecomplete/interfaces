@@ -1,0 +1,7 @@
+DIALOG "Win_LoginServerListSearch" 0 0 280 120 0 1 10 "Frame\Frame.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 0
+LABEL "Title" "" "" 9 5 0 0 2 16 3 213 190 164 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 256 3 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Search" "start" "" 53 80 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 181 80 45 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0
+LABEL "Lab_1" "" "" 17 47 0 0 10 12 11 213 191 164 255
+EDIT "Edt_1" "" "" 147 45 93 23 "Editbox\Input.tga" 12 10 255 255 255 "TEXT" 0 0 20 0 "" "" "" "" 

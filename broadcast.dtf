@@ -1,0 +1,8 @@
+DIALOG "Win_Broadcast" 0 0 280 225 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 280 33 "" 30 6 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 152 190 75 24 0 0 0 0 2 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 3 1 0
+LABEL "Control_146820366" "" "" 35 39 0 14 4 10 5 213 191 164 255
+LIST "Lst_Channel" "confirm" "SFX\Interface\ClickB.wav" 10 61 261 123 6 10 255 255 255 255 "Editbox\文本框_4.dds" "Listbox\列表框_反显.dds" "Listbox\列表框_上移.bmp" "Listbox\列表框_下移.bmp" "Listbox\列表框_滚动槽1.tga" "Listbox\列表框_拖动按钮1.bmp" 0 "0" 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 52 190 75 24 0 0 0 0 7 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 8 1 0
+IMAGEPICTURE "Control_297674384" "" "" 3 30 32 32 1 0 "Button\B-04.tga"
+LABEL "Title" "" "" 99 3 0 0 9 16 10 254 231 174 255
+STILLIMAGEBUTTON "Control_79233480" "IDCANCEL" "" 238 6 20 20 0 0 0 0 11 15 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 12 1 0

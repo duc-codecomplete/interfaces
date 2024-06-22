@@ -1,0 +1,4 @@
+DIALOG "win_explorer" 0 0 757 541 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 737 2 16 16 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 0
+LABEL "Title" "" "" 320 5 0 0 4 16 5 255 128 0 255
+WINDOWPICTURE "WPic" "" "" 0 35 755 505 

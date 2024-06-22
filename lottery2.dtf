@@ -1,0 +1,26 @@
+DIALOG "Win_Lottery2" 0 0 416 421 0 1 10 "Window\lottery2.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Txt_AwardMoney" "" "" 208 270 0 0 2 10 3 227 172 68 255
+LABEL "Txt_Award" "" "" 160 238 0 0 4 10 5 226 171 69 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 294 10 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 7 1 0
+IMAGEPICTURE "Img_Word1" "" "" 191 58 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word16" "" "" 146 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word15" "" "" 106 97 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Title" "" "" 210 6 0 0 8 16 9 254 231 174 255
+STILLIMAGEBUTTON "Btn_GetAward" "getaward" "SFX\Interface\Win.wav" 176 342 66 66 0 0 0 0 10 10 227 172 68 255 "Button\Award.tga" "Button\AwardDown.tga" "" 11 1 0
+CHECK "Chk_Start" "startstop" "" 176 342 66 66 "Extra\Start.tga"
+LABEL "Txt_AwardLevel" "" "" 180 252 0 0 12 15 13 226 171 69 255
+IMAGEPICTURE "Img_Word14" "" "" 78 139 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word13" "" "" 66 181 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word12" "" "" 78 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word11" "" "" 107 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word10" "" "" 147 294 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word9" "" "" 191 305 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word8" "" "" 235 294 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word7" "" "" 276 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word6" "" "" 302 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word5" "" "" 313 181 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word4" "" "" 302 139 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word3" "" "" 276 98 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Word2" "" "" 235 68 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Award" "" "" 191 172 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Congratulation" "" "" 67 129 272 108 1 0 "Icon\Congratulations.dds" ""

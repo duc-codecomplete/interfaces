@@ -1,0 +1,14 @@
+DIALOG "Win_RideTogether" 0 0 166 200 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Txt_Name1" "" "" 9 27 0 0 2 10 3 255 255 255 255
+STILLIMAGEBUTTON "Btn_KickOut1" "kick1" "" 118 25 40 18 0 0 0 0 4 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown3.tga" "" 5 1 0
+LABEL "Txt_Name2" "" "" 9 54 0 0 6 10 7 255 255 255 255
+STILLIMAGEBUTTON "Btn_KickOut2" "kick2" "" 118 53 40 18 0 0 0 0 8 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+LABEL "Txt_Name3" "" "" 9 83 0 0 10 10 11 255 255 255 255
+STILLIMAGEBUTTON "Btn_KickOut3" "kick3" "" 118 81 40 18 0 0 0 0 12 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 13 1 0
+LABEL "Txt_Name4" "" "" 9 111 0 0 14 10 15 255 255 255 255
+STILLIMAGEBUTTON "Btn_KickOut4" "kick4" "" 118 109 40 18 0 0 0 0 16 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+LABEL "Txt_Name5" "" "" 9 139 0 0 18 10 19 255 255 255 255
+STILLIMAGEBUTTON "Btn_KickOut5" "kick5" "" 118 137 40 18 0 0 0 0 20 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 21 1 0
+STILLIMAGEBUTTON "Btn_Minimize" "minimize" "" 147 3 12 15 0 0 0 0 22 15 255 255 255 255 "Button\DMove.tga" "Button\DMoveDown.tga" "" 23 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "bindcancel" "SFX\Interface\ClickB.wav" 31 167 95 24 0 0 0 0 24 10 254 241 219 255 "Button\Button.tga" "Button\Button.tga" "Button\ButtonDown.tga" 25 1 0
+IMAGEPICTURE "Img_Prof" "" "" 3 2 20 20 30 0 "InGame\Profession.tga" ""

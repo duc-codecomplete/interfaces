@@ -1,0 +1,12 @@
+DIALOG "Win_Garden_Option" 0 0 200 300 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_1" "addtype1" "" 15 29 36 36 0 0 0 0 2 10 255 255 255 255 "Button\Plus.tga" "Button\PlusDown.tga" "" "" 3 1 1
+LABEL "Lab_1" "" "" 71 35 0 0 4 16 5 0 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 178 2 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 7 1 1
+LABEL "Lab_2" "" "" 71 87 0 0 8 16 9 0 255 255 255
+STILLIMAGEBUTTON "Btn_2" "addtype2" "" 15 81 36 36 0 0 0 0 10 10 255 255 255 255 "Button\Plus.tga" "Button\PlusDown.tga" "" "" 11 1 1
+LABEL "Lab_3" "" "" 71 139 0 0 12 16 13 0 255 255 255
+STILLIMAGEBUTTON "Btn_3" "addtype3" "" 15 133 36 36 0 0 0 0 14 10 255 255 255 255 "Button\Plus.tga" "Button\PlusDown.tga" "" "" 15 1 1
+LABEL "Lab_4" "" "" 71 190 0 0 16 16 17 0 255 255 255
+STILLIMAGEBUTTON "Btn_4" "addtype4" "" 15 185 36 36 0 0 0 0 18 10 255 255 255 255 "Button\Plus.tga" "Button\PlusDown.tga" "" "" 19 1 1
+LABEL "Lab_5" "" "" 71 243 0 0 20 16 21 0 255 255 255
+STILLIMAGEBUTTON "Btn_5" "addtype5" "" 15 238 36 36 0 0 0 0 22 10 255 255 255 255 "Button\Plus.tga" "Button\PlusDown.tga" "" "" 23 1 1

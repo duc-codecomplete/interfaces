@@ -1,0 +1,33 @@
+DIALOG "Win_TalismanSetting" 0 0 265 340 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 242 4 20 20 0 0 0 0 2 9 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 0
+EDIT "Shape1" "" "" 9 26 240 92 "Editbox\Input.tga" 4 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+STILLIMAGEBUTTON "Btn_Shield" "shield" "" 156 94 90 21 0 0 0 0 5 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 6 1 0
+LABEL "Title" "" "" 5 3 0 0 7 16 8 254 231 174 255
+LABEL "Control_001" "" "" 39 50 0 0 9 10 10 213 191 164 255
+LABEL "Control_002" "" "" 39 72 0 0 11 10 12 213 191 164 255
+LABEL "Control_003" "" "" 39 94 0 0 13 10 14 213 191 164 255
+LABEL "Control_005" "" "" 39 154 0 0 15 10 16 213 191 164 255
+LABEL "Control_006" "" "" 39 179 0 0 17 10 18 213 191 164 255
+STILLIMAGEBUTTON "Btn_1" "confirm" "" 80 314 45 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 20 1 0
+STILLIMAGEBUTTON "Btn_2" "IDCANCEL" "" 140 314 45 21 0 0 0 0 21 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 22 1 0
+EDIT "Shape2" "" "" 9 119 240 82 "Editbox\Input.tga" 23 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "Shape3" "" "" 8 203 242 107 "Editbox\Input.tga" 24 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+CHECK "Chk_001" "" "" 15 50 20 20 "Extra\Check.tga"
+CHECK "Chk_002" "" "" 15 71 20 20 "Extra\Check.tga"
+CHECK "Chk_003" "" "" 15 92 20 20 "Extra\Check.tga"
+CHECK "Chk_005" "" "" 15 153 20 20 "Extra\Check.tga"
+CHECK "Chk_006" "" "" 15 178 20 20 "Extra\Check.tga"
+LABEL "Lab_1" "" "" 13 30 0 0 25 10 26 254 231 174 255
+LABEL "Lab_2" "" "" 15 126 0 0 27 10 28 254 231 174 255
+LABEL "Lab_01" "" "" 40 232 0 0 29 10 30 213 191 164 255
+RADIO "Rdo_01" "" "" 17 233 16 16 "Extra\Option.tga" 1 1
+LABEL "Lab_02" "" "" 159 232 0 0 31 10 32 213 191 164 255
+RADIO "Rdo_02" "" "" 136 233 16 16 "Extra\Option.tga" 2 1
+LABEL "Lab_03" "" "" 40 258 0 0 33 10 34 213 191 164 255
+RADIO "Rdo_03" "" "" 17 259 16 16 "Extra\Option.tga" 3 1
+LABEL "Lab_04" "" "" 159 258 0 0 35 10 36 213 191 164 255
+RADIO "Rdo_04" "" "" 136 259 16 16 "Extra\Option.tga" 4 1
+LABEL "Lab_3" "" "" 15 207 0 0 37 10 38 254 231 174 255
+LABEL "Lab_Range" "" "" 14 283 0 0 39 10 40 213 190 164 255
+EDIT "Edt_RangeInput" "" "" 76 282 45 21 "Editbox\Input.tga" 41 10 255 255 255 "TEXT" 0 0 2 0 "" "" "" "" 
+LABEL "Txt_RangeNote" "" "" 125 283 0 0 42 10 43 213 190 164 255

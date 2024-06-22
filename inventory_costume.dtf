@@ -1,0 +1,54 @@
+DIALOG "Win_Inventory_Costume" 0 0 530 430 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Pic_Part" "" "" 11 39 231 342 1 0 "Frame\QShopChar.tga" ""
+STILLIMAGEBUTTON "Btn_RightTurn" "" "" 191 388 35 24 0 0 0 0 2 10 255 255 255 255 "Button\QSBRight.tga" "Button\QSBRightDown.tga" "" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Cancel" "resumeequip" "" 83 386 82 30 0 0 0 0 4 10 254 241 219 255 "Button\Button2.tga" "Button\ButtonDown2.tga" "" "" 5 1 0
+STILLIMAGEBUTTON "Btn_LeftTurn" "" "" 25 388 35 24 0 0 0 0 6 10 255 255 255 255 "Button\QSBLeft.tga" "Button\QSBLeftDown.tga" "" "" 7 1 1
+LABEL "Title" "" "" 205 2 0 0 8 18 9 253 202 83 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 479 7 20 20 0 0 0 0 10 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 11 1 0
+EDIT "Shape_1" "" "" 247 66 268 203 "Frame\Frame7.tga" 12 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Limit" "" "" 431 38 0 0 13 10 14 213 190 164 255
+LABEL "Txt_Limit" "" "" 499 38 0 0 15 10 16 0 255 255 255
+IMAGEPICTURE "Img_Item30" "" "" 454 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item29" "" "" 417 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item28" "" "" 380 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item27" "" "" 343 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item26" "" "" 306 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item25" "" "" 269 223 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item24" "" "" 454 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item23" "" "" 417 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item22" "" "" 380 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item21" "" "" 343 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item20" "" "" 306 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item19" "" "" 269 186 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item18" "" "" 454 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item17" "" "" 417 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item16" "" "" 380 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item15" "" "" 343 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item14" "" "" 306 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item13" "" "" 269 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item12" "" "" 454 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item11" "" "" 417 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item10" "" "" 380 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item9" "" "" 343 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item8" "" "" 306 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item7" "" "" 269 113 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item6" "" "" 454 77 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item5" "" "" 417 77 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item4" "" "" 380 77 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item3" "" "" 343 77 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item2" "" "" 306 77 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item1" "" "" 269 77 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_Change" "change" "" 246 33 80 28 0 0 0 0 17 10 228 179 27 255 "Button\Button2.tga" "Button\ButtonDown2.tga" "" "" 18 1 0
+STILLIMAGEBUTTON "Btn_Help" "help" "" 460 7 20 20 0 0 0 0 19 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" "" 20 1 1
+EDIT "Shape2" "" "" 246 274 269 148 "Frame\Frame7.tga" 21 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Txt_1" "" "" 252 346 0 0 22 10 23 128 255 255 255
+LABEL "Txt_2" "" "" 252 368 0 0 24 10 25 128 255 255 255
+LABEL "Txt_4" "" "" 253 391 0 0 26 10 27 128 255 255 255
+CHECK "Chk_Time" "auto" "" 259 284 20 20 "Extra\Check.tga"
+RADIO "Rdo_1" "order" "" 259 316 20 20 "Extra\Check.tga" 1 1
+RADIO "Rdo_2" "random" "" 374 316 20 20 "Extra\Check.tga" 2 1
+LABEL "Lab_Time" "" "" 288 285 0 0 28 10 29 9 175 255 255
+LABEL "Lab_Order" "" "" 288 317 0 0 30 10 31 9 175 255 255
+LABEL "Lab_Random" "" "" 406 317 0 0 32 10 33 9 175 255 255
+LIST "Lst_Time" "" "" 319 303 40 68 34 10 213 190 164 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+COMBO "Combo_Time" "time" "" 319 284 40 20 35 8 213 190 164 255 "Editbox\Input.tga" "Lst_Time" 0

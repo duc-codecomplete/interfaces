@@ -1,0 +1,56 @@
+DIALOG "Win_GoldTrade" 0 0 700 540 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 288 8 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Help" "help" "" 624 14 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_01" "" "" 31 57 105 21 0 0 0 0 6 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_02" "" "" 175 57 105 21 0 0 0 0 8 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+LIST "Lst_Sell" "" "" 31 77 249 186 10 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "+100 +42 +100" 0
+EDIT "Shape" "" "" 31 262 249 28 "Editbox\Input.tga" 11 10 255 255 255 "TEXT" 1 0 20 0
+LIST "Lst_Buy" "" "" 31 289 249 186 12 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "+100 +42 +100" 0
+STILLIMAGEBUTTON "Btn_Refresh" "refresh" "" 90 492 60 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Control_79091166" "" "" 135 57 41 21 0 0 0 0 15 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 645 14 20 20 0 0 0 0 17 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 18 1 1
+EDIT "Shape1" "" "" 300 57 372 229 "Editbox\Input.tga" 19 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Buy" "buy" "" 317 73 72 21 0 0 0 0 20 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown2.tga" "" 21 1 0
+STILLIMAGEBUTTON "Btn_Sell" "sell" "" 390 73 72 21 0 0 0 0 22 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown2.tga" "" 23 1 0
+LABEL "Lab_Sell01" "" "" 350 174 0 0 24 12 25 213 191 164 255
+LABEL "Lab_Sella1" "" "" 350 174 0 0 26 12 27 213 191 164 255
+EDIT "Txt_Num" "" "" 454 174 102 21 "Editbox\Input.tga" 28 10 255 255 255 "TEXT" 0 0 4 0
+LABEL "Lab_Sell02" "" "" 561 175 0 0 29 12 30 255 220 80 255
+LABEL "Lab_Sell03" "" "" 350 140 0 0 31 12 32 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney1" "" "" 452 140 160 18 1 0 "Icon\FrameMoney.tga"
+STILLIMAGEBUTTON "Btn_Money" "choosemoney" "" 452 142 20 14 0 0 0 0 33 10 255 255 255 255 "Button\Money.tga" "Button\MoneyDown.tga" "" 34 1 1
+LABEL "Txt_Money13" "" "" 594 141 0 0 35 10 36 255 255 255 255
+LABEL "Txt_Money12" "" "" 555 141 0 0 37 10 38 255 255 255 255
+LABEL "Txt_Money11" "" "" 518 141 0 0 39 10 40 255 255 255 255
+LABEL "Lab_Sell04" "" "" 350 206 0 0 41 12 42 213 191 164 255
+LABEL "Lab_Sella4" "" "" 350 206 0 0 43 12 44 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney2" "" "" 452 207 160 18 1 0 "Icon\FrameMoney2.tga"
+LABEL "Txt_Money23" "" "" 594 208 0 0 45 10 46 255 255 255 255
+LABEL "Txt_Money22" "" "" 555 208 0 0 47 10 48 255 255 255 255
+LABEL "Txt_Money21" "" "" 518 208 0 0 49 10 50 255 255 255 255
+LABEL "Lab_Sell05" "" "" 350 240 0 0 51 12 52 213 191 164 255
+LABEL "Txt_Poundage" "" "" 452 240 0 0 53 12 54 255 255 255 255
+STILLIMAGEBUTTON "Btn_Consign" "confirm" "" 570 240 72 21 0 0 0 0 55 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 56 1 0
+EDIT "Shape2" "" "" 300 306 372 169 "Editbox\Input.tga" 57 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Sell06" "" "" 350 369 0 0 58 12 59 213 191 164 255
+LABEL "Lab_Sell07" "" "" 320 334 0 0 60 12 61 213 191 164 255
+LABEL "Txt_Gold" "" "" 452 369 0 0 62 12 63 255 255 255 255
+LABEL "Lab_Sell09" "" "" 350 397 0 0 64 12 65 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney4" "" "" 452 397 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money43" "" "" 594 398 0 0 66 10 67 255 255 255 255
+LABEL "Txt_Money42" "" "" 555 398 0 0 68 10 69 255 255 255 255
+LABEL "Txt_Money41" "" "" 518 398 0 0 70 10 71 255 255 255 255
+STILLIMAGEBUTTON "Btn_In" "accountsave" "" 496 428 72 21 0 0 0 0 72 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 73 1 0
+STILLIMAGEBUTTON "Btn_Out" "accountload" "" 570 428 72 21 0 0 0 0 74 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 75 1 0
+STILLIMAGEBUTTON "Btn_Inquire" "inquire" "" 25 492 60 21 0 0 0 0 76 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 77 1 0
+LABEL "Lab_Sell16" "" "" 465 479 0 0 78 12 79 213 191 164 255
+LABEL "Lab_Sell17" "" "" 356 493 0 0 80 12 81 213 191 164 255
+LABEL "Txt_Gold1" "" "" 505 479 0 0 82 12 83 255 255 255 255
+LABEL "Lab_Sell19" "" "" 465 503 0 0 84 12 85 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney5" "" "" 503 503 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money53" "" "" 645 504 0 0 86 10 87 255 255 255 255
+LABEL "Txt_Money52" "" "" 606 504 0 0 88 10 89 255 255 255 255
+LABEL "Txt_Money51" "" "" 569 504 0 0 90 10 91 255 255 255 255
+LABEL "Txt_Lock" "" "" 160 495 0 0 92 10 93 213 191 164 255
+STILLIMAGEBUTTON "Btn_Unlock" "unlock" "" 288 492 56 21 0 0 0 0 94 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 95 1 0
+STILLIMAGEBUTTON "Btn_Pwd" "pwd" "" 503 73 140 21 0 0 0 0 96 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 97 1 0

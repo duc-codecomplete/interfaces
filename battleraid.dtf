@@ -1,0 +1,18 @@
+DIALOG "Win_BattleRaid" 0 0 663 471 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Title" "" "" 258 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Line" "" "" 223 183 82 19 0 0 0 0 4 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Status" "" "" 304 183 79 19 0 0 0 0 6 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Number" "" "" 382 183 62 19 0 0 0 0 8 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "Btn_Time" "" "" 443 183 75 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Leader" "" "" 517 183 137 19 0 0 0 0 12 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 13 1 0
+LIST "List_Member" "listmember" "" 223 203 433 225 14 10 255 255 255 255 "Frame\Frame.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "67 +79 +62 +75 +135" 0
+LABEL "Txt_Num" "" "" 251 439 0 0 15 10 16 128 0 128 255
+LIST "List_BattleField" "" "" 7 61 213 367 17 10 255 255 255 255 "Frame\Frame.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "+210" 0
+LABEL "Lab_BattleFieldList" "" "" 6 36 0 0 18 13 19 213 190 164 255
+LABEL "Lab_BattleInfo" "" "" 222 36 0 0 20 13 21 213 190 164 255
+TEXT "Txt_BattleInfo" "" "" 224 60 432 116 22 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "ListBox\DragButton.tga" 0
+EDIT "Shape" "" "" 7 430 211 31 "Frame\Frame.tga" 23 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LABEL "Lab_Choice" "" "" 79 437 0 0 24 12 25 0 128 192 255
+STILLIMAGEBUTTON "Btn_Activiate" "active" "" 451 437 93 21 0 0 0 0 26 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Apply" "join" "" 559 437 93 21 0 0 0 0 28 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 29 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 612 6 20 20 0 0 0 0 30 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 31 1 1

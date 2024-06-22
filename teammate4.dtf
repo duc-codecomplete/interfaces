@@ -1,0 +1,11 @@
+DIALOG "Win_TeamMate4" 0 0 173 44 0 1 10 "Window\TeamMate.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+IMAGEPICTURE "CombatMask" "" "" 173 25 18 20 1 0 "" ""
+PROGRESS "Prgs_HP" "" "" 43 29 110 5 "Frame\Clarity.bmp" "Progress\血条.bmp" 0 0 0 0 0
+PROGRESS "Prgs_MP" "" "" 43 35 110 5 "Frame\Clarity.bmp" "Progress\能量条.bmp" 0 0 0 0 0
+IMAGEPICTURE "Image_Prof" "" "" 12 3 20 20 30 0 "InGame\Profession.tga" ""
+LABEL "Txt_LV" "" "" 12 26 0 0 2 10 3 255 255 255 255
+LABEL "Txt_CharName" "" "" 43 6 111 14 4 10 5 255 255 255 255
+IMAGEPICTURE "St_1" "" "" 173 25 16 16 1 0 "Frame\Clarity.bmp" ""
+IMAGEPICTURE "St_2" "" "" 189 25 16 16 1 0 "Frame\Clarity.bmp" ""
+IMAGEPICTURE "St_3" "" "" 205 25 16 16 1 0 "Frame\Clarity.bmp" ""
+IMAGEPICTURE "Img_Captivation" "" "" 173 0 20 20 3 0 "Icon\防沉迷（小）.tga" ""

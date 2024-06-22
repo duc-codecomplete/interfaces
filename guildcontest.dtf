@@ -1,0 +1,15 @@
+DIALOG "Win_GuildContest" 0 0 420 422 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Title" "" "" 147 5 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 362 7 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Time" "" "" 24 39 100 19 0 0 0 0 6 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_SortKill2" "" "" 123 39 90 19 0 0 0 0 8 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_SortKill3" "" "" 212 39 93 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+LIST "List_Member" "listmember" "" 23 57 283 325 12 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "97 +90 +90" 0
+STILLIMAGEBUTTON "Btn_Bottom" "IDCANCEL" "" 348 389 48 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refreshguildcontest" "" 282 389 48 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0
+LABEL "Lab_TodayInfo" "" "" 307 51 0 0 17 10 18 255 255 255 255
+LABEL "Lab_DefenderGuild" "" "" 317 83 0 0 19 10 20 255 255 255 255
+LABEL "Lab_Defender" "" "" 317 123 0 0 21 10 22 255 255 255 255
+LABEL "Lab_Name_DefenderGuild" "" "" 325 103 0 0 23 10 24 0 0 255 255
+LABEL "Lab_Name_Defender" "" "" 325 143 0 0 25 10 26 0 0 255 255
+LABEL "Lab_InfoB" "" "" 362 81 0 0 27 10 28 255 255 255 255

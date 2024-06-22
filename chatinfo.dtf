@@ -1,0 +1,3 @@
+DIALOG "Win_ChatInfo" 0 0 314 140 0 1 10 "Editbox\CharInfo.tga" "" "" 0 -35 -1 -1 "" 0 0 96 96 96 255 1 1
+TEXT "Txt_Content" "" "" 0 0 314 140 2 10 255 255 255 255 "Frame\Clarity.bmp" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+IMAGEPICTURE "Img_ZoomIn" "" "" 301 0 12 12 2 0 "Extra\Chat_ZoomIn.tga"

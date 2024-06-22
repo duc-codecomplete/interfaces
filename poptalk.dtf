@@ -1,0 +1,38 @@
+DIALOG "Win_PopTalk" 0 0 351 270 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 180 1 0
+LABEL "Title" "" "" 144 5 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 326 3 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 5 1 1
+SCROLL "Scl_Item" "" "" 331 33 16 235 "Listbox\DragSlotB.tga" "Listbox\DragUpB.tga" "Listbox\DragDownB.tga" "ListBox\DragButtonB.tga" 0 
+IMAGEPICTURE "Img_Bar" "" "" 3 31 345 3 1 0 "Icon\Compart.tga" ""
+STILLIMAGEBUTTON "Btn_1" "talk1" "" 7 60 66 22 0 0 0 0 6 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_2" "talk2" "" 90 60 66 22 0 0 0 0 8 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "Btn_3" "talk3" "" 173 60 66 22 0 0 0 0 10 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 11 1 0
+STILLIMAGEBUTTON "Btn_4" "talk4" "" 258 60 66 22 0 0 0 0 12 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 13 1 0
+STILLIMAGEBUTTON "Btn_5" "talk5" "" 7 85 66 22 0 0 0 0 14 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 15 1 0
+STILLIMAGEBUTTON "Btn_6" "talk6" "" 90 85 66 22 0 0 0 0 16 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 17 1 0
+STILLIMAGEBUTTON "Btn_7" "talk7" "" 173 85 66 22 0 0 0 0 18 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 19 1 0
+STILLIMAGEBUTTON "Btn_8" "talk8" "" 258 85 66 22 0 0 0 0 20 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 21 1 0
+STILLIMAGEBUTTON "Btn_9" "talk9" "" 7 110 66 22 0 0 0 0 22 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 23 1 0
+STILLIMAGEBUTTON "Btn_10" "talk10" "" 90 110 66 22 0 0 0 0 24 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 25 1 0
+STILLIMAGEBUTTON "Btn_11" "talk11" "" 173 110 66 22 0 0 0 0 26 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 27 1 0
+STILLIMAGEBUTTON "Btn_12" "talk12" "" 258 110 66 22 0 0 0 0 28 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 29 1 0
+STILLIMAGEBUTTON "Btn_13" "talk13" "" 7 135 66 22 0 0 0 0 30 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 31 1 0
+STILLIMAGEBUTTON "Btn_14" "talk14" "" 90 135 66 22 0 0 0 0 32 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 33 1 0
+STILLIMAGEBUTTON "Btn_15" "talk15" "" 173 135 66 22 0 0 0 0 34 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 35 1 0
+STILLIMAGEBUTTON "Btn_16" "talk16" "" 258 135 66 22 0 0 0 0 36 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 37 1 0
+STILLIMAGEBUTTON "Btn_17" "talk17" "" 7 160 66 22 0 0 0 0 38 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 39 1 0
+STILLIMAGEBUTTON "Btn_18" "talk18" "" 90 160 66 22 0 0 0 0 40 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 41 1 0
+STILLIMAGEBUTTON "Btn_19" "talk19" "" 173 160 66 22 0 0 0 0 42 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 43 1 0
+STILLIMAGEBUTTON "Btn_20" "talk20" "" 258 160 66 22 0 0 0 0 44 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 45 1 0
+STILLIMAGEBUTTON "Btn_21" "talk21" "" 7 185 66 22 0 0 0 0 46 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 47 1 0
+STILLIMAGEBUTTON "Btn_22" "talk22" "" 90 185 66 22 0 0 0 0 48 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 49 1 0
+STILLIMAGEBUTTON "Btn_23" "talk23" "" 173 185 66 22 0 0 0 0 50 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 51 1 0
+STILLIMAGEBUTTON "Btn_24" "talk24" "" 258 185 66 22 0 0 0 0 52 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 53 1 0
+STILLIMAGEBUTTON "Btn_32" "IDCANCEL" "" 258 243 66 22 0 0 0 0 54 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 55 1 0
+STILLIMAGEBUTTON "Btn_29" "popman" "" 7 243 66 22 0 0 0 0 56 10 128 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 57 1 0
+STILLIMAGEBUTTON "Btn_28" "talk28" "" 258 211 66 22 0 0 0 0 58 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 59 1 0
+STILLIMAGEBUTTON "Btn_27" "talk27" "" 173 211 66 22 0 0 0 0 60 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 61 1 0
+STILLIMAGEBUTTON "Btn_26" "talk26" "" 90 211 66 22 0 0 0 0 62 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 63 1 0
+STILLIMAGEBUTTON "Btn_25" "talk25" "" 7 210 66 22 0 0 0 0 64 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 65 1 0
+STILLIMAGEBUTTON "Btn_Emotion" "action" "" 4 5 69 21 0 0 0 0 66 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 67 1 0
+STILLIMAGEBUTTON "Btn_Talk" "tkto" "" 256 5 69 21 0 0 0 0 68 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 69 1 0
+LABEL "Lab_Talk" "" "" 9 33 0 0 70 16 71 254 231 174 255

@@ -1,0 +1,7 @@
+DIALOG "Win_InputString" 0 0 185 100 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 4 1 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 134 72 45 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "" 89 72 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+EDIT "DEFAULT_Txt_Input" "confirm" "" 8 47 170 21 "Editbox\Input.tga" 8 10 255 255 255 "PASSWORD" 0 0 256 0
+LABEL "Lab_Input" "" "" 8 29 0 0 9 10 10 213 191 164 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 162 3 20 20 0 0 0 0 11 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 12 1 1

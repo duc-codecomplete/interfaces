@@ -1,0 +1,21 @@
+DIALOG "Win_PetEquip" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 95 6 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 244 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 0
+IMAGEPICTURE "Img_Equip01" "" "" 67 103 36 36 1 0 "Icon\面目.dds" ""
+IMAGEPICTURE "Img_Equip02" "" "" 67 140 36 36 1 0 "Icon\躯体.dds" ""
+IMAGEPICTURE "Img_Equip03" "" "" 103 66 36 36 1 0 "Icon\手足.dds" ""
+IMAGEPICTURE "Img_Equip04" "" "" 103 103 36 36 1 0 "Icon\外甲.dds" ""
+IMAGEPICTURE "Img_Equip05" "" "" 103 140 36 36 1 0 "Icon\内甲.dds" ""
+IMAGEPICTURE "Img_Equip06" "" "" 103 177 36 36 1 0 "Icon\金身.dds" ""
+IMAGEPICTURE "Img_Equip07" "" "" 103 214 36 36 1 0 "Icon\信念.dds" ""
+IMAGEPICTURE "Img_Equip08" "" "" 103 251 36 36 1 0 "Icon\心志.dds" ""
+IMAGEPICTURE "Img_Equip09" "" "" 140 214 36 36 1 0 "Icon\气脉.dds" ""
+IMAGEPICTURE "Img_Equip10" "" "" 140 177 36 36 1 0 "Icon\运道.dds" ""
+IMAGEPICTURE "Img_Equip11" "" "" 192 86 36 36 1 0 "Icon\血统.dds" ""
+IMAGEPICTURE "Img_Equip12" "" "" 193 123 36 36 1 0 "Icon\神秘.dds" ""
+STILLIMAGEBUTTON "Btn_Help" "help" "" 225 5 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 7 1 1
+LABEL "Txt_1" "" "" 36 307 0 0 8 10 9 213 190 164 255
+LABEL "Txt_2" "" "" 7 326 0 0 10 10 11 213 190 164 255
+LABEL "Txt_3" "" "" 7 346 0 0 12 10 13 213 190 164 255
+LABEL "Txt_4" "" "" 7 366 0 0 14 10 15 213 190 164 255
+LABEL "Txt_5" "" "" 8 385 0 0 16 10 17 213 190 164 255

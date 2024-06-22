@@ -1,0 +1,5 @@
+DIALOG "Win_WorldMap" 0 0 1024 768 0 1 12 "" "" "" 65 11 -1 -1 "" 0 0 255 255 255 1 1 0
+IMAGEPICTURE "Img_WorldMap" "" "" 0 0 1024 768 1 1 ""
+IMAGEPICTURE "Img_Hint" "" "" 0 0 20 20 1 1 "Frame\Clarity.bmp"
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 998 0 26 26 0 0 0 0 2 10 255 255 255 255 "Button\SmallClose.tga" "Button\SmallCloseDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Return" "return" "" 972 0 26 26 0 0 0 0 4 10 255 255 255 255 "Button\WorldMap_Return.tga" "Button\WorldMap_ReturnDown.tga" "" 5 1 1

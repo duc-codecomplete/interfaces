@@ -1,0 +1,18 @@
+DIALOG "Win_Chat" 0 0 314 44 0 1 10 "Editbox\InputChat.tga" "" "" 0 -35 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Pic_BG" "" "" 0 21 313 22 1 0 "Editbox\CharInput.tga"
+EDIT "DEFAULT_Txt_Speech" "speak" "" 60 22 236 20 "Frame\Clarity.bmp" 2 12 255 255 255 "TEXT" 0 0 140 0
+STILLIMAGEBUTTON "Btn_Color" "chgalpha" "" 16 25 16 16 0 0 0 0 3 15 255 255 255 255 "Button\CBColor.tga" "Button\CBColorDown.tga" "" 4 1 1
+STILLIMAGEBUTTON "Btn_Popface" "popface" "" 297 25 14 14 0 0 0 0 5 15 255 255 255 255 "Button\ChatFace.tga" "Button\ChatFaceDown.tga" "" 6 1 1
+STILLIMAGEBUTTON "Btn_Clear" "clear" "" 16 3 16 16 0 0 0 0 7 15 255 255 255 255 "Button\CBClear.tga" "Button\CBClearDown.tga" "" 8 1 1
+IMAGEPICTURE "Input" "" "" 33 27 12 12 2 0 "Extra\ChatInput.tga"
+LABEL "Txt_1" "" "" 44 25 16 16 9 10 10 255 255 255 255
+RADIO "Btn_Set6" "speakmode6" "" 107 1 35 21 "Extra\CBPublic.tga" 6 1
+RADIO "Btn_Set5" "speakmode5" "" 142 1 35 21 "Extra\CBTeam.tga" 5 1
+RADIO "Btn_Set4" "speakmode4" "" 176 1 35 21 "Extra\CBDeal.tga" 4 1
+RADIO "Btn_Set3" "speakmode3" "" 210 1 35 21 "Extra\CBGuild.tga" 3 1
+RADIO "Btn_Set1" "speakmode1" "" 278 1 35 21 "Extra\CBWorld.tga" 1 1
+STILLIMAGEBUTTON "Btn_Close" "close" "" 0 26 16 16 0 0 0 0 11 10 255 255 255 255 "Button\ChatClose.tga" "Button\ChatCloseDown.tga" "" 12 1 1
+CHECK "Btn_Lock" "lock" "" 0 3 16 16 "Extra\CBLock.tga"
+COMBO "Combo_Channel" "setchannel" "" 32 1 61 21 13 10 255 255 255 255 "Editbox\CChannel.tga" "Listbox\Create_SelectR.tga" 0
+COMBO "Txt_Speakway" "" "" 0 0 0 0 14 10 255 255 255 255 "Listbox\SpeakWay.tga" "Listbox\Create_SelectR.tga" 0
+RADIO "Btn_Set2" "speakmode2" "" 244 1 35 21 "Extra\CBFamily.tga" 2 1

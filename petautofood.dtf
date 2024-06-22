@@ -1,0 +1,11 @@
+DIALOG "Win_PetAutoFood" 0 0 277 197 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Title" "" "" 64 7 0 0 2 14 3 206 181 149 255
+LABEL "Lab_Hp" "" "" 40 51 0 0 4 10 5 206 181 149 255
+EDIT "Edit_Hp" "" "" 185 48 40 20 "Editbox\Input.tga" 6 10 206 181 149 "TEXT" 0 0 2 0
+LABEL "Lab_Mp" "" "" 40 88 0 0 7 10 8 206 181 149 255
+EDIT "Edit_Mp" "" "" 185 85 40 20 "Editbox\Input.tga" 9 10 206 181 149 "TEXT" 0 0 2 0
+LABEL "Lab_Full" "" "" 40 125 0 0 10 10 11 206 181 149 255
+EDIT "Edit_Full" "" "" 185 122 60 20 "Editbox\Input.tga" 12 10 206 181 149 "TEXT" 0 0 9 0
+STILLIMAGEBUTTON "Btn_Save" "save" "" 18 165 106 23 0 0 0 0 13 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 1
+STILLIMAGEBUTTON "Btn_Ori" "default" "" 162 166 102 22 0 0 0 0 15 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 254 27 20 20 0 0 0 0 17 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 18 1 1

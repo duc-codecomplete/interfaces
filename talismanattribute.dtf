@@ -1,0 +1,53 @@
+DIALOG "Win_TalismanAttribute" 0 0 270 430 0 1 10 "Window\WindowTalisman.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 232 16 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 92 14 0 0 4 16 5 254 231 174 255
+EDIT "Shape" "" "" 15 50 240 82 "Frame\Frame.tga" 6 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name" "" "" 22 61 0 0 7 10 8 213 191 164 255
+LABEL "Txt_Name" "" "" 86 61 0 0 9 10 10 43 255 250 255
+LABEL "Lab_Level" "" "" 155 61 0 0 11 10 12 213 191 164 255
+LABEL "Txt_Level" "" "" 218 61 0 0 13 10 14 43 255 250 255
+LABEL "Lab_Quality" "" "" 22 82 0 0 15 10 16 213 191 164 255
+LABEL "Txt_Quality" "" "" 88 82 0 0 17 10 18 43 255 250 255
+LABEL "Lab_Exp" "" "" 22 103 0 0 19 10 20 213 191 164 255
+LABEL "Txt_Exp" "" "" 86 103 0 0 21 10 22 43 255 250 255
+LABEL "Lab_Stamina" "" "" 156 103 0 0 23 10 24 213 191 164 255
+LABEL "Txt_Stamina" "" "" 206 103 0 0 25 10 26 43 255 250 255
+EDIT "Shape1" "" "" 15 138 240 172 "Frame\Frame.tga" 27 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_11" "" "" 16 149 0 0 28 10 29 254 231 174 255
+LABEL "Lab_HP" "" "" 22 171 0 0 30 10 31 213 191 164 255
+LABEL "Txt_HP" "" "" 59 171 0 0 32 10 33 43 255 250 255
+LABEL "Lab_MP" "" "" 22 192 0 0 34 10 35 213 191 164 255
+LABEL "Txt_MP" "" "" 59 192 0 0 36 10 37 43 255 250 255
+LABEL "Lab_Damage" "" "" 22 213 0 0 38 10 39 213 191 164 255
+LABEL "Txt_Damage" "" "" 59 213 0 0 40 10 41 43 255 250 255
+LABEL "Lab_Defense" "" "" 22 234 0 0 42 10 43 213 191 164 255
+LABEL "Txt_Defense" "" "" 59 234 0 0 44 10 45 43 255 250 255
+LABEL "Lab_Definition" "" "" 22 255 0 0 46 10 47 213 191 164 255
+LABEL "Txt_Definition" "" "" 59 255 0 0 48 10 49 43 255 250 255
+LABEL "Lab_Evade" "" "" 22 276 0 0 50 10 51 213 191 164 255
+LABEL "Txt_Evade" "" "" 59 276 0 0 52 10 53 43 255 250 255
+LABEL "Lab_StunRes" "" "" 140 171 0 0 54 10 55 213 191 164 255
+LABEL "Txt_StunRes" "" "" 177 171 0 0 56 10 57 43 255 250 255
+LABEL "Lab_WeaknessRes" "" "" 140 192 0 0 58 10 59 213 191 164 255
+LABEL "Txt_WeaknessRes" "" "" 177 192 0 0 60 10 61 43 255 250 255
+LABEL "Lab_EnlaceRes" "" "" 140 213 0 0 62 10 63 213 191 164 255
+LABEL "Txt_EnlaceRes" "" "" 177 213 0 0 64 10 65 43 255 250 255
+LABEL "Lab_SilenceRes" "" "" 140 234 0 0 66 10 67 213 191 164 255
+LABEL "Txt_SilenceRes" "" "" 177 234 0 0 68 10 69 43 255 250 255
+LABEL "Lab_SleepRes" "" "" 140 255 0 0 70 10 71 213 191 164 255
+LABEL "Txt_SleepRes" "" "" 177 255 0 0 72 10 73 43 255 250 255
+LABEL "Lab_Skill" "" "" 10 312 0 0 74 10 75 254 231 174 255
+IMAGEPICTURE "Img_Skill01" "" "" 10 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill02" "" "" 46 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill03" "" "" 82 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill04" "" "" 118 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill05" "" "" 154 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill06" "" "" 190 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill07" "" "" 226 332 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill08" "" "" 10 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill09" "" "" 46 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill10" "" "" 82 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill11" "" "" 118 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill12" "" "" 154 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill13" "" "" 190 368 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill14" "" "" 226 368 36 36 1 0 "Icon\Frame.tga" ""

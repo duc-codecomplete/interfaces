@@ -1,0 +1,9 @@
+DIALOG "Win_LoginReplaySelect" 0 0 420 422 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Title" "" "" 169 4 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 344 6 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_SortName" "sortname" "" 24 46 170 19 0 0 0 0 6 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 7 1 0
+LIST "List_Record" "replayselect" "" 24 64 373 310 8 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "167 +60 -130" 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 216 379 48 21 0 0 0 0 9 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 10 1 0
+STILLIMAGEBUTTON "Btn_ReplaySelect" "replayselect" "" 160 379 48 21 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+STILLIMAGEBUTTON "Btn_SortJob" "sortjob" "" 253 46 144 19 0 0 0 0 13 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 14 1 0
+STILLIMAGEBUTTON "Control_87782645" "" "" 193 46 61 19 0 0 0 0 15 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 16 1 0

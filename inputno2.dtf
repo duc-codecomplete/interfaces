@@ -1,0 +1,17 @@
+DIALOG "Win_InputNO2" 0 0 241 164 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 219 2 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+LABEL "Title" "" "" 6 4 0 0 4 16 5 254 231 174 255
+IMAGEPICTURE "Item" "" "" 22 38 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Txt_name" "" "" 72 59 0 0 6 10 7 213 191 164 255
+LABEL "Lab_Num" "" "" 10 83 0 0 8 10 9 213 191 164 255
+STILLIMAGEBUTTON "Btn_Add" "add" "" 147 87 13 13 0 0 0 0 10 15 255 0 255 255 "Button\RightTurn.tga" "Button\RightTurnDown.tga" "" "" 11 1 0
+EDIT "Txt_Amount" "" "" 93 82 50 21 "Editbox\Input.tga" 12 10 255 255 255 "TEXT" 0 0 256 0
+STILLIMAGEBUTTON "Btn_Minus" "minus" "" 77 87 13 13 0 0 0 0 13 15 255 0 255 255 "Button\LeftTurn.tga" "Button\LeftTurnDown.tga" "" "" 14 1 0
+LABEL "Lab_Price" "" "" 10 108 0 0 15 10 16 213 191 164 255
+IMAGEPICTURE "Img_Money" "" "" 72 107 160 18 1 0 "Icon\FrameMoney.tga" ""
+EDIT "Txt_Money3" "" "" 199 107 18 18 "Frame\Clarity.bmp" 17 10 255 255 255 "TEXT" 0 0 3 0
+EDIT "Txt_Money2" "" "" 161 107 18 18 "Frame\Clarity.bmp" 18 10 255 255 255 "TEXT" 0 0 3 0
+EDIT "Txt_Money1" "" "" 96 107 45 18 "Frame\Clarity.bmp" 19 10 255 255 255 "TEXT" 0 0 6 0
+STILLIMAGEBUTTON "Btn_Max" "max" "" 168 81 45 21 0 0 0 0 20 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 21 1 0
+STILLIMAGEBUTTON "Btn_Pbuy" "confirm" "" 62 133 45 21 0 0 0 0 22 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 23 1 1
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 135 133 45 21 0 0 0 0 24 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 25 1 1

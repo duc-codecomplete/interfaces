@@ -1,0 +1,3 @@
+DIALOG "Win_DoubleExpS" 312 325 70 45 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Img_Icon" "" "" 22 2 27 32 1 0 "InGame\Ë«±¶¾­Ñé.tga"
+LABEL "Txt_RestTime" "" "" 0 33 70 11 2 8 3 255 203 74 255

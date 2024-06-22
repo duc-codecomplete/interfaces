@@ -1,0 +1,60 @@
+DIALOG "Win_SkillOther" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 1
+LABEL "Title" "" "" 100 5 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Skill" "skill" "" 9 38 72 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_SkillOther" "skillother" "" 81 38 72 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 8 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 9 1 1
+LABEL "Lab_Talisman" "" "" 8 67 0 0 10 10 11 213 191 164 255
+IMAGEPICTURE "Img_Talisman" "" "" 63 75 191 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Talisman_01" "" "" 6 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_02" "" "" 42 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_03" "" "" 78 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_04" "" "" 114 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_05" "" "" 150 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_06" "" "" 186 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talisman_07" "" "" 222 87 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_01" "" "" 6 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_02" "" "" 42 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_03" "" "" 78 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_04" "" "" 114 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_05" "" "" 150 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_06" "" "" 186 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_07" "" "" 222 152 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_08" "" "" 6 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_09" "" "" 42 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_10" "" "" 78 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_11" "" "" 114 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_12" "" "" 150 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_13" "" "" 186 187 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Talent_14" "" "" 222 187 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_FSkill" "" "" 7 231 0 0 12 10 13 213 191 164 255
+IMAGEPICTURE "Img_FSkill" "" "" 91 239 165 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "FamilyPositive_01" "" "" 6 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_02" "" "" 42 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_03" "" "" 78 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_05" "" "" 150 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_06" "" "" 186 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_07" "" "" 222 251 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_01" "" "" 6 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_02" "" "" 42 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_03" "" "" 78 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_05" "" "" 150 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_06" "" "" 186 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPassive_07" "" "" 222 287 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_ConSkill" "" "" 7 333 0 0 14 10 15 213 191 164 255
+IMAGEPICTURE "Img_ConSkill" "" "" 63 341 191 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Item_1" "" "" 6 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_2" "" "" 42 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_3" "" "" 78 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_4" "" "" 114 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_5" "" "" 150 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_6" "" "" 186 353 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_7" "" "" 222 353 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_New" "new" "" 210 401 45 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Edit" "edit" "" 117 401 45 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 19 1 0
+STILLIMAGEBUTTON "Btn_Delete" "delete" "" 164 401 45 21 0 0 0 0 20 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 21 1 0
+LABEL "Lab_talent" "" "" 8 130 0 0 22 10 23 213 191 164 255
+IMAGEPICTURE "Img_Talent" "" "" 63 137 191 3 1 0 "Icon\Compart.tga" ""
+STILLIMAGEBUTTON "Btn_SkillSpec" "skillspec" "" 153 38 72 21 0 0 0 0 24 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 25 1 0
+STILLIMAGEBUTTON "Skill_Couple" "couple" "" 7 401 60 21 0 0 0 0 26 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 27 1 0
+IMAGEPICTURE "FamilyPassive_04" "" "" 114 287 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "FamilyPositive_04" "" "" 114 251 36 36 1 0 "Icon\Frame.tga" ""

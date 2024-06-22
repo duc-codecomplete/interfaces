@@ -1,0 +1,27 @@
+DIALOG "Win_AutoLock" 0 0 280 422 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 249 2 26 26 0 0 0 0 2 10 255 255 255 255 "Button\SmallClose.tga" "Button\SmallCloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 98 6 0 0 4 14 5 0 255 0 255
+LABEL "Lab_01" "" "" 26 61 0 0 6 10 7 167 205 255 255
+LABEL "Lab_02" "" "" 26 81 0 0 8 10 9 167 205 255 255
+LABEL "Lab_03" "" "" 52 101 0 0 10 10 11 255 255 255 255
+LABEL "Lab_04" "" "" 52 121 0 0 12 10 13 255 255 255 255
+LABEL "Lab_05" "" "" 52 141 0 0 14 10 15 255 255 255 255
+LABEL "Lab_06" "" "" 52 161 0 0 16 10 17 255 255 255 255
+LABEL "Lab_07" "" "" 52 181 0 0 18 10 19 255 255 255 255
+LABEL "Lab_08" "" "" 52 201 0 0 20 10 21 255 255 255 255
+LABEL "Lab_09" "" "" 52 221 0 0 22 10 23 255 255 255 255
+LABEL "Lab_10" "" "" 52 241 0 0 24 10 25 255 255 255 255
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 71 389 60 21 0 0 0 0 26 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 148 389 60 21 0 0 0 0 28 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 29 1 0
+LABEL "Lab_CurLimit" "" "" 26 304 0 0 30 10 31 167 205 255 255
+LABEL "Txt_CurLimit" "" "" 159 304 0 0 32 10 33 255 0 0 255
+LABEL "Lab_CountDown" "" "" 26 281 0 0 34 10 35 167 205 255 255
+LABEL "Txt_CountDown" "" "" 159 281 0 0 36 10 37 0 255 0 255
+LABEL "Lab_Reset" "" "" 26 324 0 0 38 10 39 167 205 255 255
+EDIT "Txt_Hour" "" "" 122 323 34 21 "Editbox\Input.tga" 40 10 255 255 255 "TEXT" 0 0 20 0
+LABEL "Lab_Hour" "" "" 158 324 0 0 41 10 42 167 205 255 255
+EDIT "Txt_Minute" "" "" 188 323 31 21 "Editbox\Input.tga" 43 10 255 255 255 "TEXT" 0 0 20 0
+LABEL "Lab_Minute" "" "" 221 324 0 0 44 10 45 167 205 255 255
+LABEL "Lab_11" "" "" 26 346 0 0 46 10 47 255 255 255 255
+LABEL "Lab_12" "" "" 26 364 0 0 48 10 49 255 255 255 255
+LABEL "Lab_13" "" "" 52 261 0 0 50 10 51 255 255 255 255

@@ -1,0 +1,21 @@
+DIALOG "Win_PetHead" 0 0 205 99 0 1 10 "Pet\宠物头像板.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "close" "" 11 0 20 20 0 0 0 0 2 10 255 255 255 255 "Button\最小化方形.tga" "Button\最小化方形按下.tga" "" 3 1 1
+PROGRESS "Prgs_Mp" "" "" 87 44 95 8 "" "Progress\能量条.bmp" 0 0 0 0 0
+LABEL "Txt_Name" "" "" 60 7 0 0 4 10 5 255 255 255 255
+LABEL "Txt_Lv" "" "" 16 18 0 0 6 11 7 255 255 255 255
+IMAGEPICTURE "Pic_HeadFrame" "" "" 15 25 56 64 1 0 "" ""
+IMAGEPICTURE "Img_Buff1" "" "" 69 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff2" "" "" 86 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff3" "" "" 103 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff4" "" "" 120 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff5" "" "" 137 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff6" "" "" 154 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff7" "" "" 171 87 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Buff8" "" "" 188 87 16 16 1 0 "" ""
+PROGRESS "Prgs_Hp" "" "" 87 33 95 8 "" "Progress\血条.bmp" 0 0 0 0 0
+PROGRESS "Prgs_Exp" "" "" 87 56 95 8 "" "Progress\经验条.bmp" 0 0 0 0 0
+IMAGEPICTURE "Img_Hungry" "" "" 187 41 16 16 4 0 "Pet\饥饿程度.tga" ""
+STILLIMAGEBUTTON "Btn_Combine1" "combine1" "" 73 62 24 24 0 0 0 0 8 10 255 255 255 255 "Pet\解体_通灵(弹起).tga" "Pet\解体_通灵(按下).tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Combine2" "combine2" "" 103 62 24 24 0 0 0 0 10 10 255 255 255 255 "Pet\飞逝_御宝(弹起).tga" "Pet\飞逝_御宝(按下).tga" "" 11 1 1
+STILLIMAGEBUTTON "Btn_PetDetail" "detail" "" 169 62 24 24 0 0 0 0 12 10 255 255 255 255 "Pet\查看（普通）.tga" "Pet\查看（按下）.tga" "" 13 1 1
+STILLIMAGEBUTTON "Btn_Withdraw" "withdraw" "" 134 62 24 24 0 0 0 0 14 10 255 255 255 255 "Pet\收回宠物（普通）.tga" "Pet\收回宠物（按下）.tga" "" 15 1 1

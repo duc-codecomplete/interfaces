@@ -1,0 +1,2 @@
+DIALOG "Win_Poplist" 0 0 160 100 0 1 10 "Window\Window.tga" "" "" 0 0 400 33 "" 30 6 96 96 96 150 1 0
+LIST "List" "list" "" 6 5 150 90 2 12 255 255 255 255 "Frame\Clarity.bmp" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "0" 0

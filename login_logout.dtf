@@ -1,0 +1,2 @@
+DIALOG "Win_LoginLogOut" 0 0 136 33 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_LogOut" "logout" "" 0 0 136 33 0 0 0 0 2 10 255 255 255 255 "Button\退出按钮_弹起.tga" "Button\退出按钮_按下.tga" "" 3 1 1

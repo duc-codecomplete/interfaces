@@ -1,0 +1,23 @@
+DIALOG "Win_Garden_PlotMethod" 0 0 454 149 0 1 10 "Frame\Frame.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 12 8 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 430 4 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 5 1 1
+RADIO "Rdo_1" "" "" 21 57 66 24 "Extra\PetStsSetting.tga" 1 1
+LABEL "Lab_1" "" "" 34 60 0 0 6 10 7 128 255 255 255
+LABEL "Lab_2" "" "" 119 60 0 0 8 10 9 128 255 255 255
+RADIO "Rdo_2" "" "" 106 57 66 24 "Extra\PetStsSetting.tga" 2 1
+LABEL "Lab_3" "" "" 204 60 0 0 10 10 11 128 255 255 255
+RADIO "Rdo_3" "" "" 191 57 66 24 "Extra\PetStsSetting.tga" 3 1
+LABEL "Lab_4" "" "" 289 60 0 0 12 10 13 128 255 255 255
+RADIO "Rdo_4" "" "" 276 57 66 24 "Extra\PetStsSetting.tga" 4 1
+LABEL "Lab_5" "" "" 374 60 0 0 14 10 15 128 255 255 255
+RADIO "Rdo_5" "" "" 361 58 66 23 "Extra\PetStsSetting.tga" 5 1
+LABEL "Lab_6" "" "" 35 108 0 0 16 10 17 128 255 255 255
+RADIO "Rdo_6" "" "" 21 105 66 24 "Extra\PetStsSetting.tga" 6 1
+LABEL "Lab_7" "" "" 119 108 0 0 18 10 19 128 255 255 255
+RADIO "Rdo_7" "" "" 106 105 66 24 "Extra\PetStsSetting.tga" 7 1
+LABEL "Lab_8" "" "" 204 108 0 0 20 10 21 128 255 255 255
+RADIO "Rdo_8" "" "" 191 105 66 24 "Extra\PetStsSetting.tga" 8 1
+LABEL "Lab_9" "" "" 289 108 0 0 22 10 23 128 255 255 255
+RADIO "Rdo_9" "" "" 276 105 66 24 "Extra\PetStsSetting.tga" 9 1
+LABEL "Lab_10" "" "" 374 108 0 0 24 10 25 128 255 255 255
+RADIO "Rdo_10" "" "" 361 105 66 24 "Extra\PetStsSetting.tga" 10 1

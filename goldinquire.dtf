@@ -1,0 +1,21 @@
+DIALOG "Win_GoldInquire" 0 0 700 540 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 288 8 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Help" "help" "" 624 14 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 645 14 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_11" "" "" 300 57 70 21 0 0 0 0 8 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_12" "" "" 370 57 20 21 0 0 0 0 10 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_13" "" "" 390 57 45 21 0 0 0 0 12 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_14" "" "" 435 57 60 21 0 0 0 0 14 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 15 1 0
+STILLIMAGEBUTTON "Btn_15" "" "" 495 57 80 21 0 0 0 0 16 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_16" "" "" 575 57 97 21 0 0 0 0 18 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 19 1 0
+LIST "Lst_Inquire" "" "" 300 77 372 398 20 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "70 20 45 60 80 97" 0
+STILLIMAGEBUTTON "Btn_01" "" "" 31 57 105 21 0 0 0 0 21 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 22 1 0
+STILLIMAGEBUTTON "Btn_02" "" "" 175 57 105 21 0 0 0 0 23 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 24 1 0
+LIST "Lst_Sell" "" "" 31 77 249 186 25 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "+100 +42 +100" 0
+EDIT "Shape" "" "" 31 262 249 28 "Editbox\Input.tga" 26 10 255 255 255 "TEXT" 1 0 20 0
+LIST "Lst_Buy" "" "" 31 289 249 186 27 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "+100 +42 +100" 0
+STILLIMAGEBUTTON "Btn_Consign" "trade" "" 25 492 60 21 0 0 0 0 28 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 29 1 0
+STILLIMAGEBUTTON "Btn_GiveUp" "giveup" "" 90 492 60 21 0 0 0 0 30 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 31 1 0
+STILLIMAGEBUTTON "Control_197472870" "" "" 135 57 41 21 0 0 0 0 32 12 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 33 1 0
+LABEL "Txt_Lock" "" "" 160 495 0 0 34 10 35 213 191 164 255
+STILLIMAGEBUTTON "Btn_Unlock" "unlock" "" 288 492 56 21 0 0 0 0 36 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 37 1 0

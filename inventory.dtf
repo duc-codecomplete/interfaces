@@ -1,0 +1,70 @@
+DIALOG "Win_Inventory" 0 0 290 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+EDIT "Shape" "" "" 32 71 253 352 "Frame\Frame7.tga" 2 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Title" "" "" 114 3 0 0 3 16 4 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 264 6 20 20 0 0 0 0 5 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 6 1 1
+LABEL "Txt_BagNum" "" "" 242 42 0 0 7 10 8 255 255 255 255
+IMAGEPICTURE "Item_00" "" "" 38 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_01" "" "" 75 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_02" "" "" 112 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_03" "" "" 149 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_04" "" "" 186 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_05" "" "" 223 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_06" "" "" 38 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_07" "" "" 75 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_08" "" "" 112 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_09" "" "" 149 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_10" "" "" 186 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_11" "" "" 223 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_12" "" "" 38 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_13" "" "" 75 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_14" "" "" 112 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_15" "" "" 149 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_16" "" "" 186 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_17" "" "" 223 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_18" "" "" 38 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_19" "" "" 75 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_20" "" "" 112 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_21" "" "" 149 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_22" "" "" 186 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_23" "" "" 223 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_24" "" "" 38 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_25" "" "" 75 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_26" "" "" 112 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_27" "" "" 149 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_28" "" "" 186 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_29" "" "" 223 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_30" "" "" 38 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_31" "" "" 75 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_32" "" "" 112 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_33" "" "" 149 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_34" "" "" 186 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_35" "" "" 223 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_36" "" "" 38 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_37" "" "" 75 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_38" "" "" 112 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_39" "" "" 149 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_40" "" "" 186 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_41" "" "" 223 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_42" "" "" 38 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_43" "" "" 75 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_44" "" "" 112 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_45" "" "" 149 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_46" "" "" 186 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_47" "" "" 223 338 36 36 1 0 "Icon\Frame.tga" ""
+SCROLL "Scl_Item" "" "" 265 78 12 296 "ListBox\DragSlot.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragButton.tga" 1 
+LABEL "Lab_Money" "" "" 42 403 0 0 9 10 10 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 108 403 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Txt_Money3" "" "" 249 403 0 0 11 10 12 255 255 255 255
+LABEL "Txt_Money2" "" "" 210 403 0 0 13 10 14 255 255 255 255
+LABEL "Txt_Money1" "" "" 173 403 0 0 15 10 16 255 255 255 255
+RADIO "Btn_NormalItem" "normalpack" "" 7 81 25 68 "Extra\NormalItem1.tga" 1 2
+RADIO "Btn_TaskItem" "taskpack" "" 7 148 25 68 "Extra\QuestItem1.tga" 2 2
+LABEL "Lab_Expand" "" "" 36 339 162 40 17 10 18 255 255 255 255
+STILLIMAGEBUTTON "Btn_Booth" "booth" "" 234 380 45 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 0
+STILLIMAGEBUTTON "Btn_Split" "split" "" 187 380 45 21 0 0 0 0 21 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 22 1 0
+LABEL "Txt_Limit" "" "" 74 43 0 0 23 10 24 0 255 255 255
+LABEL "Lab_Limit" "" "" 12 43 0 0 25 10 26 213 190 164 255
+STILLIMAGEBUTTON "Btn_Arrange" "arrange" "" 139 380 45 21 0 0 0 0 27 10 255 239 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 28 1 0
+LABEL "Lab_Num" "" "" 176 35 0 0 29 10 30 255 255 255 255
+STILLIMAGEBUTTON "Btn_PetBag" "alongpack" "" 7 215 25 68 0 0 0 0 31 10 198 166 57 255 "Button\PetItem.tga" "Button\PetItemDown.tga" "" 32 1 0
+STILLIMAGEBUTTON "Btn_Fash" "fashionpack" "" 7 282 25 68 0 0 0 0 33 10 198 166 57 255 "Button\FashItem.tga" "Button\FashItemDown.tga" "" 34 1 0

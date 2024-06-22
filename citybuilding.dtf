@@ -1,0 +1,51 @@
+DIALOG "Win_CityBuilding" 0 0 540 500 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 488 10 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 225 7 0 0 4 16 5 254 231 174 255
+EDIT "Resource_01" "" "" 11 413 339 75 "Frame\Frame.tga" 6 10 255 255 255 "TEXT" 1 0 20 0
+LIST "Lst_01" "" "" 352 55 178 139 7 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" 0 "0" 0
+EDIT "Building_01" "" "" 11 37 339 370 "Frame\³ÇÕ½°åµ×°å.tga" 8 10 255 255 255 "TEXT" 1 0 20 1
+LABEL "Txt_ItemAward" "" "" 204 317 311 15 9 10 10 255 255 255 255
+IMAGEPICTURE "Img_Tower01" "" "" 118 237 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower01" "ConsTower01" "" 113 276 45 20 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+IMAGEPICTURE "Img_Tower02" "" "" 212 237 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower02" "ConsTower02" "" 208 276 45 20 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+IMAGEPICTURE "Img_Tower03" "" "" 118 306 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower03" "ConsTower03" "" 113 345 45 20 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0
+IMAGEPICTURE "Img_Tower04" "" "" 212 306 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower04" "ConsTower04" "" 208 345 45 20 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 18 1 0
+IMAGEPICTURE "Img_Gate01" "" "" 30 256 36 36 1 0 "Icon\³ÇÇ½.dds" ""
+STILLIMAGEBUTTON "Btn_Gate01" "ConsGate01" "" 25 296 45 20 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 0
+IMAGEPICTURE "Img_Gate02" "" "" 162 174 36 36 1 0 "Icon\³ÇÇ½.dds" ""
+STILLIMAGEBUTTON "Btn_Gate02" "ConsGate02" "" 157 213 45 20 0 0 0 0 21 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 22 1 0
+IMAGEPICTURE "Img_Gate03" "" "" 295 256 36 36 1 0 "Icon\³ÇÇ½.dds" ""
+STILLIMAGEBUTTON "Btn_Gate03" "ConsGate03" "" 290 296 45 20 0 0 0 0 23 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 24 1 0
+IMAGEPICTURE "Img_Tower05" "" "" 32 122 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower05" "ConsTower05" "" 27 161 45 20 0 0 0 0 25 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 26 1 0
+IMAGEPICTURE "Img_Tower06" "" "" 166 54 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower06" "ConsTower06" "" 161 94 45 20 0 0 0 0 27 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 28 1 0
+IMAGEPICTURE "Img_Tower07" "" "" 298 122 36 36 1 0 "Icon\Ëþ.dds" ""
+STILLIMAGEBUTTON "Btn_Tower07" "ConsTower07" "" 293 161 45 20 0 0 0 0 29 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 30 1 0
+LABEL "Lab_BuildingAttr" "" "" 361 65 0 0 31 10 32 255 255 255 255
+LABEL "Lab_Damage" "" "" 371 87 0 0 33 10 34 213 191 164 255
+LABEL "Txt_Damage" "" "" 470 87 0 0 35 10 36 43 255 250 255
+LABEL "Lab_Defence" "" "" 371 107 0 0 37 10 38 213 191 164 255
+LABEL "Txt_Defence" "" "" 470 107 0 0 39 10 40 43 255 250 255
+LABEL "Lab_Range" "" "" 371 127 0 0 41 10 42 213 191 164 255
+LABEL "Txt_Range" "" "" 470 127 0 0 43 10 44 43 255 250 255
+LABEL "Lab_Skill" "" "" 371 147 0 0 45 10 46 213 191 164 255
+LABEL "Txt_Skill" "" "" 470 147 0 0 47 10 48 43 255 250 255
+LABEL "Lab_Hp" "" "" 371 167 0 0 49 10 50 213 191 164 255
+LABEL "Txt_Hp" "" "" 470 167 0 0 51 10 52 43 255 250 255
+LABEL "Lab_Resources" "" "" 20 421 0 0 53 10 54 255 255 255 255
+LABEL "Lab_Resource01" "" "" 30 441 0 0 55 10 56 213 191 164 255
+LABEL "Txt_Resource01" "" "" 105 441 0 0 57 10 58 43 255 250 255
+LABEL "Lab_Resource02" "" "" 203 441 0 0 59 10 60 213 191 164 255
+LABEL "Txt_Resource02" "" "" 278 441 0 0 61 10 62 43 255 250 255
+STILLIMAGEBUTTON "Btn_Resource01" "DonateRes01" "" 103 461 45 20 0 0 0 0 63 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 64 1 0
+STILLIMAGEBUTTON "Btn_Resource02" "DonateRes02" "" 276 461 45 20 0 0 0 0 65 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 66 1 0
+STILLIMAGEBUTTON "Btn_Name" "" "" 353 204 111 19 0 0 0 0 67 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 68 1 0
+STILLIMAGEBUTTON "Btn_Number" "" "" 463 204 67 19 0 0 0 0 69 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 70 1 0
+LIST "List_Member" "" "" 353 222 177 192 71 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "108 +64" 0
+STILLIMAGEBUTTON "Btn_Prec" "PrevPage" "" 418 420 55 21 0 0 0 0 72 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 73 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "RefreshList" "" 355 420 55 21 0 0 0 0 74 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 75 1 0
+STILLIMAGEBUTTON "Btn_Next" "NextPage" "" 473 420 55 21 0 0 0 0 76 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 77 1 0

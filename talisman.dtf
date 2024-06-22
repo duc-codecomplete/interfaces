@@ -1,0 +1,38 @@
+DIALOG "Win_Talisman" 0 0 385 141 0 1 10 "" "Window\三界天书法宝板.tga" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+IMAGEPICTURE "Img_Skill01" "" "" 131 83 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill02" "" "" 168 83 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill03" "" "" 51 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill04" "" "" 87 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill05" "" "" 125 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill06" "" "" 163 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill07" "" "" 199 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_1" "" "" 205 83 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_2" "" "" 242 83 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_3" "" "" 280 83 36 36 1 0 "Icon\Shortcut.tga" ""
+STILLIMAGEBUTTON "Btn_Zoarium" "zoarium" "" 68 85 30 30 0 0 0 0 2 10 255 255 255 255 "Button\天人合一.tga" "Button\天人合一按下.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Setting" "setting" "" 99 101 30 30 0 0 0 0 4 10 255 255 255 255 "Button\合体设置.tga" "Button\合体设置按下.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Setting0ther" "settingother" "" 347 22 30 30 0 0 0 0 6 10 255 255 255 255 "Button\设置普通状态.tga" "Button\设置按下状态.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Other" "other" "" 317 85 32 32 0 0 0 0 8 10 255 255 255 255 "Button\弹出菜单按钮普通.tga" "Button\弹出菜单按钮按下.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Attribute" "attribute" "" 99 70 30 30 0 0 0 0 10 10 255 255 255 255 "Button\法宝属性.tga" "Button\法宝属性按下.tga" "" 11 1 1
+PROGRESS "Prgs_Power" "" "" 132 75 200 6 "" "Progress\血条.bmp" 0 0 0 0 0
+PROGRESS "Prgs_Exp" "" "" 132 120 200 6 "" "Progress\经验条.bmp" 0 0 0 0 0
+LABEL "Lab_001" "" "" 207 97 0 0 12 10 13 255 255 255 255
+LABEL "Lab_002" "" "" 244 97 0 0 14 10 15 255 255 255 255
+LABEL "Lab_003" "" "" 283 97 0 0 16 10 17 255 255 255 255
+IMAGEPICTURE "Img_001" "" "" 62 78 40 40 8 150 "" "界面\方框.gfx"
+LABEL "Lab_1" "" "" 131 103 0 0 18 8 19 43 255 250 255
+LABEL "Lab_2" "" "" 169 103 0 0 20 8 21 43 255 250 255
+LABEL "Lab_3" "" "" 53 42 0 0 22 8 23 43 255 250 255
+LABEL "Lab_4" "" "" 89 42 0 0 24 8 25 43 255 250 255
+LABEL "Lab_5" "" "" 127 42 0 0 26 8 27 43 255 250 255
+LABEL "Lab_6" "" "" 164 42 0 0 28 8 29 43 255 250 255
+LABEL "Lab_7" "" "" 201 42 0 0 30 8 31 43 255 250 255
+LABEL "Lab_8" "" "" 237 42 0 0 32 8 33 43 255 250 255
+IMAGEPICTURE "Img_Skill08" "" "" 235 21 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill09" "" "" 272 21 36 36 1 0 "Icon\Shortcut.tga" ""
+LABEL "Lab_9" "" "" 274 42 0 0 34 8 35 43 255 250 255
+STILLIMAGEBUTTON "Btn_Fly" "fly" "" 353 86 30 30 0 0 0 0 36 10 255 255 255 255 "Button\飞行图标弹起.tga" "Button\飞行图标按下.tga" "" 37 1 1
+IMAGEPICTURE "Img_002" "" "" 348 81 40 40 8 150 "" "界面\方框.gfx"
+IMAGEPICTURE "Img_TalismanExp" "" "" 333 119 10 10 1 0 "Button\TalismanExp.tga" ""
+IMAGEPICTURE "Img_FlierExp" "" "" 333 129 10 10 1 0 "Button\FlierExp.tga" ""
+PROGRESS "Prgs_FlierExp" "" "" 132 129 200 6 "" "Progress\能量条.bmp" 0 0 0 0 0

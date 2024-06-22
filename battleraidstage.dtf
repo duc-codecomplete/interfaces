@@ -1,0 +1,19 @@
+DIALOG "Win_BattleRaidStage" 0 0 547 484 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Lab_TimeLeft" "" "" 428 36 0 0 2 10 3 0 128 255 255
+LABEL "Txt_TimeLeftNum" "" "" 454 56 0 0 4 10 5 0 128 255 255
+LABEL "Txt_TimeLeftMin" "" "" 476 56 0 0 6 10 7 0 128 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 498 8 20 20 0 0 0 0 8 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "Btn_Leave" "leave" "" 437 452 80 22 0 0 0 0 10 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 11 1 0
+LABEL "Title" "" "" 236 4 0 0 12 16 13 213 190 164 255
+EDIT "Shape1" "" "" 231 75 306 140 "Frame\Frame.tga" 14 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "Shape2" "" "" 231 214 307 231 "Frame\Frame.tga" 15 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LIST "Lst_Stage" "" "" 12 77 213 367 16 10 0 0 0 255 "Frame\Frame.tga" "" "" "" "" "" 0 "0" 0
+LABEL "Lab_StageList" "" "" 64 49 0 0 17 14 18 213 190 164 255
+LABEL "Lab_Score" "" "" 239 221 0 0 19 14 20 213 190 164 255
+LABEL "Lab_AimScore" "" "" 240 89 0 0 21 12 22 213 190 164 255
+LABEL "Txt_AimScore" "" "" 360 88 0 0 23 12 24 0 128 255 255
+LABEL "Lab_Detail" "" "" 239 116 0 0 25 12 26 213 190 164 255
+TEXT "Txt_Detail" "" "" 244 140 292 65 27 10 255 255 255 255 "Frame\Transparent.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0
+TEXT "Txt_Score" "" "" 242 250 294 187 28 10 255 255 255 255 "Frame\Transparent.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0
+CHECK "Chk_MiniHint" "minihint" "" 37 451 20 20 "Extra\Check.tga"
+LABEL "Lab_MiniHint" "" "" 67 451 0 0 29 11 30 213 190 164 255

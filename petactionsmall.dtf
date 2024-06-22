@@ -1,0 +1,16 @@
+DIALOG "Win_PetActionSmall" 0 0 315 85 0 1 10 "Pet\宠物技能板2.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Img_Skill01" "" "" 64 9 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill02" "" "" 103 9 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill03" "" "" 142 9 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Skill04" "" "" 179 9 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_AutoFood" "autofood" "" 270 46 36 36 0 0 0 0 2 10 255 255 255 255 "Pet\自动吃药设置.tga" "Pet\自动吃药设置(按下).tga" "" 3 1 1
+IMAGEPICTURE "Img_AutoFood" "" "" 231 46 36 36 1 0 "Icon\Frame.tga" ""
+RADIO "Rdo_Combat" "combat" "" 193 46 36 36 "Pet\被动模式.tga" 2 1
+RADIO "Rdo_Defensive" "defensive" "" 158 46 36 36 "Pet\防御模式.tga" 0 1
+RADIO "Rdo_Offensive" "offensive" "" 120 46 36 36 "Pet\攻击模式.tga" 1 1
+RADIO "Rdo_Follow" "follow" "" 85 46 36 36 "Pet\跟随.tga" 0 2
+RADIO "Rdo_Stay" "stop" "" 49 46 36 36 "Pet\停留.tga" 1 2
+STILLIMAGEBUTTON "Btn_Attack" "attack" "" 10 46 36 36 0 0 0 0 4 10 255 255 255 255 "Pet\攻击(普通).tga" "Pet\攻击(按下).bmp" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Other" "other" "" 253 11 32 32 0 0 0 0 6 10 255 255 255 255 "Button\弹出菜单按钮普通.tga" "Button\弹出菜单按钮按下.tga" "" 7 1 1
+IMAGEPICTURE "Img_Combine1" "" "" 29 9 36 36 3 0 "Pet\通灵.tga" ""
+IMAGEPICTURE "Img_Combine2" "" "" 215 9 36 36 3 0 "Pet\御宝.tga" ""

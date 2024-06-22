@@ -1,0 +1,27 @@
+DIALOG "Win_Quest" 0 0 539 422 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 486 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+LABEL "Title" "" "" 224 3 0 0 4 16 5 254 231 174 255
+TREE "Tv_Quest" "" "" 11 66 176 324 6 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+TEXT "Txt_Content" "" "" 192 66 330 141 7 10 167 205 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+TEXT "Txt_QuestItem" "" "" 192 208 332 103 8 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+EDIT "Shape" "" "" 11 391 176 24 "Frame\Frame.tga" 9 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+IMAGEPICTURE "Rank_01" "" "" 80 396 19 17 2 0 "Icon\Quest_Star.tga" ""
+IMAGEPICTURE "Rank_02" "" "" 100 396 18 17 2 0 "Icon\Quest_Star.tga" ""
+IMAGEPICTURE "Rank_03" "" "" 120 396 18 17 2 0 "Icon\Quest_Star.tga" ""
+IMAGEPICTURE "Rank_04" "" "" 140 396 18 17 2 0 "Icon\Quest_Star.tga" ""
+IMAGEPICTURE "Rank_05" "" "" 160 396 18 17 2 0 "Icon\Quest_Star.tga" ""
+EDIT "Quest_D" "" "" 192 312 332 75 "Frame\Frame.tga" 10 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LABEL "Txt_BaseAward" "" "" 201 320 311 15 11 10 12 255 255 255 255
+LABEL "Txt_ItemAward" "" "" 201 353 311 15 13 10 14 255 255 255 255
+IMAGEPICTURE "Img_Item0" "" "" 213 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item1" "" "" 252 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item2" "" "" 291 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item3" "" "" 330 338 36 36 1 0 "Icon\Frame.tga" ""
+CHECK "Chk_FocusAll" "focusall" "" 306 393 93 22 "Extra\QuestA.tga"
+STILLIMAGEBUTTON "Btn_Abandon" "abandon" "" 477 393 45 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Focus" "focus" "" 432 393 45 21 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 18 1 0
+LABEL "Lab_Difficulty" "" "" 20 395 0 0 19 10 20 213 190 164 255
+COMBO "Combo_List" "prolist" "" 459 42 60 20 21 10 255 255 255 255 "Editbox\CChannel.tga" "Listbox\Create_SelectR.tga" 0
+RADIO "Rdo_1" "rdo1" "" 21 39 78 28 "Button\Quest.tga" 1 1
+RADIO "Rdo_2" "rdo2" "" 99 39 78 28 "Button\QuestAviailable.tga" 2 1
+STILLIMAGEBUTTON "Btn_TaskDaily" "taskdaily" "" 196 40 88 22 0 0 0 0 22 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 23 1 0

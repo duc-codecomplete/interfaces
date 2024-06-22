@@ -1,0 +1,13 @@
+DIALOG "Win_TargetMonster" 0 0 220 81 0 1 10 "Window\Target20.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Txt_Name" "" "" 110 33 0 0 2 9 3 255 255 255 255
+PROGRESS "Prg_HP" "" "" 61 51 119 10 "" "Progress\ÑªÌõ.bmp" 0 0 0 0 0
+IMAGEPICTURE "st_1" "" "" 50 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_2" "" "" 66 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_3" "" "" 82 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_4" "" "" 98 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_5" "" "" 114 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_6" "" "" 130 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_7" "" "" 146 64 16 16 1 0 "" ""
+IMAGEPICTURE "st_8" "" "" 162 64 16 16 1 0 "" ""
+IMAGEPICTURE "Img_Race" "" "" 33 36 24 24 16 0 "InGame\MonsterRace.tga" ""
+IMAGEPICTURE "Img_Catch" "" "" 33 36 24 24 1 0 "Icon\PetCatch.tga" ""

@@ -1,0 +1,20 @@
+DIALOG "Win_QuickAction" 0 0 121 302 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "SecretMsg" "SecretMsg" "" 5 26 40 21 0 0 0 0 2 10 255 128 192 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 3 1 0
+STILLIMAGEBUTTON "report" "Report" "" 5 256 110 21 0 0 0 0 4 10 255 0 0 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 5 1 0
+STILLIMAGEBUTTON "Trade" "Trade" "" 61 5 54 21 0 0 0 0 6 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "WhisperChat" "WhisperChat" "" 47 26 68 21 0 0 0 0 8 10 255 128 192 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "AddFriend" "AddFriend" "" 47 47 68 21 0 0 0 0 10 10 255 255 128 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 11 1 0
+STILLIMAGEBUTTON "InviteGroup" "InviteGroup" "" 47 68 68 21 0 0 0 0 12 10 255 255 128 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 13 1 0
+STILLIMAGEBUTTON "InviteGuild" "InviteGuild" "" 5 148 110 21 0 0 0 0 14 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 15 1 0
+STILLIMAGEBUTTON "Follow" "Follow" "" 5 5 54 21 0 0 0 0 16 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 17 1 0
+STILLIMAGEBUTTON "Cancel" "IDCANCEL" "" 31 277 60 21 0 0 0 0 18 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 19 1 0
+IMAGEPICTURE "Control_403463108" "" "" 5 212 112 2 1 0 "Icon\Compart.tga" ""
+STILLIMAGEBUTTON "Bind" "Bind" "" 5 89 110 21 0 0 0 0 20 10 255 128 64 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 21 1 0
+STILLIMAGEBUTTON "Duel" "Duel" "" 5 68 40 21 0 0 0 0 22 10 255 128 128 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 23 1 0
+STILLIMAGEBUTTON "EPEquip" "EPEquip" "" 5 47 40 21 0 0 0 0 24 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 25 1 0
+STILLIMAGEBUTTON "CopyName" "CopyName" "" 5 212 110 21 0 0 0 0 26 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 27 1 0
+STILLIMAGEBUTTON "InviteFamily" "InviteFamily" "" 5 129 110 21 0 0 0 0 28 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 29 1 0
+STILLIMAGEBUTTON "Teacher" "Teacher" "" 5 169 110 21 0 0 0 0 30 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 31 1 0
+STILLIMAGEBUTTON "Shield" "Shield" "" 5 233 110 21 0 0 0 0 32 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 33 1 1
+STILLIMAGEBUTTON "RideTogether" "RideTogether" "" 5 109 110 21 0 0 0 0 34 10 255 128 64 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 35 1 0
+STILLIMAGEBUTTON "Btn_SuccessCheck" "Teacher" "" 5 189 110 21 0 0 0 0 36 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 37 1 0

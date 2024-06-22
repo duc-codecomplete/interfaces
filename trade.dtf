@@ -1,0 +1,94 @@
+DIALOG "Win_Trade" 0 0 532 430 0 1 10 "Window\WindowDouble.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close1" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Close2" "IDCANCEL" "" 506 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Txt_Name1" "" "" 139 3 0 0 6 16 7 254 231 174 255
+LABEL "Txt_Name2" "" "" 404 3 0 0 8 16 9 254 231 174 255
+IMAGEPICTURE "U_01" "" "" 23 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_02" "" "" 60 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_03" "" "" 97 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_04" "" "" 134 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_05" "" "" 171 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_06" "" "" 208 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_07" "" "" 23 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_08" "" "" 60 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_09" "" "" 97 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_10" "" "" 134 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_11" "" "" 171 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_12" "" "" 208 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_13" "" "" 23 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_14" "" "" 60 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_15" "" "" 97 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_16" "" "" 134 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_17" "" "" 171 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_18" "" "" 208 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_19" "" "" 23 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_20" "" "" 60 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_21" "" "" 97 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_22" "" "" 134 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_23" "" "" 171 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_24" "" "" 208 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_25" "" "" 23 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_26" "" "" 60 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_27" "" "" 97 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_28" "" "" 134 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_29" "" "" 171 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_30" "" "" 208 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_31" "" "" 23 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_32" "" "" 60 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_33" "" "" 97 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_34" "" "" 134 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_35" "" "" 171 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "U_36" "" "" 208 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "Img_FrameMoneyU" "" "" 88 315 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money3U" "" "" 230 315 0 0 10 10 11 255 255 255 255
+LABEL "Txt_Money2U" "" "" 192 315 0 0 12 10 13 255 255 255 255
+LABEL "Txt_Money1U" "" "" 155 315 0 0 14 10 15 255 255 255 255
+STILLIMAGEBUTTON "Btn_Confirm2" "complete" "" 202 400 45 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Lock2" "" "" 154 400 45 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 19 1 0
+IMAGEPICTURE "I_01" "" "" 290 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_02" "" "" 327 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_03" "" "" 364 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_04" "" "" 401 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_05" "" "" 438 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_06" "" "" 475 80 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_07" "" "" 290 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_08" "" "" 327 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_09" "" "" 364 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_10" "" "" 401 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_11" "" "" 438 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_12" "" "" 475 117 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_13" "" "" 290 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_14" "" "" 327 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_15" "" "" 364 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_16" "" "" 401 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_17" "" "" 438 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_18" "" "" 475 154 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_19" "" "" 290 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_20" "" "" 327 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_21" "" "" 364 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_22" "" "" 401 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_23" "" "" 438 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_24" "" "" 475 191 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_25" "" "" 290 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_26" "" "" 327 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_27" "" "" 364 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_28" "" "" 401 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_29" "" "" 438 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_30" "" "" 475 228 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_31" "" "" 290 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_32" "" "" 327 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_33" "" "" 364 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_34" "" "" 401 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_35" "" "" 438 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "I_36" "" "" 475 265 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "Img_FrameMoneyI" "" "" 347 315 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money3I" "" "" 490 315 0 0 20 10 21 255 255 255 255
+LABEL "Txt_Money2I" "" "" 451 315 0 0 22 10 23 255 255 255 255
+LABEL "Txt_Money1I" "" "" 413 315 0 0 24 10 25 255 255 255 255
+STILLIMAGEBUTTON "Btn_Confirm" "complete" "" 472 400 45 21 0 0 0 0 26 9 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Lock" "lock" "" 424 400 45 21 0 0 0 0 28 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 29 1 0
+LABEL "Lab_01" "" "" 22 343 0 0 30 10 31 213 191 164 255
+LABEL "Lab_02" "" "" 33 359 0 0 32 10 33 213 191 164 255
+LABEL "Lab_03" "" "" 22 376 0 0 34 10 35 213 191 164 255
+LABEL "Lab_04" "" "" 305 342 0 0 36 10 37 213 191 164 255
+STILLIMAGEBUTTON "Btn_Abandon" "IDCANCEL" "" 279 400 108 21 0 0 0 0 38 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 39 1 0

@@ -1,0 +1,30 @@
+DIALOG "Win_ContestInfo" 0 0 550 405 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Title" "" "" 223 5 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 486 7 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_GuildName" "" "" 14 51 116 19 0 0 0 0 6 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_NameA" "" "" 129 51 116 19 0 0 0 0 8 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_TimeA" "" "" 244 51 90 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+LIST "List_Member" "" "" 14 69 320 325 12 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "113 +113 +87" 0
+LABEL "Txt_A" "" "" 120 32 0 0 13 12 14 254 231 174 255
+EDIT "Shape1" "" "" 354 73 175 77 "Editbox\Input.tga" 15 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_TodayInfo" "" "" 354 52 0 0 16 10 17 255 255 255 255
+LABEL "Lab_DefenderGuild" "" "" 372 103 0 0 18 10 19 255 255 255 255
+LABEL "Lab_Defender" "" "" 372 124 0 0 20 10 21 255 255 255 255
+LABEL "Lab_InfoB" "" "" 362 81 0 0 22 10 23 255 255 255 255
+LABEL "Lab_Name_DefenderGuild" "" "" 430 103 0 0 24 10 25 0 0 255 255
+LABEL "Lab_Name_Defender" "" "" 430 124 0 0 26 10 27 0 0 255 255
+EDIT "Shape2" "" "" 354 156 175 77 "Editbox\Input.tga" 28 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_AttackerGuild" "" "" 372 187 0 0 29 10 30 255 255 255 255
+LABEL "Lab_Attacker" "" "" 372 208 0 0 31 10 32 255 255 255 255
+LABEL "Lab_InfoA" "" "" 362 165 0 0 33 10 34 255 255 255 255
+LABEL "Lab_Name_AttackerGuild" "" "" 430 187 0 0 35 10 36 255 0 0 255
+LABEL "Lab_Name_Attacker" "" "" 430 208 0 0 37 10 38 255 0 0 255
+EDIT "Shape3" "" "" 354 239 175 77 "Editbox\Input.tga" 39 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_HelperGuild" "" "" 372 269 0 0 40 10 41 255 255 255 255
+LABEL "Lab_Helper" "" "" 372 290 0 0 42 10 43 255 255 255 255
+LABEL "Lab_InfoC" "" "" 362 247 0 0 44 10 45 255 255 255 255
+LABEL "Lab_Name_HelperGuild" "" "" 430 269 0 0 46 10 47 255 128 0 255
+LABEL "Lab_Name_Helper" "" "" 430 290 0 0 48 10 49 255 128 64 255
+STILLIMAGEBUTTON "Btn_Join" "challenge" "" 426 330 95 21 0 0 0 0 50 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 51 1 0
+STILLIMAGEBUTTON "Btn_ConHelprCh" "setassist" "" 426 360 95 21 0 0 0 0 52 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 53 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refreshcontestinfo" "" 355 330 56 21 0 0 0 0 54 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 55 1 0

@@ -1,0 +1,20 @@
+DIALOG "Win_MailRead" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 0
+IMAGEPICTURE "Img_AttachItem" "" "" 56 354 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_GetAttach" "getattach" "" 11 402 72 21 0 0 0 0 2 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 3 1 0
+STILLIMAGEBUTTON "Btn_Close1" "IDCANCEL" "" 208 402 45 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+LABEL "Control_473590271" "" "" 19 33 0 0 6 10 7 213 191 164 255
+IMAGEPICTURE "Control_396712664" "" "" 10 347 244 3 1 0 "Icon\Compart.tga" ""
+LABEL "Title" "" "" 100 4 0 0 8 16 9 254 231 174 255
+LABEL "Control_398831595" "" "" 19 50 0 0 10 10 11 213 191 164 255
+STILLIMAGEBUTTON "Btn_Reply" "reply" "" 159 402 45 21 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 13 1 0
+LABEL "Control_432377896" "" "" 19 371 0 0 14 10 15 213 191 164 255
+LABEL "Txt_MailFrom" "" "" 60 34 0 0 16 10 17 255 255 255 255
+LABEL "Txt_Subject" "" "" 60 51 0 0 18 10 19 255 255 255 255
+TEXT "Txt_Content" "" "" 10 70 244 274 20 10 255 255 255 255 "Editbox\Input.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 21 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 22 1 1
+IMAGEPICTURE "Img_Money" "" "" 96 371 160 18 1 0 "Icon\FrameMoney.tga" ""
+STILLIMAGEBUTTON "Btn_Money" "" "" 96 373 20 14 0 0 0 0 23 10 255 255 255 255 "Button\Money.tga" "Button\MoneyDown.tga" "" 24 1 1
+LABEL "Txt_Money3" "" "" 241 371 0 0 25 10 26 255 255 255 255
+LABEL "Txt_Money2" "" "" 202 371 0 0 27 10 28 255 255 255 255
+LABEL "Txt_Money1" "" "" 165 371 0 0 29 10 30 255 255 255 255
+LABEL "Txt_NotSystemMail" "" "" 173 35 0 0 31 10 32 255 0 0 255

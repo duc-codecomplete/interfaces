@@ -1,0 +1,14 @@
+DIALOG "Win_DoubleExp" 0 0 208 129 0 1 10 "Window\Window.tga" "" "" 0 0 185 27 "" 26 5 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 156 101 48 21 0 0 0 0 2 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 3 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 108 101 48 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+LABEL "Control_49354896" "" "" 8 12 0 0 6 10 7 254 231 174 255
+RADIO "Rdo_1" "" "" 34 36 16 16 "Extra\Option.tga" 1 1
+RADIO "Rdo_2" "" "" 115 35 16 16 "Extra\Option.tga" 2 1
+RADIO "Rdo_3" "" "" 35 65 16 16 "Extra\Option.tga" 3 1
+RADIO "Rdo_4" "" "" 115 65 16 16 "Extra\Option.tga" 4 1
+LABEL "Control_588679546" "" "" 56 35 0 0 8 10 9 43 255 250 255
+LABEL "Control_469088256" "" "" 137 34 0 0 10 10 11 43 255 250 255
+LABEL "Control_353750698" "" "" 56 64 0 0 12 10 13 43 255 250 255
+LABEL "Control_35127162" "" "" 137 64 0 0 14 10 15 43 255 250 255
+LABEL "Control_1030812" "" "" 5 89 0 0 16 10 17 213 191 164 255
+LABEL "Txt_Remain" "" "" 55 105 0 0 18 10 19 43 255 250 255

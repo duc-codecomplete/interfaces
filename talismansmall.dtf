@@ -1,0 +1,23 @@
+DIALOG "Win_TalismanSmall" 0 0 385 85 0 1 10 "" "Window\噬魂杖板子.tga" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+IMAGEPICTURE "Img_Skill01" "" "" 131 27 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill02" "" "" 168 27 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_1" "" "" 205 27 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_2" "" "" 242 27 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_3" "" "" 280 27 36 36 1 0 "Icon\Shortcut.tga" ""
+STILLIMAGEBUTTON "Btn_Zoarium" "zoarium" "" 68 29 30 30 0 0 0 0 2 10 255 255 255 255 "Button\天人合一.tga" "Button\天人合一按下.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Setting" "setting" "" 99 45 30 30 0 0 0 0 4 10 255 255 255 255 "Button\合体设置.tga" "Button\合体设置按下.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Other" "other" "" 317 29 32 32 0 0 0 0 6 10 255 255 255 255 "Button\弹出菜单按钮普通.tga" "Button\弹出菜单按钮按下.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Attribute" "attribute" "" 99 14 30 30 0 0 0 0 8 10 255 255 255 255 "Button\法宝属性.tga" "Button\法宝属性按下.tga" "" 9 1 1
+PROGRESS "Prgs_Power" "" "" 132 19 200 6 "" "Progress\血条.bmp" 0 0 0 0 0
+PROGRESS "Prgs_Exp" "" "" 132 64 200 6 "" "Progress\经验条.bmp" 0 0 0 0 0
+LABEL "Lab_001" "" "" 207 41 0 0 10 10 11 255 255 255 255
+LABEL "Lab_002" "" "" 244 41 0 0 12 10 13 255 255 255 255
+LABEL "Lab_003" "" "" 283 41 0 0 14 10 15 255 255 255 255
+IMAGEPICTURE "Img_001" "" "" 61 22 40 40 8 150 "" "界面\方框.gfx"
+LABEL "Lab_1" "" "" 131 47 0 0 16 8 17 43 255 250 255
+LABEL "Lab_2" "" "" 169 47 0 0 18 8 19 43 255 250 255
+STILLIMAGEBUTTON "Btn_Fly" "fly" "" 353 30 30 30 0 0 0 0 20 10 255 255 255 255 "Button\飞行图标弹起.tga" "Button\飞行图标按下.tga" "" 21 1 1
+IMAGEPICTURE "Img_002" "" "" 348 25 40 40 8 150 "" "界面\方框.gfx"
+IMAGEPICTURE "Img_TalismanExp" "" "" 333 63 10 10 1 0 "Button\TalismanExp.tga" ""
+IMAGEPICTURE "Img_FlierExp" "" "" 333 73 10 10 1 0 "Button\FlierExp.tga" ""
+PROGRESS "Prgs_FlierExp" "" "" 132 72 200 6 "" "Progress\能量条.bmp" 0 0 0 0 0

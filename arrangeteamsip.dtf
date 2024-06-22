@@ -1,0 +1,29 @@
+DIALOG "Win_ArrangeTeam" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 254 241 219 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 94 5 0 0 4 16 5 254 231 174 255
+LABEL "Lab_Nearbypp" "" "" 9 41 0 0 6 10 7 213 191 164 255
+LIST "Lst_Nearbypp" "choseplayer" "" 6 59 128 187 8 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "0" 0
+EDIT "Txt_Name" "invite" "" 9 253 120 21 "Editbox\Input.tga" 9 10 255 255 255 "TEXT" 0 0 20 0
+LABEL "Lab_CurrentTmate" "" "" 136 41 0 0 10 10 11 213 191 164 255
+LIST "DEFAULT_Lst_CurrentTmate" "" "" 135 59 122 127 12 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "0" 0
+STILLIMAGEBUTTON "Btn_Invite" "invite" "" 8 278 122 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Kick" "kick" "" 135 190 60 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0
+STILLIMAGEBUTTON "Btn_MakeLeader" "makeleader" "" 199 190 60 21 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 18 1 0
+STILLIMAGEBUTTON "Btn_Disband" "disband" "" 135 213 60 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 0
+STILLIMAGEBUTTON "Btn_Leave" "leave" "" 199 213 60 21 0 0 0 0 21 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 22 1 0
+CHECK "Chk_Slogan" "slogan" "" 11 318 16 16 "Extra\Check.tga"
+LABEL "Lab_Slogan" "" "" 32 316 0 0 23 10 24 213 191 164 255
+EDIT "Txt_GroupMsg" "" "" 90 315 166 21 "Editbox\Input.tga" 25 10 255 255 255 "TEXT" 1 0 20 0
+CHECK "Chk_Showself" "showself" "" 33 343 16 16 "Extra\Check.tga"
+LABEL "Lab_Showself" "" "" 60 342 0 0 26 10 27 213 191 164 255
+LABEL "Lab_Assign" "" "" 144 237 0 0 28 10 29 213 191 164 255
+LABEL "Lab_Lfgroup" "" "" 66 370 0 0 30 10 31 213 191 164 255
+RADIO "Rdo_Lfgroup" "lfg" "" 42 370 16 16 "Extra\Option.tga" 1 2
+LABEL "Lab_Lfmember" "" "" 180 369 0 0 32 10 33 213 191 164 255
+RADIO "Rdo_Lfmember" "lfm" "" 158 370 16 16 "Extra\Option.tga" 2 2
+LABEL "Lab_Random" "" "" 188 256 0 0 34 10 35 213 191 164 255
+RADIO "Rdo_Random" "random" "" 158 258 16 16 "Extra\Option.tga" 1 1
+LABEL "Lab_Free" "" "" 188 280 0 0 36 10 37 213 191 164 255
+RADIO "Rdo_Free" "free" "" 158 281 16 16 "Extra\Option.tga" 2 1
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 154 400 45 21 0 0 0 0 38 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 39 1 1
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 206 400 45 21 0 0 0 0 40 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 41 1 1

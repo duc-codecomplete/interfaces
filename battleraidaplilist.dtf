@@ -1,0 +1,31 @@
+DIALOG "Win_BattleRaidApliList" 0 0 547 484 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 231 4 0 0 2 16 3 213 190 164 255
+EDIT "Shape4" "" "" 8 425 528 54 "Frame\Frame.tga" 4 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "Shape1" "" "" 3 31 533 56 "Frame\Frame.tga" 5 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "Shape2" "" "" 9 87 267 315 "Frame\Frame.tga" 6 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "Shape3" "" "" 275 87 262 315 "Frame\Frame.tga" 7 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LABEL "Txt_Notice" "" "" 20 56 0 0 8 10 9 213 190 164 255
+LABEL "Lab_TimeLeft" "" "" 428 36 0 0 10 10 11 0 128 255 255
+LABEL "Txt_TimeLeftNum" "" "" 454 56 0 0 12 10 13 0 128 255 255
+LABEL "Txt_TimeLeftMin" "" "" 476 56 0 0 14 10 15 0 128 255 255
+LABEL "Lab_FinalList" "" "" 76 89 0 0 16 14 17 213 190 164 255
+LABEL "Lab_ApplyList" "" "" 339 90 0 0 18 14 19 213 190 164 255
+LABEL "Txt_Num1" "" "" 214 105 0 0 20 10 21 213 190 164 255
+LABEL "Txt_Num2" "" "" 467 102 0 0 22 10 23 213 190 164 255
+STILLIMAGEBUTTON "Btn_Agree" "accept" "" 319 401 80 22 0 0 0 0 24 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 25 1 0
+STILLIMAGEBUTTON "Btn_Refuse" "refuse" "" 426 400 80 22 0 0 0 0 26 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Start" "start" "" 143 442 80 22 0 0 0 0 28 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 29 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 498 8 20 20 0 0 0 0 30 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 31 1 0
+STILLIMAGEBUTTON "Btn_LV1" "" "" 15 127 113 19 0 0 0 0 32 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 33 1 0
+STILLIMAGEBUTTON "Btn_Name1" "" "" 128 127 147 19 0 0 0 0 34 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 35 1 0
+LIST "Lst_Member1" "listmember" "" 12 172 262 228 36 10 255 255 255 255 "Frame\Transparent.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "+110 +150" 0
+STILLIMAGEBUTTON "Btn_Lv2" "" "" 278 127 113 19 0 0 0 0 37 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 38 1 0
+STILLIMAGEBUTTON "Btn_Name2" "" "" 390 127 147 19 0 0 0 0 39 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" "" 40 1 0
+LABEL "Lab_LvTeamLeader" "" "" 61 151 0 0 41 10 42 255 255 255 255
+IMAGEPICTURE "Img_TeamLeader" "" "" 26 151 20 18 1 0 "Icon\Heart.tga" ""
+LABEL "Lab_TeamLeaderName" "" "" 146 151 0 0 43 10 44 255 255 255 255
+LIST "Lst_Member2" "listmember" "" 277 146 258 252 45 10 255 255 255 255 "Frame\Transparent.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "+110 +150" 0
+STILLIMAGEBUTTON "Btn_KickOut" "kick" "" 52 401 68 22 0 0 0 0 46 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 47 1 0
+STILLIMAGEBUTTON "Btn_ChangeLeader" "change" "" 166 401 68 22 0 0 0 0 48 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 49 1 0
+STILLIMAGEBUTTON "Btn_Leave" "leave" "" 324 442 80 22 0 0 0 0 50 10 213 190 164 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 51 1 0
+LABEL "Lab_Notice" "" "" 7 38 0 0 52 10 53 213 190 164 255

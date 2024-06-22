@@ -1,0 +1,48 @@
+DIALOG "Win_GuildManage" 0 0 750 540 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Txt_GuildName" "" "" 375 4 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Help" "help" "" 653 6 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 673 6 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_SortName" "sortname" "" 12 77 112 19 0 0 0 0 8 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_SortJob" "sortjob" "" 235 77 49 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_SortTitle" "sorttitle" "" 284 77 62 19 0 0 0 0 12 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_SortLevel" "sortlevel" "" 346 77 32 19 0 0 0 0 14 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 15 1 0
+STILLIMAGEBUTTON "Btn_SortProf" "sortprof" "" 378 77 56 19 0 0 0 0 16 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_SortOL" "sortol" "" 496 77 106 19 0 0 0 0 18 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 19 1 0
+STILLIMAGEBUTTON "Btn_SortCon" "sortcon" "" 434 77 62 19 0 0 0 0 20 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 21 1 0
+LIST "List_Member" "listmember" "" 12 96 590 320 22 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "109 +111 +49 +62 +32 +56 +62 +103" 0
+STILLIMAGEBUTTON "Btn_Top" "refresh-2" "first" 229 420 72 21 0 0 0 0 23 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 24 1 0
+STILLIMAGEBUTTON "Btn_Prec" "refresh-1" "" 305 420 60 21 0 0 0 0 25 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 26 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refresh0" "" 537 420 60 21 0 0 0 0 27 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 28 1 0
+STILLIMAGEBUTTON "Btn_Next" "refresh1" "" 364 420 60 21 0 0 0 0 29 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 30 1 0
+STILLIMAGEBUTTON "Btn_Bottom" "refresh2" "" 429 420 72 21 0 0 0 0 31 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 32 1 0
+IMAGEPICTURE "Img_GuildIcon" "" "" 79 56 16 16 0 0 "" ""
+LABEL "Lab_GuildLevel" "" "" 129 57 0 0 33 10 34 213 191 164 255
+LABEL "Txt_GuildLevel" "" "" 191 57 0 0 35 10 36 255 255 255 255
+LABEL "Lab_GuildProsperity" "" "" 257 57 0 0 37 10 38 213 191 164 255
+LABEL "Txt_GuildProsperity" "" "" 332 57 0 0 39 10 40 255 255 255 255
+LABEL "Lab_PplCap" "" "" 401 57 0 0 41 10 42 213 191 164 255
+LABEL "Txt_PplCap" "" "" 450 57 0 0 43 10 44 255 255 255 255
+LABEL "Lab_PplOnline" "" "" 499 57 0 0 45 10 46 213 191 164 255
+LABEL "Txt_PplOnline" "" "" 559 57 0 0 47 10 48 255 255 255 255
+TEXT "Txt_Message" "" "" 12 443 590 65 49 10 255 255 255 255 "Editbox\Input.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0
+STILLIMAGEBUTTON "Btn_Edit" "Edit" "" 524 509 72 21 0 0 0 0 50 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 51 1 0
+STILLIMAGEBUTTON "Btn_GuildInvite" "ginvite" "" 16 509 72 21 0 0 0 0 52 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 53 1 0
+STILLIMAGEBUTTON "Btn_GuildAppoint" "gappoint" "" 121 509 72 21 0 0 0 0 54 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 55 1 0
+STILLIMAGEBUTTON "Btn_GuildPass" "gpass" "" 267 509 45 21 0 0 0 0 56 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 57 1 0
+STILLIMAGEBUTTON "Btn_GuildDemission" "gdemiss" "" 364 509 45 21 0 0 0 0 58 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 59 1 0
+STILLIMAGEBUTTON "Btn_GuildKick" "gkick" "" 659 509 72 21 0 0 0 0 60 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 61 1 0
+STILLIMAGEBUTTON "Btn_GuildTitle" "gtitle" "" 194 509 72 21 0 0 0 0 62 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 63 1 0
+STILLIMAGEBUTTON "Btn_GuildQuit" "gquit" "" 410 509 72 21 0 0 0 0 64 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 65 1 0
+STILLIMAGEBUTTON "Btn_GuildWar" "gwar" "" 12 420 100 21 0 0 0 0 66 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 67 1 0
+STILLIMAGEBUTTON "Control_659207808" "sortfamily" "" 124 77 111 19 0 0 0 0 68 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 69 1 0
+LIST "List_Family" "" "" 607 96 133 412 70 10 213 191 164 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+LABEL "Control_262545828" "" "" 646 76 0 0 71 10 72 213 191 164 255
+STILLIMAGEBUTTON "Btn_ShowFamily" "showfamily" "" 593 39 69 21 0 0 0 0 73 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 74 1 0
+STILLIMAGEBUTTON "Btn_ShowFaction" "showfaction" "" 662 39 69 21 0 0 0 0 75 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 76 1 0
+LABEL "Lab_GuildIcon" "" "" 15 57 0 0 77 10 78 213 191 164 255
+LABEL "Txt_DeleteTime" "" "" 15 38 0 0 79 10 80 255 255 255 255
+STILLIMAGEBUTTON "Btn_Recover" "recover" "" 171 35 69 21 0 0 0 0 81 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 82 1 0
+LABEL "Lab_GuildHonor" "" "" 317 38 0 0 83 10 84 213 191 164 255
+LABEL "Txt_GuildHonor" "" "" 445 38 0 0 85 10 86 43 255 250 255
+PROGRESS "Pro_GuildHonor" "" "" 383 39 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+STILLIMAGEBUTTON "Btn_GuildSiege" "gsiegeinfo" "" 127 420 88 21 0 0 0 0 87 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 88 1 0

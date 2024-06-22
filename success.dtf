@@ -1,0 +1,31 @@
+DIALOG "Win_Success" 0 0 539 422 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 506 8 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+LABEL "Title" "" "" 224 3 0 0 4 16 5 254 231 174 255
+TREE "Tv_List" "" "" 12 59 181 348 6 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+TEXT "Txt_Content" "" "" 195 77 333 115 7 10 167 205 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+TEXT "Txt_Qualify" "" "" 195 214 332 100 8 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+EDIT "Txt_Award" "" "" 195 337 333 71 "Frame\Frame.tga" 9 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LABEL "Txt_BaseAward" "" "" 204 341 152 29 10 10 11 255 255 255 255
+LABEL "Txt_MoneyAward" "" "" 204 374 152 27 12 10 13 255 255 255 255
+IMAGEPICTURE "Img_Item1" "" "" 411 366 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item2" "" "" 450 366 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Img_Item3" "" "" 488 366 36 36 1 0 "Icon\Frame.tga" ""
+RADIO "Rdo_1" "Rdo_1" "" 197 34 50 22 "Icon\Frame.tga" 1 1
+RADIO "Rdo_2" "Rdo_2" "" 251 34 50 22 "Icon\Frame.tga" 2 1
+RADIO "Rdo_3" "Rdo_3" "" 304 34 50 22 "Icon\Frame.tga" 3 1
+RADIO "Rdo_4" "Rdo_4" "" 359 34 50 22 "Icon\Frame.tga" 4 1
+RADIO "Rdo_5" "Rdo_5" "" 413 34 50 22 "Icon\Frame.tga" 5 1
+RADIO "Rdo_6" "Rdo_6" "" 470 33 50 22 "Icon\Frame.tga" 6 1
+LABEL "Lab_SuccessPoint" "" "" 21 38 0 0 14 10 15 213 190 164 255
+EDIT "Shape" "" "" 8 34 190 24 "Frame\Frame.tga" 16 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+LABEL "Lab_Description" "" "" 198 59 0 0 17 10 18 213 190 164 255
+LABEL "Lab_Qualify" "" "" 196 194 0 0 19 10 20 213 190 164 255
+LABEL "Lab_Award" "" "" 198 317 0 0 21 10 22 213 190 164 255
+LABEL "Lab_ItemAward" "" "" 383 342 0 0 23 10 24 213 190 164 255
+LABEL "Lab_1" "" "" 206 37 0 0 25 10 26 227 206 155 255
+LABEL "Lab_2" "" "" 260 37 0 0 27 10 28 227 206 155 255
+LABEL "Lab_3" "" "" 315 37 0 0 29 10 30 227 206 155 255
+LABEL "Lab_4" "" "" 368 37 0 0 31 10 32 227 206 155 255
+LABEL "Lab_5" "" "" 423 37 0 0 33 10 34 227 206 155 255
+LABEL "Lab_6" "" "" 481 36 0 0 35 10 36 227 206 155 255
+LABEL "Txt_SuccessPoint" "" "" 105 38 0 0 37 10 38 0 255 255 255

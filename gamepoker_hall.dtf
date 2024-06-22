@@ -1,0 +1,151 @@
+DIALOG "Win_GamePoker_Hall" 0 0 1024 768 0 1 10 "Ddz\window\Poker_Hall.dds" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Help" "" "" 322 15 48 24 0 0 0 0 2 10 255 255 255 255 "TOWERDEFENSE\BUTTON\Td_Help.tga" "TOWERDEFENSE\BUTTON\Td_HelpDown.tga" "TOWERDEFENSE\BUTTON\Td_HelpHover.tga" "" 3 1 0
+STILLIMAGEBUTTON "Btn_Account" "" "" 459 19 48 24 0 0 0 0 4 10 255 128 0 255 "Button\Button4.tga" "Button\ButtonDown4.tga" "" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Setting" "setting" "" 689 19 48 24 0 0 0 0 6 10 255 128 0 255 "Button\Button4.tga" "Button\ButtonDown4.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Hall" "" "" 806 19 48 24 0 0 0 0 8 10 255 128 0 255 "Button\Button4.tga" "Button\ButtonDown4.tga" "" "" 9 1 0
+IMAGEPICTURE "Img_Bar1" "" "" 324 57 697 3 1 0 "Icon\Compart.tga" ""
+LABEL "Title" "" "" 48 49 0 0 10 20 11 255 128 64 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 999 3 20 20 0 0 0 0 12 10 255 255 255 255 "TOWERDEFENSE\BUTTON\Td_Close.tga" "TOWERDEFENSE\BUTTON\Td_CloseDown.tga" "TOWERDEFENSE\BUTTON\Td_CloseHover.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_Rank" "" "" 574 19 48 24 0 0 0 0 14 10 255 128 0 255 "Button\Button4.tga" "Button\ButtonDown4.tga" "" "" 15 1 0
+IMAGEPICTURE "Img_Table1" "" "" 403 109 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table1_Chair1" "Btn_Chair1" "" 355 115 35 36 0 0 0 0 16 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Table1_Chair2" "Btn_Chair2" "" 423 172 35 36 0 0 0 0 18 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 19 1 0
+STILLIMAGEBUTTON "Btn_Table1_Chair3" "Btn_Chair3" "" 489 115 35 36 0 0 0 0 20 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 21 1 0
+LABEL "Lab_PlayerName1" "" "" 348 75 55 38 22 10 23 255 128 0 255
+LABEL "Lab_PlayerName2" "" "" 348 168 55 38 24 10 25 255 128 0 255
+LABEL "Lab_PlayerName3" "" "" 481 75 55 38 26 10 27 255 128 0 255
+IMAGEPICTURE "Img_Icon1" "" "" 370 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon2" "" "" 440 183 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon3" "" "" 477 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M1" "" "" 370 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M2" "" "" 440 183 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M3" "" "" 477 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number1" "" "" 434 225 0 0 28 20 29 255 128 0 255
+IMAGEPICTURE "Img_Table2" "" "" 629 108 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table2_Chair1" "Btn_Chair4" "" 581 115 35 36 0 0 0 0 30 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 31 1 0
+STILLIMAGEBUTTON "Btn_Table2_Chair2" "Btn_Chair5" "" 649 172 35 36 0 0 0 0 32 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 33 1 0
+STILLIMAGEBUTTON "Btn_Table2_Chair3" "Btn_Chair6" "" 721 115 35 36 0 0 0 0 34 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 35 1 0
+LABEL "Lab_PlayerName4" "" "" 573 75 55 38 36 10 37 255 128 0 255
+LABEL "Lab_PlayerName5" "" "" 573 168 55 38 38 10 39 255 128 0 255
+LABEL "Lab_PlayerName6" "" "" 712 75 55 38 40 10 41 255 128 0 255
+IMAGEPICTURE "Img_Icon4" "" "" 596 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon5" "" "" 666 183 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon6" "" "" 703 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M4" "" "" 596 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M5" "" "" 666 183 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M6" "" "" 703 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number2" "" "" 662 225 0 0 42 20 43 255 128 0 255
+IMAGEPICTURE "Img_Table3" "" "" 860 109 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table3_Chair1" "Btn_Chair7" "" 813 115 35 36 0 0 0 0 44 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 45 1 0
+STILLIMAGEBUTTON "Btn_Table3_Chair2" "Btn_Chair8" "" 880 172 35 36 0 0 0 0 46 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 47 1 0
+STILLIMAGEBUTTON "Btn_Table3_Chair3" "Btn_Chair9" "" 947 115 35 36 0 0 0 0 48 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 49 1 0
+LABEL "Lab_PlayerName7" "" "" 803 75 55 38 50 10 51 255 128 0 255
+LABEL "Lab_PlayerName8" "" "" 803 168 55 38 52 10 53 255 128 0 255
+LABEL "Lab_PlayerName9" "" "" 936 75 55 38 54 10 55 255 128 0 255
+IMAGEPICTURE "Img_Icon7" "" "" 828 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon8" "" "" 897 183 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon9" "" "" 935 124 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M7" "" "" 828 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M8" "" "" 897 183 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M9" "" "" 935 124 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number3" "" "" 900 225 0 0 56 20 57 255 128 0 255
+IMAGEPICTURE "Img_Table4" "" "" 403 337 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table4_Chair1" "Btn_Chair10" "" 355 343 35 36 0 0 0 0 58 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 59 1 0
+STILLIMAGEBUTTON "Btn_Table4_Chair2" "Btn_Chair11" "" 423 400 35 36 0 0 0 0 60 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 61 1 0
+STILLIMAGEBUTTON "Btn_Table4_Chair3" "Btn_Chair12" "" 489 343 35 36 0 0 0 0 62 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 63 1 0
+LABEL "Lab_PlayerName10" "" "" 348 303 55 38 64 10 65 255 128 0 255
+LABEL "Lab_PlayerName11" "" "" 348 396 55 38 66 10 67 255 128 0 255
+LABEL "Lab_PlayerName12" "" "" 481 303 55 38 68 10 69 255 128 0 255
+IMAGEPICTURE "Img_Icon10" "" "" 370 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon11" "" "" 440 411 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon12" "" "" 477 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M10" "" "" 370 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M11" "" "" 440 411 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M12" "" "" 477 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number4" "" "" 434 457 0 0 70 20 71 255 128 0 255
+IMAGEPICTURE "Img_Table5" "" "" 629 337 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table5_Chair1" "Btn_Chair13" "" 581 343 35 36 0 0 0 0 72 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 73 1 0
+STILLIMAGEBUTTON "Btn_Table5_Chair2" "Btn_Chair14" "" 649 400 35 36 0 0 0 0 74 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 75 1 0
+STILLIMAGEBUTTON "Btn_Table5_Chair3" "Btn_Chair15" "" 721 343 35 36 0 0 0 0 76 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 77 1 0
+LABEL "Lab_PlayerName13" "" "" 573 307 55 38 78 10 79 255 128 0 255
+LABEL "Lab_PlayerName14" "" "" 573 400 55 38 80 10 81 255 128 0 255
+LABEL "Lab_PlayerName15" "" "" 712 307 55 38 82 10 83 255 128 0 255
+IMAGEPICTURE "Img_Icon13" "" "" 591 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon14" "" "" 666 411 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon15" "" "" 703 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M13" "" "" 591 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M14" "" "" 666 411 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M15" "" "" 703 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number5" "" "" 662 457 0 0 84 20 85 255 128 0 255
+IMAGEPICTURE "Img_Table6" "" "" 860 337 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table6_Chair1" "Btn_Chair16" "" 813 343 35 36 0 0 0 0 86 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 87 1 0
+STILLIMAGEBUTTON "Btn_Table6_Chair2" "Btn_Chair17" "" 880 400 35 36 0 0 0 0 88 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 89 1 0
+STILLIMAGEBUTTON "Btn_Table6_Chair3" "Btn_Chair18" "" 947 343 35 36 0 0 0 0 90 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 91 1 0
+LABEL "Lab_PlayerName16" "" "" 803 308 55 38 92 10 93 255 128 0 255
+LABEL "Lab_PlayerName17" "" "" 803 401 55 38 94 10 95 255 128 0 255
+LABEL "Lab_PlayerName18" "" "" 936 308 55 38 96 10 97 255 128 0 255
+IMAGEPICTURE "Img_Icon16" "" "" 830 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon17" "" "" 897 411 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon18" "" "" 935 352 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M16" "" "" 830 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M17" "" "" 897 411 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M18" "" "" 935 352 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number6" "" "" 900 457 0 0 98 20 99 255 128 0 255
+IMAGEPICTURE "Img_Table7" "" "" 403 593 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table7_Chair1" "Btn_Chair19" "" 355 599 35 36 0 0 0 0 100 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 101 1 0
+STILLIMAGEBUTTON "Btn_Table7_Chair2" "Btn_Chair20" "" 423 656 35 36 0 0 0 0 102 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 103 1 0
+STILLIMAGEBUTTON "Btn_Table7_Chair3" "Btn_Chair21" "" 489 599 35 36 0 0 0 0 104 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 105 1 0
+LABEL "Lab_PlayerName19" "" "" 348 559 55 38 106 10 107 255 128 0 255
+LABEL "Lab_PlayerName20" "" "" 348 652 55 38 108 10 109 255 128 0 255
+LABEL "Lab_PlayerName21" "" "" 481 559 55 38 110 10 111 255 128 0 255
+IMAGEPICTURE "Img_Icon19" "" "" 370 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon20" "" "" 440 667 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon21" "" "" 477 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M19" "" "" 370 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M20" "" "" 440 667 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M21" "" "" 477 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number7" "" "" 434 713 0 0 112 20 113 255 128 0 255
+IMAGEPICTURE "Img_Table8" "" "" 629 593 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table8_Chair1" "Btn_Chair22" "" 581 599 35 36 0 0 0 0 114 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 115 1 0
+STILLIMAGEBUTTON "Btn_Table8_Chair2" "Btn_Chair23" "" 649 656 35 36 0 0 0 0 116 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 117 1 0
+STILLIMAGEBUTTON "Btn_Table8_Chair3" "Btn_Chair24" "" 721 599 35 36 0 0 0 0 118 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 119 1 0
+LABEL "Lab_PlayerName22" "" "" 573 563 55 38 120 10 121 255 128 0 255
+LABEL "Lab_PlayerName23" "" "" 573 656 55 38 122 10 123 255 128 0 255
+LABEL "Lab_PlayerName24" "" "" 712 563 55 38 124 10 125 255 128 0 255
+IMAGEPICTURE "Img_Icon22" "" "" 611 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon23" "" "" 666 667 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon24" "" "" 703 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M22" "" "" 611 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M23" "" "" 666 667 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M24" "" "" 703 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number8" "" "" 662 713 0 0 126 20 127 255 128 0 255
+IMAGEPICTURE "Img_Table9" "" "" 860 593 77 55 2 0 "Ddz\icon\Table.tga" ""
+STILLIMAGEBUTTON "Btn_Table9_Chair1" "Btn_Chair25" "" 813 599 35 36 0 0 0 0 128 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 129 1 0
+STILLIMAGEBUTTON "Btn_Table9_Chair2" "Btn_Chair26" "" 880 656 35 36 0 0 0 0 130 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 131 1 0
+STILLIMAGEBUTTON "Btn_Table9_Chair3" "Btn_Chair27" "" 947 599 35 36 0 0 0 0 132 10 255 255 255 255 "Ddz\button\Chair.tga" "Ddz\button\ChairDown.tga" "Ddz\button\Chair.tga" "" 133 1 0
+LABEL "Lab_PlayerName25" "" "" 803 564 55 38 134 10 135 255 128 0 255
+LABEL "Lab_PlayerName26" "" "" 803 657 55 38 136 10 137 255 128 0 255
+LABEL "Lab_PlayerName27" "" "" 936 564 55 38 138 10 139 255 128 0 255
+IMAGEPICTURE "Img_Icon25" "" "" 839 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon26" "" "" 897 667 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon27" "" "" 935 608 40 40 1 0 "Ddz\icon\ChairHead_F.tga" ""
+IMAGEPICTURE "Img_Icon_M25" "" "" 839 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M26" "" "" 897 667 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+IMAGEPICTURE "Img_Icon_M27" "" "" 935 608 40 40 1 0 "Ddz\icon\ChairHead_M.tga" ""
+LABEL "Lab_Number9" "" "" 900 713 0 0 140 20 141 255 128 0 255
+EDIT "Shape1" "" "" 24 128 275 128 "Frame\Frame7.tga" 142 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+STILLIMAGEBUTTON "Btn_Nickname" "" "" 17 266 136 21 0 0 0 0 143 10 255 128 0 255 "Button\Button3.tga" "Button\ButtonDown3.tga" "" "" 144 1 0
+STILLIMAGEBUTTON "Btn_Lv" "" "" 153 266 60 21 0 0 0 0 145 10 255 128 0 255 "Button\Button3.tga" "Button\ButtonDown3.tga" "" "" 146 1 0
+STILLIMAGEBUTTON "Btn_Score" "" "" 212 266 91 21 0 0 0 0 147 10 255 128 0 255 "Button\Button3.tga" "Button\ButtonDown3.tga" "" "" 148 1 0
+LIST "List_Player" "" "" 16 287 286 149 149 10 255 255 255 255 "Frame\Frame7.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "136 +60 +91" 0
+IMAGEPICTURE "Img_HeadIcon" "" "" 47 133 85 108 1 0 "Icon\FrameDis.tga" ""
+LABEL "Lab_SelfName" "" "" 156 143 0 0 150 10 151 255 128 0 255
+LABEL "Lab_SelfScore" "" "" 156 166 0 0 152 10 153 255 128 0 255
+LABEL "Lab_SelfSucceed" "" "" 156 189 0 0 154 10 155 255 128 0 255
+LABEL "Lab_SelfFail" "" "" 156 212 0 0 156 10 157 255 128 0 255
+LABEL "Txt_Name" "" "" 196 143 0 0 158 10 159 255 128 0 255
+LABEL "Txt_Point" "" "" 196 166 0 0 160 10 161 255 128 0 255
+LABEL "Txt_Win" "" "" 196 189 0 0 162 10 163 255 128 0 255
+LABEL "Txt_Lose" "" "" 196 212 0 0 164 10 165 255 128 0 255
+SCROLL "Scroll_ViewTable" "" "" 1008 60 13 700 "Ddz\Listbox\DragSlot.tga" "Ddz\listbox\DragUp.tga" "Ddz\Listbox\DragDown.tga" "Ddz\Listbox\DragButton.tga" 0 
+STILLIMAGEBUTTON "Btn_Minimize" "" "" 5 4 20 20 0 0 0 0 166 10 255 255 255 255 "TOWERDEFENSE\BUTTON\还原按钮1.tga" "TOWERDEFENSE\BUTTON\还原按钮3.tga" "TOWERDEFENSE\BUTTON\还原按钮2.tga" "" 167 1 0

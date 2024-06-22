@@ -1,0 +1,17 @@
+DIALOG "Win_FriendList" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 116 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Add" "add" "" 10 400 45 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Preserve" "preserve" "" 10 400 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Remove" "remove" "" 59 400 45 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 10 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 11 1 1
+TREE "Tv_FriendList" "" "" 10 62 245 330 12 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+RADIO "Btn_Blacklist" "blacklist" "" 72 42 66 22 "Extra\BlackList.tga" 2 1
+RADIO "Btn_Friend" "friend" "" 7 42 66 22 "Extra\Friend.tga" 1 1
+STILLIMAGEBUTTON "Btn_Chat" "chat" "" 160 400 45 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 1
+STILLIMAGEBUTTON "Btn_Invite" "invite" "" 208 400 45 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 1
+STILLIMAGEBUTTON "Btn_Update" "update" "" 208 400 45 21 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 18 1 1
+STILLIMAGEBUTTON "Btn_Setting" "setting" "" 110 400 45 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 1
+RADIO "Btn_Enemy" "enemy" "" 137 42 66 22 "Extra\Enemy.tga" 3 1
+LIST "Lst_EnemyList" "" "" 10 62 245 330 21 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "117 96 37" 0
+RADIO "Rdo_TempFriend" "temp" "" 203 42 55 22 "Extra\TempFriend.tga" 4 1
+STILLIMAGEBUTTON "Btn_AddFriend" "addfriend" "" 9 399 45 21 0 0 0 0 22 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 23 1 1

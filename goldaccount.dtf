@@ -1,0 +1,20 @@
+DIALOG "Win_GoldAccount" 0 0 304 128 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 7 6 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 280 3 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Lab_Gold" "" "" 14 40 0 0 6 10 7 213 191 164 255
+EDIT "Txt_Gold" "" "" 71 38 52 21 "Editbox\Input.tga" 8 10 255 255 255 "TEXT" 0 0 10 0
+LABEL "Lab_GoldUnit" "" "" 126 40 0 0 9 10 10 255 220 80 255
+EDIT "Txt_Silver" "" "" 169 38 28 21 "Editbox\Input.tga" 11 10 255 255 255 "TEXT" 0 0 2 0
+LABEL "Lab_SilverUnit" "" "" 200 40 0 0 12 10 13 255 255 255 255
+STILLIMAGEBUTTON "Btn_GoldMax" "goldmax" "" 248 37 48 21 0 0 0 0 14 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 15 1 0
+LABEL "Lab_Money" "" "" 14 75 0 0 16 10 17 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 80 74 160 18 1 0 "Icon\FrameMoney.tga"
+STILLIMAGEBUTTON "Btn_Money" "choosemoney" "" 79 76 20 14 0 0 0 0 18 10 255 255 255 255 "Button\Money.tga" "Button\MoneyDown.tga" "" 19 1 1
+LABEL "Txt_Money3" "" "" 222 75 0 0 20 10 21 255 255 255 255
+LABEL "Txt_Money2" "" "" 183 75 0 0 22 10 23 255 255 255 255
+LABEL "Txt_Money1" "" "" 146 75 0 0 24 10 25 255 255 255 255
+STILLIMAGEBUTTON "Btn_MoneyMax" "moneymax" "" 248 72 48 21 0 0 0 0 26 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Consign" "confirm" "" 116 99 72 21 0 0 0 0 28 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 29 1 0
+LABEL "Title01" "" "" 7 6 0 0 30 16 31 254 231 174 255
+LABEL "Lab_Gold01" "" "" 14 40 0 0 32 10 33 213 191 164 255
+LABEL "Lab_Money01" "" "" 14 75 0 0 34 10 35 213 191 164 255

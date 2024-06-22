@@ -1,0 +1,54 @@
+DIALOG "Win_Award" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 27 "" 26 5 96 96 96 255 1 0
+LABEL "Title" "" "" 89 4 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+IMAGEPICTURE "Item_0101" "" "" 61 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0102" "" "" 97 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0103" "" "" 133 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0104" "" "" 169 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0105" "" "" 205 69 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0201" "" "" 61 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0202" "" "" 97 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0203" "" "" 133 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0204" "" "" 169 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0205" "" "" 205 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0301" "" "" 61 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0302" "" "" 97 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0303" "" "" 133 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0304" "" "" 169 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0305" "" "" 205 149 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0401" "" "" 61 189 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0402" "" "" 97 189 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0403" "" "" 133 189 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0404" "" "" 169 189 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0405" "" "" 205 189 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0501" "" "" 61 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0502" "" "" 97 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0503" "" "" 133 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0504" "" "" 169 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0505" "" "" 205 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0601" "" "" 61 269 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0602" "" "" 97 269 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0603" "" "" 133 269 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0604" "" "" 169 269 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0605" "" "" 205 269 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0701" "" "" 61 309 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0702" "" "" 97 309 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0703" "" "" 133 309 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0704" "" "" 169 309 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0705" "" "" 205 309 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0801" "" "" 61 349 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0802" "" "" 97 349 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0803" "" "" 133 349 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0804" "" "" 169 349 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_0805" "" "" 205 349 36 36 1 0 "Icon\Frame.tga" ""
+RADIO "Rdo_Award1" "select" "" 30 79 16 16 "Extra\Option.tga" 1 1
+RADIO "Rdo_Award2" "select" "" 30 119 16 16 "Extra\Option.tga" 2 1
+RADIO "Rdo_Award3" "select" "" 30 159 16 16 "Extra\Option.tga" 3 1
+RADIO "Rdo_Award4" "select" "" 30 199 16 16 "Extra\Option.tga" 4 1
+RADIO "Rdo_Award5" "select" "" 30 239 16 16 "Extra\Option.tga" 5 1
+RADIO "Rdo_Award6" "select" "" 30 279 16 16 "Extra\Option.tga" 6 1
+RADIO "Rdo_Award7" "select" "" 30 319 16 16 "Extra\Option.tga" 7 1
+RADIO "Rdo_Award8" "select" "" 30 359 16 16 "Extra\Option.tga" 8 1
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 111 401 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Back" "back" "" 69 44 76 21 0 0 0 0 8 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_Front" "front" "" 147 44 76 21 0 0 0 0 10 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0

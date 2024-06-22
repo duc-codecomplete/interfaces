@@ -1,0 +1,50 @@
+DIALOG "Win_Hpmpxp" 0 0 293 105 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1
+IMAGEPICTURE "Back1" "" "" 0 0 76 105 1 0 "Window\对话框_标准边框7a.tga"
+IMAGEPICTURE "Back2" "" "" 76 0 177 70 1 0 "Window\对话框_标准边框7b.tga"
+PROGRESS "Prgs_EXP" "" "" 103 30 140 8 "Window\对话框_透明色.bmp" "Progress\进度条_紫2.bmp" 0 0 0 0
+IMAGEPICTURE "Pic_MinusExp" "" "" 103 31 140 8 1 0 "Progress\进度条_棕2.bmp"
+LABEL "TXT_EXP" "" "" 150 28 0 0 2 8 3 255 255 255 255
+LABEL "TXT_LV" "" "" 14 76 0 0 4 10 5 255 255 255 255
+PROGRESS "Prgs_AP" "" "" 80 45 122 15 "Progress\通用.tga" "Progress\怒气.tga" 0 1 0 1
+LABEL "Txt_Name" "" "" 139 44 0 0 6 10 7 255 255 255 255
+LABEL "Txt_Prof" "" "" 38 76 0 0 8 10 9 255 255 255 255
+PROGRESS "Prgs_MP" "" "" 103 19 140 8 "Window\对话框_透明色.bmp" "Progress\进度条_兰2.bmp" 0 0 0 0
+PROGRESS "Prgs_HP" "" "" 103 8 140 8 "Window\对话框_透明色.bmp" "Progress\进度条_红2.bmp" 0 0 0 0
+LABEL "Txt_MP" "" "" 150 16 0 0 10 8 11 255 255 255 255
+LABEL "Txt_HP" "" "" 150 5 0 0 12 8 13 255 255 255 255
+IMAGEPICTURE "Size" "" "" 7 7 64 64 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "Img_Leader" "" "" 73 75 15 20 1 0 "Window\LeaderMark.tga"
+IMAGEPICTURE "St_1" "" "" 92 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_2" "" "" 111 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_3" "" "" 130 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_4" "" "" 149 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_5" "" "" 168 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_6" "" "" 187 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_7" "" "" 206 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_8" "" "" 225 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_9" "" "" 244 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_10" "" "" 263 70 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_11" "" "" 92 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_12" "" "" 111 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_13" "" "" 130 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_14" "" "" 149 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_15" "" "" 168 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_16" "" "" 187 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_17" "" "" 206 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_18" "" "" 225 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_19" "" "" 244 89 16 16 1 0 "Window\对话框_透明色.bmp"
+IMAGEPICTURE "St_20" "" "" 263 89 16 16 1 0 "Window\对话框_透明色.bmp"
+CHECK "Chk_Player" "player" "SFX\Interface\ClickB.wav" 253 0 16 16 "Extra\复选框_1.tga"
+CHECK "Chk_Surround" "surround" "SFX\Interface\ClickB.wav" 253 16 16 16 "Extra\复选框_3.tga"
+CHECK "Chk_Sight" "sight" "SFX\Interface\ClickB.wav" 269 0 20 31 "Extra\复选框_7.tga"
+STILLIMAGEBUTTON "Btn_HeadHP" "headhp" "SFX\Interface\ClickA.wav" 81 7 21 11 0 0 0 0 14 6 255 255 255 255 "Button\按钮_头血条1.bmp" "Button\按钮_头血条2.bmp" 15 1
+STILLIMAGEBUTTON "Btn_HeadMP" "headmp" "SFX\Interface\ClickA.wav" 81 18 22 11 0 0 0 0 16 6 255 255 255 255 "Button\按钮_头血条1.bmp" "Button\按钮_头血条2.bmp" 17 1
+STILLIMAGEBUTTON "Btn_HeadEXP" "headexp" "SFX\Interface\ClickA.wav" 81 29 21 11 0 0 0 0 18 6 255 255 255 255 "Button\按钮_头血条1.bmp" "Button\按钮_头血条2.bmp" 19 1
+CHECK "Chk_MapMonster" "mapmonster" "SFX\Interface\ClickB.wav" 253 32 16 16 "Extra\复选框_6.tga"
+IMAGEPICTURE "CombatMask" "" "" 0 0 203 74 1 0 "Window\Mask1.tga"
+IMAGEPICTURE "Img_P1off" "" "" 204 47 19 19 1 0 "Progress\豆0.tga"
+IMAGEPICTURE "Img_P1on" "" "" 204 47 19 19 1 0 "Progress\豆1.tga"
+IMAGEPICTURE "Img_P2off" "" "" 219 47 19 19 1 0 "Progress\豆0.tga"
+IMAGEPICTURE "Img_P2on" "" "" 219 47 19 19 1 0 "Progress\豆1.tga"
+IMAGEPICTURE "Img_P3off" "" "" 234 47 19 19 1 0 "Progress\豆0.tga"
+IMAGEPICTURE "Img_P3on" "" "" 234 47 19 19 1 0 "Progress\豆1.tga"

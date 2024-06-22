@@ -1,0 +1,33 @@
+DIALOG "Win_RankList" 0 0 609 502 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Help" "help" "" 534 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_A0" "a0" "" 11 61 165 24 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_A1" "a1" "" 11 86 165 24 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_A2" "a2" "" 11 111 165 24 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_A3" "a3" "" 11 136 165 24 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_A4" "a4" "" 11 161 165 24 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_A5" "a5" "" 11 186 165 24 0 0 0 0 14 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 15 1 0
+STILLIMAGEBUTTON "Btn_B0" "b0" "" 45 227 95 21 0 0 0 0 16 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_B1" "b1" "" 45 250 95 21 0 0 0 0 18 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 19 1 0
+STILLIMAGEBUTTON "Btn_B2" "b2" "" 45 273 95 21 0 0 0 0 20 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 21 1 0
+STILLIMAGEBUTTON "Btn_B3" "b3" "" 45 296 95 21 0 0 0 0 22 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 23 1 0
+STILLIMAGEBUTTON "Btn_B4" "b4" "" 45 319 95 21 0 0 0 0 24 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 25 1 0
+STILLIMAGEBUTTON "Btn_B5" "b5" "" 45 342 95 21 0 0 0 0 26 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 27 1 0
+STILLIMAGEBUTTON "Btn_B6" "b6" "" 45 365 95 21 0 0 0 0 28 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 29 1 0
+STILLIMAGEBUTTON "Btn_B7" "b7" "" 45 388 95 21 0 0 0 0 30 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 31 1 0
+STILLIMAGEBUTTON "Btn_B8" "b8" "" 45 411 95 21 0 0 0 0 32 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 33 1 0
+STILLIMAGEBUTTON "Btn_B9" "b9" "" 45 434 95 21 0 0 0 0 34 10 255 255 255 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 35 1 0
+LABEL "Lab_Self" "" "" 179 41 0 0 36 10 37 213 191 164 255
+LIST "Lst_All" "" "" 179 80 414 381 38 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "+37 +49 +125 +89 +89" 0
+STILLIMAGEBUTTON "Btn_Prec" "last" "" 405 466 60 21 0 0 0 0 39 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 40 1 0
+STILLIMAGEBUTTON "Btn_Next" "next" "" 465 466 60 21 0 0 0 0 41 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 42 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 554 7 20 20 0 0 0 0 43 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 44 1 0
+LABEL "Txt_Page" "" "" 500 41 0 0 45 10 46 255 255 255 255
+LABEL "Title" "" "" 242 5 0 0 47 16 48 254 231 174 255
+LABEL "Txt_Self" "" "" 247 41 0 0 49 10 50 255 255 255 255
+STILLIMAGEBUTTON "Btn_Cur" "" "" 179 60 40 21 0 0 0 0 51 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 52 1 0
+STILLIMAGEBUTTON "Btn_Per" "" "" 218 60 50 21 0 0 0 0 53 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 54 1 0
+STILLIMAGEBUTTON "Btn_Name" "" "" 267 60 126 21 0 0 0 0 55 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 56 1 0
+STILLIMAGEBUTTON "Btn_Desc1" "" "" 392 60 90 21 0 0 0 0 57 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 58 1 0
+STILLIMAGEBUTTON "Btn_Desc2" "" "" 481 60 108 21 0 0 0 0 59 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 60 1 0
+STILLIMAGEBUTTON "Btn_First" "head" "" 344 466 60 21 0 0 0 0 61 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 62 1 0
+STILLIMAGEBUTTON "Btn_Last" "tail" "" 526 466 60 21 0 0 0 0 63 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 64 1 0

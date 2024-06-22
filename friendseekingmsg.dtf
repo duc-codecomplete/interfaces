@@ -1,0 +1,32 @@
+DIALOG "Win_FriendSeekingMsg" 0 0 692 426 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 642 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 261 5 0 0 4 16 5 213 190 164 255
+LIST "List_Top" "" "" 7 80 223 280 6 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "104 +40 +40 +40" 0
+STILLIMAGEBUTTON "Btn_Gender" "sortgender" "" 151 61 40 19 0 0 0 0 7 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 8 1 0
+STILLIMAGEBUTTON "Btn_Frequency" "sortfavor" "" 112 61 40 19 0 0 0 0 9 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 10 1 0
+STILLIMAGEBUTTON "Btn_Name" "Sortname" "" 8 61 104 19 0 0 0 0 11 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 12 1 0
+STILLIMAGEBUTTON "Btn_Lv" "sortlevel" "" 190 61 40 19 0 0 0 0 13 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 14 1 0
+LABEL "Lab_Page" "" "" 8 368 0 0 15 10 16 0 255 255 255
+LABEL "Txt_Page" "" "" 55 367 0 0 17 10 18 128 0 255 255
+STILLIMAGEBUTTON "Btn_Last" "tail" "" 219 366 35 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 0
+STILLIMAGEBUTTON "Btn_First" "head" "" 94 366 35 21 0 0 0 0 21 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 22 1 0
+STILLIMAGEBUTTON "Btn_Next" "next" "" 174 366 45 21 0 0 0 0 23 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 24 1 0
+STILLIMAGEBUTTON "Btn_Previous" "last" "" 129 366 45 21 0 0 0 0 25 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 26 1 0
+STILLIMAGEBUTTON "Btn_Accept" "accept" "" 38 396 60 21 0 0 0 0 27 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 28 1 0
+STILLIMAGEBUTTON "Btn_Refuse" "refuse" "" 98 396 60 21 0 0 0 0 29 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 30 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 610 396 54 21 0 0 0 0 31 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 32 1 0
+STILLIMAGEBUTTON "Btn_CheckInfo" "info" "" 194 396 60 21 0 0 0 0 33 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 34 1 0
+STILLIMAGEBUTTON "Btn_Send" "sendback" "" 622 342 60 21 0 0 0 0 35 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 36 1 0
+LABEL "Lab_PInfo" "" "" 229 38 0 0 37 14 38 0 255 255 255
+LABEL "Lab_Answer" "" "" 233 332 0 0 39 14 40 0 255 255 255
+EDIT "Edit_Answer" "sendback" "" 275 330 340 52 "Editbox\Input.tga" 41 10 255 255 255 "TEXT" 0 0 30 0
+RADIO "Rdo_Applier" "Rdo11" "" 9 38 73 22 "Extra\applier.tga" 1 1
+RADIO "Rdo_Supporter" "Rdo12" "" 82 38 73 22 "Extra\supporter.tga" 2 1
+RADIO "Rdo_Opposer" "Rdo13" "" 156 38 73 22 "Extra\opposer.tga" 3 1
+TREE "Tv_Msg" "" "" 231 142 457 178 42 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+STILLIMAGEBUTTON "Btn_Refresh" "refresh" "" 626 32 60 21 0 0 0 0 43 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 44 1 0
+STILLIMAGEBUTTON "Btn_Support" "support" "" 305 396 66 21 0 0 0 0 45 10 254 241 219 255 "Button\Support.tga" "Button\SupportDown.tga" "" 46 1 0
+STILLIMAGEBUTTON "Btn_Oppose" "oppose" "" 371 396 66 21 0 0 0 0 47 10 254 241 219 255 "Button\Oppose.tga" "Button\OpposeDown.tga" "" 48 1 0
+STILLIMAGEBUTTON "Btn_Apply" "apply" "" 501 396 60 21 0 0 0 0 49 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 50 1 0
+STILLIMAGEBUTTON "Btn_Delete" "delete" "" 565 32 60 21 0 0 0 0 51 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 52 1 0
+TEXT "Txt_Msg2" "" "" 232 60 454 82 53 10 255 255 255 255 "Frame\Frame.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0

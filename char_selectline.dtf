@@ -1,0 +1,8 @@
+DIALOG "Win_CharSelectLine" 0 0 396 534 0 1 10 "Window\ServerList.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LIST "Lst_Line" "selectline" "" 27 60 340 430 2 12 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "147 +59 129" 0
+STILLIMAGEBUTTON "Btn_SortName1" "sortname" "" 27 41 150 20 0 0 0 0 3 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 4 1 0
+STILLIMAGEBUTTON "Btn_SortStats1" "sortstats" "" 176 41 60 20 0 0 0 0 5 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 6 1 0
+STILLIMAGEBUTTON "Btn_SortOther1" "sortother" "" 235 41 132 20 0 0 0 0 7 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 8 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "selectline" "" 28 495 60 22 0 0 0 0 9 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 10 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "cancelselectline" "" 307 495 60 22 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+LABEL "Title" "" "" 124 12 0 0 13 16 14 254 231 174 255

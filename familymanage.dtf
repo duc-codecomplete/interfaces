@@ -1,0 +1,60 @@
+DIALOG "Win_FamilyManage" 0 0 750 540 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Txt_GuildName" "" "" 375 4 0 0 2 16 3 254 231 174 255
+EDIT "Shape1" "" "" 518 77 224 192 "Editbox\Input.tga" 4 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Shape2" "" "" 518 273 224 233 "Editbox\Input.tga" 5 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Help" "help" "" 653 6 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 673 6 20 20 0 0 0 0 8 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_SortName" "SortName" "" 10 77 104 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_SortLevel" "sortlevel" "" 114 77 69 19 0 0 0 0 12 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_SortProf" "sortprof" "" 183 77 83 19 0 0 0 0 14 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 15 1 0
+STILLIMAGEBUTTON "Btn_SortOL" "sortol" "" 406 77 108 19 0 0 0 0 16 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_SortDov" "sortdov" "" 336 77 70 19 0 0 0 0 18 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 19 1 0
+STILLIMAGEBUTTON "Btn_SortJob" "sortjob" "" 266 77 70 19 0 0 0 0 20 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 21 1 0
+LIST "List_Member" "" "" 10 96 504 320 22 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "101 +69 +83 +70 +70 +105" 0
+LABEL "Lab_PplCap" "" "" 297 57 0 0 23 10 24 213 191 164 255
+LABEL "Txt_PplCap" "" "" 359 57 0 0 25 10 26 255 255 255 255
+LABEL "Lab_PplOnline" "" "" 413 57 0 0 27 10 28 213 191 164 255
+LABEL "Txt_PplOnline" "" "" 475 57 0 0 29 10 30 255 255 255 255
+TEXT "Txt_Message" "" "" 10 423 504 80 31 10 255 255 255 255 "Editbox\Input.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0
+STILLIMAGEBUTTON "Btn_Edit" "Edit" "" 259 509 72 21 0 0 0 0 32 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 33 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refresh" "" 369 509 72 21 0 0 0 0 34 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 35 1 0
+STILLIMAGEBUTTON "Btn_GuildInvite" "ginvite" "" 17 509 72 21 0 0 0 0 36 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 37 1 0
+STILLIMAGEBUTTON "Btn_GuildPass" "gpass" "" 162 509 45 21 0 0 0 0 38 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 39 1 0
+STILLIMAGEBUTTON "Btn_GuildKick" "gkick" "" 89 509 72 21 0 0 0 0 40 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 41 1 0
+STILLIMAGEBUTTON "Btn_GuildQuit" "gquit" "" 441 509 72 21 0 0 0 0 42 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 43 1 0
+STILLIMAGEBUTTON "Btn_ShowFamily" "showfamily" "" 593 39 69 21 0 0 0 0 44 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 45 1 0
+STILLIMAGEBUTTON "Btn_ShowFaction" "showfaction" "" 662 39 69 21 0 0 0 0 46 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 47 1 0
+LABEL "Txt_DeleteTime" "" "" 15 38 0 0 48 10 49 255 255 255 255
+STILLIMAGEBUTTON "Btn_Recover" "recover" "" 171 35 69 21 0 0 0 0 50 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 51 1 0
+LABEL "Lab_FamilySkill" "" "" 523 81 0 0 52 10 53 213 191 164 255
+IMAGEPICTURE "Img_Skill01" "" "" 565 103 36 36 1 0 "" ""
+LABEL "Lab_Lev_Skill01" "" "" 580 142 0 0 54 10 55 255 255 255 255
+LABEL "Lab_Exp_Skill01" "" "" 580 157 0 0 56 10 57 255 255 255 255
+IMAGEPICTURE "Img_Skill02" "" "" 653 103 36 36 1 0 "" ""
+LABEL "Lab_Lev_Skill02" "" "" 669 142 0 0 58 10 59 255 255 255 255
+LABEL "Lab_Exp_Skill02" "" "" 669 157 0 0 60 10 61 255 255 255 255
+IMAGEPICTURE "Img_Skill03" "" "" 565 183 36 36 1 0 "" ""
+LABEL "Lab_Lev_Skill03" "" "" 580 222 0 0 62 10 63 255 255 255 255
+LABEL "Lab_Exp_Skill03" "" "" 580 237 0 0 64 10 65 255 255 255 255
+IMAGEPICTURE "Img_Skill04" "" "" 653 183 36 36 1 0 "" ""
+LABEL "Lab_Lev_Skill04" "" "" 669 222 0 0 66 10 67 255 255 255 255
+LABEL "Lab_Exp_Skill04" "" "" 669 237 0 0 68 10 69 255 255 255 255
+LABEL "Lab_FamilyHonor" "" "" 524 280 0 0 70 10 71 213 191 164 255
+LABEL "Lab_FamilyHonor01" "" "" 540 299 0 0 72 10 73 255 255 255 255
+LABEL "Lab_FamilyHonor02" "" "" 540 322 0 0 74 10 75 255 255 255 255
+LABEL "Lab_FamilyHonor03" "" "" 540 345 0 0 76 10 77 255 255 255 255
+LABEL "Lab_FamilyHonor04" "" "" 540 368 0 0 78 10 79 255 255 255 255
+LABEL "Lab_FamilyHonor05" "" "" 540 391 0 0 80 10 81 255 255 255 255
+LABEL "Lab_FamilyHonor06" "" "" 540 414 0 0 82 10 83 255 255 255 255
+LABEL "Lab_FamilyHonor07" "" "" 540 437 0 0 84 10 85 255 255 255 255
+LABEL "Lab_FamilyHonor08" "" "" 540 460 0 0 86 10 87 255 255 255 255
+LABEL "Lab_FamilyHonor09" "" "" 540 483 0 0 88 10 89 255 255 255 255
+LABEL "Lab_Num_FamilyHonor01" "" "" 680 299 0 0 90 10 91 0 255 0 255
+LABEL "Lab_Num_FamilyHonor02" "" "" 680 322 0 0 92 10 93 0 255 0 255
+LABEL "Lab_Num_FamilyHonor03" "" "" 680 345 0 0 94 10 95 0 255 0 255
+LABEL "Lab_Num_FamilyHonor04" "" "" 680 368 0 0 96 10 97 0 255 0 255
+LABEL "Lab_Num_FamilyHonor05" "" "" 680 391 0 0 98 10 99 0 255 0 255
+LABEL "Lab_Num_FamilyHonor06" "" "" 680 414 0 0 100 10 101 0 255 0 255
+LABEL "Lab_Num_FamilyHonor07" "" "" 680 437 0 0 102 10 103 0 255 0 255
+LABEL "Lab_Num_FamilyHonor08" "" "" 680 460 0 0 104 10 105 0 255 0 255
+LABEL "Lab_Num_FamilyHonor09" "" "" 680 483 0 0 106 10 107 0 255 0 255

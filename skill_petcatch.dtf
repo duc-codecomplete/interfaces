@@ -1,0 +1,41 @@
+DIALOG "Win_SkillPetCatch" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+LABEL "Title" "" "" 90 3 0 0 4 16 5 254 231 174 255
+EDIT "Shape" "" "" 4 60 226 335 "Frame\Pro15.tga" 6 10 255 255 255 "TEXT" 1 0 20 0
+IMAGEPICTURE "Skill_1979" "" "" 125 101 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1979" "add546" "" 152 128 12 12 0 0 0 0 7 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 8 1 1
+IMAGEPICTURE "Skill_1971" "" "" 26 89 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1971" "add547" "" 55 116 12 12 0 0 0 0 9 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 10 1 1
+IMAGEPICTURE "Skill_1983" "" "" 173 88 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1983" "add548" "" 201 115 12 12 0 0 0 0 11 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 12 1 1
+IMAGEPICTURE "Skill_1985" "" "" 173 238 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1985" "add549" "" 202 266 12 12 0 0 0 0 13 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 14 1 1
+IMAGEPICTURE "Skill_1972" "" "" 26 161 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1972" "add550" "" 54 189 12 12 0 0 0 0 15 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 16 1 1
+IMAGEPICTURE "Skill_1984" "" "" 173 161 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1984" "add551" "" 202 189 12 12 0 0 0 0 17 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 18 1 1
+IMAGEPICTURE "Skill_1973" "" "" 26 237 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1973" "add552" "" 56 264 12 12 0 0 0 0 19 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 20 1 1
+IMAGEPICTURE "Skill_1986" "" "" 173 311 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1986" "add553" "" 202 339 12 12 0 0 0 0 21 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 22 1 1
+IMAGEPICTURE "Skill_1974" "" "" 26 311 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1974" "add554" "" 57 337 12 12 0 0 0 0 23 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 24 1 1
+STILLIMAGEBUTTON "Btn_1980" "add546" "" 155 171 12 12 0 0 0 0 25 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 26 1 1
+IMAGEPICTURE "Skill_1980" "" "" 125 144 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1975" "add546" "" 103 129 12 12 0 0 0 0 27 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 28 1 1
+IMAGEPICTURE "Skill_1975" "" "" 75 101 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1976" "add546" "" 102 172 12 12 0 0 0 0 29 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 30 1 1
+IMAGEPICTURE "Skill_1976" "" "" 74 144 37 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1970" "add546" "" 129 228 12 12 0 0 0 0 31 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 32 1 1
+IMAGEPICTURE "Skill_1970" "" "" 99 199 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1981" "add546" "" 152 280 12 12 0 0 0 0 33 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 34 1 1
+IMAGEPICTURE "Skill_1981" "" "" 125 252 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1978" "add546" "" 102 323 12 12 0 0 0 0 35 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 36 1 1
+IMAGEPICTURE "Skill_1982" "" "" 125 295 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1977" "add546" "" 103 278 12 12 0 0 0 0 37 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 38 1 1
+IMAGEPICTURE "Skill_1978" "" "" 75 294 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1982" "add546" "" 153 324 12 12 0 0 0 0 39 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" "" 40 1 1
+IMAGEPICTURE "Skill_1977" "" "" 75 250 36 36 1 0 "Icon\Frame.tga" ""
+RADIO "Rdo_01" "talent01" "" 229 81 25 68 "Button\生产专精.tga" 1 1
+RADIO "Rdo_02" "talent02" "" 229 151 25 68 "Button\捕捉技能.tga" 2 1
+RADIO "Rdo_03" "talent03" "" 229 222 25 68 "Button\敬请期待.tga" 3 1

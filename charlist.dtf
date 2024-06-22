@@ -1,0 +1,35 @@
+DIALOG "Win_CharList" 0 0 273 768 0 1 10 "" "Window\PartList2.tga" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+RADIO "Rdo_Char1" "char1" "" 84 176 177 46 "Extra\Part.tga" 1 1
+LABEL "Txt_Name1" "" "" 171 179 0 0 2 16 3 254 231 174 255
+LABEL "Txt_Level1" "" "" 171 201 0 0 4 10 5 254 241 219 255
+RADIO "Rdo_Char2" "char2" "" 84 226 177 46 "Extra\Part.tga" 2 1
+LABEL "Txt_Name2" "" "" 171 229 0 0 6 16 7 254 231 174 255
+LABEL "Txt_Level2" "" "" 171 251 0 0 8 10 9 254 241 219 255
+RADIO "Rdo_Char3" "char3" "" 84 276 177 46 "Extra\Part.tga" 3 1
+LABEL "Txt_Name3" "" "" 171 279 0 0 10 16 11 254 231 174 255
+LABEL "Txt_Level3" "" "" 171 301 0 0 12 10 13 254 241 219 255
+RADIO "Rdo_Char4" "char4" "" 84 326 177 46 "Extra\Part.tga" 4 1
+LABEL "Txt_Name4" "" "" 171 329 0 0 14 16 15 254 231 174 255
+LABEL "Txt_Level4" "" "" 171 351 0 0 16 10 17 254 241 219 255
+RADIO "Rdo_Char5" "char5" "" 84 376 177 46 "Extra\Part.tga" 5 1
+LABEL "Txt_Name5" "" "" 171 379 0 0 18 16 19 254 231 174 255
+LABEL "Txt_Level5" "" "" 171 401 0 0 20 10 21 254 241 219 255
+RADIO "Rdo_Char6" "char6" "" 84 426 177 46 "Extra\Part.tga" 6 1
+LABEL "Txt_Name6" "" "" 171 429 0 0 22 16 23 254 231 174 255
+LABEL "Txt_Level6" "" "" 171 451 0 0 24 10 25 254 241 219 255
+RADIO "Rdo_Char7" "char7" "" 84 476 177 46 "Extra\Part.tga" 7 1
+LABEL "Txt_Name7" "" "" 171 479 0 0 26 16 27 254 231 174 255
+LABEL "Txt_Level7" "" "" 171 501 0 0 28 10 29 254 241 219 255
+RADIO "Rdo_Char8" "char8" "" 84 526 177 46 "Extra\Part.tga" 8 1
+LABEL "Txt_Name8" "" "" 171 529 0 0 30 16 31 254 231 174 255
+LABEL "Txt_Level8" "" "" 171 551 0 0 32 10 33 254 241 219 255
+IMAGEPICTURE "Img_Char1" "" "" 225 184 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char2" "" "" 225 234 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char3" "" "" 225 283 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char4" "" "" 225 333 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char5" "" "" 225 383 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char6" "" "" 225 433 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char7" "" "" 225 483 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Char8" "" "" 225 533 27 27 1 0 "Icon\OffExp.tga" ""
+IMAGEPICTURE "Img_Up" "" "" 127 380 5 6 1 0 "" "界面\界面_选人_上升光线.gfx"
+IMAGEPICTURE "Img_logo" "" "" 172 105 5 6 1 0 "" "界面\界面_选人_水晶球.gfx"

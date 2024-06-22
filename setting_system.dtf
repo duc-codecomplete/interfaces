@@ -1,0 +1,133 @@
+DIALOG "Win_SettingSystem" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+LABEL "Title" "" "" 100 5 0 0 4 16 5 254 231 174 255
+STILLIMAGEBUTTON "Btn_Game" "gamesetting" "" 170 31 80 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Video" "videosetting" "" 91 31 80 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "Btn_System" "systemsetting" "" 12 31 80 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Default" "default" "" 12 401 45 21 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 13 1 0
+STILLIMAGEBUTTON "Btn_Apply" "apply" "" 119 401 45 21 0 0 0 0 14 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 15 1 0
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "" 164 401 45 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 209 401 45 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 19 1 0
+LABEL "视频音频" "" "" 10 70 0 0 20 10 21 213 191 164 255
+LABEL "音频采样率" "" "" 23 380 65 15 22 10 23 255 255 255 255
+LABEL "视野距离" "" "" 36 158 0 0 24 10 25 255 255 255 255
+LABEL "水_1" "" "" 36 174 0 0 26 10 27 255 255 255 255
+LABEL "地形轮廓" "" "" 36 260 0 0 28 10 29 255 255 255 255
+LABEL "树木细节度" "" "" 23 212 0 0 30 10 31 255 255 255 255
+LABEL "Shadow" "" "" 36 276 0 0 32 10 33 255 255 255 255
+LABEL "Weather" "" "" 175 314 60 15 34 10 35 255 255 255 255
+LABEL "视频总体设置" "" "" 10 86 0 0 36 10 37 255 255 255 255
+LABEL "Control_255956744" "" "" 92 86 0 0 38 10 39 255 255 255 255
+LABEL "Control_618691880" "" "" 233 86 0 0 40 10 41 255 255 255 255
+LABEL "Control_134084436" "" "" 92 157 0 0 42 10 43 255 255 255 255
+LABEL "Control_144683138" "" "" 233 157 0 0 44 10 45 255 255 255 255
+LABEL "水_3" "" "" 233 173 0 0 46 10 47 255 255 255 255
+LABEL "Control_231785096" "" "" 92 211 0 0 48 10 49 255 255 255 255
+LABEL "Control_66363059" "" "" 233 211 0 0 50 10 51 255 255 255 255
+SLIDER "Slider_Total" "total" "" 110 90 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+SLIDER "Slider_Range" "range" "" 110 161 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+LABEL "Control_412802433" "" "" 48 105 0 0 52 10 53 255 255 255 255
+LABEL "Control_189864522" "" "" 36 142 0 0 54 10 55 255 255 255 255
+LABEL "Control_789105" "" "" 92 142 0 0 56 10 57 255 255 255 255
+SLIDER "Slider_Texture" "" "" 110 145 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 2 0
+LABEL "Control_380183695" "" "" 233 141 0 0 58 10 59 255 255 255 255
+LABEL "Control_98189406" "" "" 31 350 60 15 60 10 61 255 255 255 255
+LABEL "Control_485724018" "" "" 30 365 60 15 62 10 63 255 255 255 255
+SLIDER "Slider_Music" "music" "" 110 355 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 100 0
+SLIDER "Slider_Ambience" "ambience" "" 110 370 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 100 0
+LABEL "水_2" "" "" 92 173 0 0 64 10 65 255 255 255 255
+SLIDER "Slider_Water" "water" "" 110 177 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 2 0
+LABEL "Control_652141256" "" "" 36 126 0 0 66 10 67 255 255 255 255
+LABEL "Control_7453754" "" "" 92 126 0 0 68 10 69 255 255 255 255
+SLIDER "Slider_Bright" "bright" "" 110 130 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 100 0
+LABEL "Control_843423910" "" "" 233 126 0 0 70 10 71 255 255 255 255
+COMBO "Combo_Full" "" "" 182 103 64 21 72 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" 0
+LABEL "花草细节度" "" "" 23 228 0 0 73 10 74 255 255 255 255
+LABEL "Control_170130654" "" "" 92 228 0 0 75 10 76 255 255 255 255
+LABEL "Control_9393518" "" "" 233 228 0 0 77 10 78 255 255 255 255
+SLIDER "Slider_Grass" "grass" "" 110 232 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+SLIDER "Slider_Sample" "Sample" "" 110 385 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 2 0
+CHECK "Chk_Mipmap" "" "" 149 312 18 18 "Extra\Check.tga"
+CHECK "Chk_Sunflare" "enablemusic" "" 47 312 18 18 "Extra\Check.tga"
+SLIDER "Slider_Tree" "tree" "" 110 215 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+LABEL "Sunflare" "advwater" "" 71 314 60 15 79 10 80 255 255 255 255
+LABEL "Control_160578800" "" "" 97 350 20 15 81 10 82 255 255 255 255
+LABEL "Control_172715004" "" "" 234 350 30 15 83 10 84 255 255 255 255
+LABEL "Control_4438840" "" "" 96 365 20 15 85 10 86 255 255 255 255
+LABEL "Control_353717474" "" "" 233 365 30 15 87 10 88 255 255 255 255
+LABEL "Control_59685980" "" "" 92 380 15 15 89 10 90 255 255 255 255
+LABEL "Control_594664233" "" "" 233 380 15 15 91 10 92 255 255 255 255
+LABEL "Control_146815263" "" "" 36 192 0 0 93 10 94 255 255 255 255
+SLIDER "Slider_Cloud" "cloud" "" 110 248 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+IMAGEPICTURE "Cloud_1" "" "" 123 258 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Cloud_2" "" "" 146 258 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Cloud_3" "" "" 169 258 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Cloud_4" "" "" 192 258 3 3 1 0 "Extra\Color2.bmp" ""
+IMAGEPICTURE "Cloud_5" "" "" 216 258 3 3 1 0 "Extra\Color3.bmp" ""
+IMAGEPICTURE "Total_1" "" "" 123 99 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Total_2" "" "" 146 99 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Total_3" "" "" 169 99 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Total_4" "" "" 192 99 3 3 1 0 "Extra\Color2.bmp" ""
+IMAGEPICTURE "Total_5" "" "" 216 99 3 3 1 0 "Extra\Color3.bmp" ""
+IMAGEPICTURE "Texture_1" "" "" 123 154 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Texture_2" "" "" 169 154 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Texture_3" "" "" 216 154 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Range_1" "" "" 123 170 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Range_2" "" "" 146 170 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Range_3" "" "" 169 170 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Range_4" "" "" 192 170 3 3 1 0 "Extra\Color2.bmp" ""
+IMAGEPICTURE "Range_5" "" "" 216 170 3 3 1 0 "Extra\Color3.bmp" ""
+IMAGEPICTURE "Water_1" "" "" 123 186 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Water_2" "" "" 169 186 3 3 1 0 "Extra\Color2.bmp" ""
+IMAGEPICTURE "Water_3" "" "" 216 186 3 3 1 0 "Extra\Color3.bmp" ""
+IMAGEPICTURE "Tree_1" "" "" 123 224 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Tree_2" "" "" 146 224 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Tree_3" "" "" 169 224 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Tree_4" "" "" 192 224 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Tree_5" "" "" 216 224 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Grass_1" "" "" 123 241 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Grass_2" "" "" 146 241 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Grass_3" "" "" 169 241 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Grass_4" "" "" 192 241 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Grass_5" "" "" 216 241 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Sample_1" "" "" 123 394 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Sample_2" "" "" 169 394 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Sample_3" "" "" 216 394 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Terrain_1" "" "" 123 273 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Terrain_2" "" "" 216 273 3 3 1 0 "Extra\Color3.bmp" ""
+LABEL "Control_226376610" "" "" 36 244 0 0 95 10 96 255 255 255 255
+LABEL "Control_66658983" "" "" 92 244 0 0 97 10 98 255 255 255 255
+LABEL "Control_270930156" "" "" 233 244 0 0 99 10 100 255 255 255 255
+LIST "Lst_Res" "" "" 96 124 84 101 101 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+COMBO "Combo_Res" "res" "" 96 103 84 21 102 10 255 255 255 255 "Editbox\Input.tga" "Lst_Res" 0
+LABEL "VerticalSync" "" "" 175 333 60 15 103 10 104 255 255 255 255
+CHECK "Chk_VerticalSync" "sync" "" 149 331 18 18 "Extra\Check.tga"
+SLIDER "Slider_Terrain" "terrain" "" 110 264 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 1 0
+LABEL "Control_592685980" "" "" 92 260 0 0 105 10 106 255 255 255 255
+LABEL "Control_591664233" "" "" 233 261 0 0 107 10 108 255 255 255 255
+LABEL "WideScr" "" "" 134 192 0 0 109 10 110 255 255 255 255
+RADIO "Rdo_AdvancedWaterOpen" "" "" 109 192 18 18 "Extra\Option.tga" 0 0
+RADIO "Rdo_AdvancedWaterClose" "" "" 185 192 18 18 "Extra\Option.tga" 1 0
+LABEL "AdvancedWater" "" "" 217 192 0 0 111 10 112 255 255 255 255
+CHECK "Chk_FullGlow" "" "" 47 331 18 18 "Extra\Check.tga"
+LABEL "Control_214266052" "" "" 71 333 60 15 113 10 114 255 255 255 255
+LABEL "Control_58565605" "" "" 92 276 0 0 115 10 116 255 255 255 255
+LABEL "Control_79831600" "" "" 233 277 0 0 117 10 118 255 255 255 255
+SLIDER "Slider_Shadow" "shadow" "" 110 280 122 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 2 0
+IMAGEPICTURE "Shadow_0" "" "" 123 289 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "Shadow_1" "" "" 169 289 3 3 1 0 "Extra\Color2.bmp" ""
+IMAGEPICTURE "Shadow_2" "" "" 216 289 3 3 1 0 "Extra\Color3.bmp" ""
+LABEL "txt_status" "" "" 23 292 0 0 119 10 120 255 255 255 255
+LABEL "txt_status_low" "" "" 92 292 0 0 121 10 122 255 255 255 255
+LABEL "txt_status_high" "" "" 233 293 0 0 123 10 124 255 255 255 255
+SLIDER "Slider_BackAnimLevel" "" "" 110 295 122 8 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 4 0
+IMAGEPICTURE "status_4" "" "" 216 305 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "status_3" "" "" 192 305 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "status_2" "" "" 169 305 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "status_1" "" "" 146 305 3 3 1 0 "Extra\Color1.bmp" ""
+IMAGEPICTURE "status_0" "" "" 123 305 3 3 1 0 "Extra\Color1.bmp" ""
+LABEL "视角锁定" "" "" 36 53 0 0 125 10 126 213 190 164 255
+RADIO "Rdo_Lock" "" "" 109 54 18 18 "Extra\Option.tga" 0 1
+RADIO "Rdo_Unlock" "" "" 185 54 18 18 "Extra\Option.tga" 1 1
+LABEL "Lab_Lock" "" "" 136 55 0 0 127 10 128 255 255 255 255
+LABEL "Lab_Unlock" "" "" 219 56 0 0 129 10 130 255 255 255 255

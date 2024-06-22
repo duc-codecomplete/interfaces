@@ -1,0 +1,7 @@
+DIALOG "Win_Main4" 0 0 170 44 0 1 10 "" "Frame\SystemBack3.tga" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_Friend" "wfriend" "" 5 8 25 25 0 0 0 0 2 10 255 255 255 255 "Button\SFriend1.tga" "Button\SFriendDown1.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Team" "wteam" "" 84 9 25 24 0 0 0 0 4 10 255 255 255 255 "Button\STeam.tga" "Button\STeamDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Teacher" "wteacher" "" 32 8 25 25 0 0 0 0 6 10 255 255 255 255 "Button\STeacher.tga" "Button\STeacher_Down.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_FriendSeeking" "wfriendseek" "" 59 8 25 25 0 0 0 0 8 10 255 255 255 255 "Button\FriendSeeking.tga" "Button\FriendSeekingDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Guild" "wfaction" "" 110 8 25 25 0 0 0 0 10 18 255 255 255 255 "Button\SGuild.tga" "Button\SGuildDown.tga" "" 11 1 1
+STILLIMAGEBUTTON "Btn_Game" "wgame" "" 139 8 25 25 0 0 0 0 12 18 255 255 255 255 "Button\GameCasual.tga" "Button\GameCasualDown.tga" "" 13 1 1

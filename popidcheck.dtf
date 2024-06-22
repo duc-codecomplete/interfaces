@@ -1,0 +1,11 @@
+DIALOG "Win_PopIdCheck" 0 0 343 231 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 320 2 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Copy" "paste" "" 12 197 57 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 266 197 66 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+LABEL "Lab_1" "" "" 9 33 0 0 8 10 9 213 191 164 255
+LABEL "Txt_1" "" "" 87 33 0 0 10 10 11 255 255 255 255
+LABEL "Title" "" "" 10 8 0 0 12 10 13 213 191 164 255
+LABEL "Lab_Word" "" "" 9 56 0 0 14 10 15 213 191 164 255
+STILLIMAGEBUTTON "Btn_CopyWord" "pasteword" "" 84 197 76 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refreshword" "" 176 197 76 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 19 1 0
+EDIT "Edt_Word" "" "" 11 77 325 113 "Editbox\Input.tga" 20 10 255 255 255 "TEXT" 0 1 1000 0 "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 

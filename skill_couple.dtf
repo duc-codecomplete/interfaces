@@ -1,0 +1,16 @@
+DIALOG "Win_Couple" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 100 4 0 0 4 16 5 254 231 174 255
+EDIT "Shape" "" "" 4 30 256 365 "Frame\ProCouple.tga" 6 10 255 255 255 "TEXT" 1 0 20 0
+IMAGEPICTURE "Skill_1810" "" "" 114 100 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1810" "add1810" "" 140 128 12 12 0 0 0 0 7 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 8 1 1
+IMAGEPICTURE "Skill_1812" "" "" 58 263 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1812" "add1812" "" 85 292 12 12 0 0 0 0 9 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 10 1 1
+IMAGEPICTURE "Skill_1813" "" "" 175 263 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1813" "add1813" "" 202 290 12 12 0 0 0 0 11 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 12 1 1
+IMAGEPICTURE "Skill_1811" "" "" 113 187 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1811" "add1811" "" 140 215 12 12 0 0 0 0 13 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 14 1 1
+EDIT "Pic_1" "" "" 6 396 252 26 "Window\Window.tga" 15 10 255 255 255 "TEXT" 1 0 20 0
+PROGRESS "Pro_Love" "" "" 45 400 210 18 "Editbox\Input.tga" "Progress\进度条_天2.bmp" 0 0 0 0 0
+LABEL "Lab_Love" "" "" 9 400 0 0 16 12 17 128 0 0 255
+LABEL "Lab_LoveNo" "" "" 130 400 0 0 18 10 19 176 0 0 255

@@ -1,0 +1,120 @@
+DIALOG "Win_Character" 0 0 564 430 0 1 10 "Window\WindowStandard2.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+EDIT "Shape1" "" "" 276 66 120 174 "Frame\Frame.tga" 2 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "shape2" "" "" 396 66 159 358 "Frame\Frame.tga" 3 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Shape3" "" "" 276 239 120 185 "Frame\Frame.tga" 4 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 251 7 20 20 0 0 0 0 5 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 6 1 1
+LABEL "Txt_Name" "" "" 149 6 0 0 7 16 8 254 231 174 255
+IMAGEPICTURE "Img_InfoBack" "" "" 6 35 265 395 1 0 "Window\InfoBack.tga" ""
+LABEL "Txt_Faction" "" "" 412 13 0 0 9 10 10 213 191 164 255
+LABEL "Txt_Level" "" "" 412 39 0 0 11 10 12 213 191 164 255
+LABEL "Txt_Family" "" "" 412 26 0 0 13 10 14 213 191 164 255
+IMAGEPICTURE "Pic_Part" "" "" 21 66 228 304 1 0 "" ""
+IMAGEPICTURE "Equip_01" "" "" 17 45 36 36 1 0 "Icon\帽子.dds" ""
+IMAGEPICTURE "Equip_02" "" "" 17 87 36 36 1 0 "Icon\衣服.dds" ""
+IMAGEPICTURE "Equip_03" "" "" 17 128 36 36 1 0 "Icon\鞋子.dds" ""
+IMAGEPICTURE "Equip_04" "" "" 17 171 36 36 1 0 "Icon\项链.dds" ""
+IMAGEPICTURE "Equip_05" "" "" 17 213 36 36 1 0 "Icon\戒指.dds" ""
+IMAGEPICTURE "Equip_06" "" "" 17 255 36 36 1 0 "Icon\戒指2.dds" ""
+IMAGEPICTURE "Equip_15" "" "" 17 297 36 36 1 0 "Icon\飞剑.dds" ""
+IMAGEPICTURE "Equip_14" "" "" 120 344 36 36 1 0 "Icon\护符.tga" ""
+IMAGEPICTURE "Equip_00" "" "" 69 344 36 36 1 0 "Icon\武器.dds" ""
+STILLIMAGEBUTTON "Btn_LeftTurn" "" "" 60 85 13 13 0 0 0 0 15 10 255 255 255 255 "Button\LeftTurn.tga" "Button\LeftTurnDown.tga" "" "" 16 1 1
+STILLIMAGEBUTTON "Btn_RightTurn" "" "" 74 85 13 13 0 0 0 0 17 10 255 255 255 255 "Button\RightTurn.tga" "Button\RightTurnDown.tga" "" "" 18 1 1
+IMAGEPICTURE "Img_StunRes" "" "" 282 78 28 28 1 0 "Icon\眩晕抗性.tga" ""
+IMAGEPICTURE "Img_SilenceRes" "" "" 282 109 28 28 1 0 "Icon\魅惑抗性.tga" ""
+IMAGEPICTURE "Img_WeaknessRes" "" "" 282 141 28 28 1 0 "Icon\虚弱抗性.tga" ""
+IMAGEPICTURE "Img_SleepRes" "" "" 282 172 28 28 1 0 "Icon\昏睡抗性.tga" ""
+IMAGEPICTURE "Img_EnlaceRes" "" "" 282 203 28 28 1 0 "Icon\定身抗性.tga" ""
+LABEL "Lab_StunRes" "" "" 310 84 0 0 19 10 20 255 255 128 255
+LABEL "Lab_SilenceRes" "" "" 310 114 0 0 21 10 22 255 0 255 255
+LABEL "Lab_WeaknessRes" "" "" 310 145 0 0 23 10 24 128 255 255 255
+LABEL "Lab_SleepRes" "" "" 310 176 0 0 25 10 26 0 128 255 255
+LABEL "Lab_EnlaceRes" "" "" 310 207 0 0 27 10 28 0 255 0 255
+LABEL "Lab_Exp" "" "" 285 260 0 0 29 10 30 213 191 164 255
+LABEL "Txt_Exp" "" "" 382 260 0 0 31 10 32 43 255 250 255
+LABEL "Lab_PK" "" "" 285 286 0 0 33 10 34 213 191 164 255
+LABEL "Txt_PK" "" "" 382 286 0 0 35 10 36 43 255 250 255
+LABEL "Lab_Combine" "" "" 285 312 0 0 37 10 38 213 191 164 255
+LABEL "Txt_Combine" "" "" 382 312 0 0 39 10 40 43 255 250 255
+LABEL "Lab_Mate" "" "" 285 338 0 0 41 10 42 213 191 164 255
+LABEL "Txt_Mate" "" "" 382 338 0 0 43 10 44 43 255 250 255
+LABEL "Lab_Contribution" "" "" 285 364 0 0 45 10 46 213 191 164 255
+LABEL "Txt_Contribution" "" "" 382 364 0 0 47 10 48 43 255 250 255
+LABEL "Lab_Devotion" "" "" 285 390 0 0 49 10 50 213 191 164 255
+LABEL "Txt_Devotion" "" "" 382 390 0 0 51 10 52 43 255 250 255
+LABEL "Lab_Title" "" "" 398 87 0 0 53 10 54 213 191 164 255
+LIST "Lst_Title" "" "" 432 108 104 171 55 10 0 0 0 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+COMBO "Combo_Title" "selecttitle" "" 432 87 104 21 56 10 255 255 255 255 "Editbox\Input.tga" "Lst_Title" 0
+LABEL "Lab_HP" "" "" 405 149 0 0 57 10 58 213 191 164 255
+LABEL "Txt_HP" "" "" 543 149 0 0 59 10 60 43 255 250 255
+LABEL "Lab_MP" "" "" 405 166 0 0 61 10 62 213 191 164 255
+LABEL "Txt_MP" "" "" 543 166 0 0 63 10 64 43 255 250 255
+LABEL "Lab_Damage" "" "" 405 183 0 0 65 10 66 213 191 164 255
+LABEL "Txt_Damage" "" "" 543 183 0 0 67 10 68 43 255 250 255
+LABEL "Lab_Defense" "" "" 405 200 0 0 69 10 70 213 191 164 255
+LABEL "Txt_Defense" "" "" 543 200 0 0 71 10 72 43 255 250 255
+LABEL "Lab_Definition" "" "" 405 217 0 0 73 10 74 213 191 164 255
+LABEL "Txt_Definition" "" "" 543 217 0 0 75 10 76 43 255 250 255
+LABEL "Lab_Evade" "" "" 405 234 0 0 77 10 78 213 191 164 255
+LABEL "Txt_Evade" "" "" 543 234 0 0 79 10 80 43 255 250 255
+LABEL "Lab_Critical" "" "" 405 254 0 0 81 10 82 213 191 164 255
+LABEL "Txt_Critical" "" "" 543 254 0 0 83 10 84 43 255 250 255
+LABEL "Lab_CriticalDamage" "" "" 405 271 0 0 85 10 86 213 191 164 255
+LABEL "Txt_CriticalDamage" "" "" 543 271 0 0 87 10 88 43 255 250 255
+CHECK "Chk_ShowEquip" "showequip" "" 203 388 66 22 "Extra\ShowEquip.tga"
+STILLIMAGEBUTTON "Btn_Credit" "credit" "" 5 404 48 21 0 0 0 0 89 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 90 1 0
+STILLIMAGEBUTTON "Btn_TitleDown" "titleexp" "" 538 86 15 21 0 0 0 0 91 10 255 255 255 255 "Button\TitleDown.tga" "Button\TitleDownDown.tga" "" "" 92 1 1
+STILLIMAGEBUTTON "Btn_ManaDown" "manahelp" "" 538 121 15 21 0 0 0 0 93 10 255 255 255 255 "Button\TitleDown.tga" "Button\TitleDownDown.tga" "" "" 94 1 1
+STILLIMAGEBUTTON "Btn_TitleBox" "titlebox" "" 53 404 48 21 0 0 0 0 95 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 96 1 0
+LABEL "Lab_Mana" "" "" 398 122 0 0 97 10 98 213 191 164 255
+PROGRESS "Pro_Mana" "" "" 430 123 104 16 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Mana" "" "" 457 122 0 0 99 10 100 43 255 250 255
+IMAGEPICTURE "Equip_16" "" "" 67 45 36 36 1 0 "Icon\法宝.dds" ""
+IMAGEPICTURE "Equip_17" "" "" 117 45 36 36 1 0 "Icon\秘笈.dds" ""
+IMAGEPICTURE "Equip_18" "" "" 167 45 36 36 1 0 "Icon\秘笈.dds" ""
+LABEL "Lab_SkillDefinition" "" "" 405 288 0 0 101 10 102 213 190 164 255
+LABEL "Txt_EnlaceRes" "" "" 368 207 0 0 103 10 104 0 255 0 255
+LABEL "Txt_SleepRes" "" "" 368 176 0 0 105 10 106 0 128 255 255
+LABEL "Txt_WeaknessRes" "" "" 368 145 0 0 107 10 108 128 255 255 255
+LABEL "Txt_SilenceRes" "" "" 368 114 0 0 109 10 110 255 0 255 255
+LABEL "Txt_StunRes" "" "" 368 84 0 0 111 10 112 255 255 128 255
+LABEL "Txt_SkillDefinition" "" "" 543 288 0 0 113 10 114 43 255 250 255
+LABEL "Lab_SkillEvade" "" "" 405 305 0 0 115 10 116 213 190 164 255
+LABEL "Txt_SkillEvade" "" "" 543 305 0 0 117 10 118 43 255 250 255
+LABEL "Lab_DeCritical" "" "" 405 322 0 0 119 10 120 213 190 164 255
+LABEL "Txt_DeCritical" "" "" 543 322 0 0 121 10 122 43 255 250 255
+LABEL "Lab_DeCriticalDamage" "" "" 405 339 0 0 123 10 124 213 190 164 255
+LABEL "Txt_DeCriticalDamage" "" "" 543 339 0 0 125 10 126 43 255 250 255
+IMAGEPICTURE "Img_Bar" "" "" 6 389 265 3 1 0 "Icon\Compart.tga" ""
+STILLIMAGEBUTTON "Btn_HideEquip" "hideequip" "" 156 406 113 23 0 0 0 0 127 10 192 192 192 255 "Button\HideHatUp.tga" "Button\HideHatDown.tga" "" "" 128 1 1
+IMAGEPICTURE "Pic_Prof1" "" "" 535 8 20 20 30 0 "InGame\Profession.tga" ""
+IMAGEPICTURE "Pic_Prof2" "" "" 535 28 20 20 30 0 "InGame\Profession.tga" ""
+IMAGEPICTURE "Pic_Prof3" "" "" 535 48 20 20 30 0 "InGame\Profession.tga" ""
+LABEL "Lab_Lv1" "" "" 510 10 0 0 129 10 130 213 190 164 255
+LABEL "Lab_Lv2" "" "" 510 30 0 0 131 10 132 213 190 164 255
+LABEL "Lab_Lv3" "" "" 510 50 0 0 133 10 134 213 190 164 255
+LABEL "Lab_DeDamageTaoism" "" "" 405 359 0 0 135 10 136 213 190 164 255
+LABEL "Txt_DeDamageTaoism" "" "" 543 359 0 0 137 10 138 0 255 255 255
+LABEL "Lab_DeDamageEvil" "" "" 405 376 0 0 139 10 140 213 190 164 255
+LABEL "Txt_DeDamageEvil" "" "" 543 376 0 0 141 10 142 0 255 255 255
+LABEL "Lab_DeDamageBuddhism" "" "" 405 393 0 0 143 10 144 213 190 164 255
+LABEL "Txt_DeDamageBuddhism" "" "" 543 393 0 0 145 10 146 0 255 255 255
+IMAGEPICTURE "Img_Bar2" "" "" 397 251 157 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Control_243747731" "" "" 155 251 40 40 0 0 "" ""
+IMAGEPICTURE "Img_Bar3" "" "" 397 357 157 3 1 0 "Icon\Compart.tga" ""
+EDIT "Shape4" "" "" 275 4 283 65 "Frame\Frame.tga" 147 10 255 255 255 "TEXT" 1 0 20 0
+IMAGEPICTURE "Equip_21" "" "" 168 344 36 36 1 0 "Icon\玺绶.dds" ""
+IMAGEPICTURE "Equip_22" "" "" 17 344 36 36 1 0 "Icon\罡气.dds" ""
+STILLIMAGEBUTTON "Btn_Info" "setinfo" "" 100 404 48 21 0 0 0 0 148 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 149 1 0
+LIST "Lst_FashDress" "" "" 180 143 40 130 150 10 213 190 164 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+COMBO "Combo_FashDress" "fashionx" "" 180 122 40 20 151 8 213 190 164 255 "Editbox\Input.tga" "Lst_FashDress" 0
+RADIO "Rdo_Equip" "normal" "" 180 81 40 20 "Button\Equip.tga" 1 1
+RADIO "Rdo_Fash" "wear" "" 180 102 40 20 "Button\FashDress.tga" 2 1
+IMAGEPICTURE "Equip_09" "" "" 220 45 36 36 1 0 "Icon\法身.dds" ""
+IMAGEPICTURE "Equip_19" "" "" 220 87 36 36 1 0 "Icon\时装表情.dds" ""
+IMAGEPICTURE "Equip_07" "" "" 220 129 36 36 1 0 "Icon\眼镜.dds" ""
+IMAGEPICTURE "Equip_10" "" "" 220 171 36 36 1 0 "Icon\时装头饰.dds" ""
+IMAGEPICTURE "Equip_11" "" "" 220 213 36 36 1 0 "Icon\时装上衣.dds" ""
+IMAGEPICTURE "Equip_12" "" "" 220 255 36 36 1 0 "Icon\时装裤子.dds" ""
+IMAGEPICTURE "Equip_13" "" "" 220 297 36 36 1 0 "Icon\时装鞋子.dds" ""
+IMAGEPICTURE "Equip_20" "" "" 220 344 36 36 1 0 "Icon\锦囊.dds" ""

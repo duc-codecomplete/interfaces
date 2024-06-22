@@ -1,0 +1,93 @@
+DIALOG "Win_Taoism" 0 0 530 455 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Lab_Title" "" "" 230 4 0 0 2 16 3 0 255 255 255
+EDIT "Shape_1" "" "" 10 34 254 387 "Frame\仙.tga" 4 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Shape_2" "" "" 267 34 254 387 "Frame\仙辅.tga" 5 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 483 7 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 7 1 1
+LABEL "Lab_CommonSkill" "" "" 276 41 0 0 8 10 9 0 255 255 255
+IMAGEPICTURE "Img_Line1" "" "" 274 60 240 3 1 0 "Icon\Compart.tga" ""
+IMAGEPICTURE "Skill_1598" "" "" 301 68 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1599" "" "" 378 68 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1600" "" "" 456 68 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1601" "" "" 301 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1602" "" "" 377 109 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1603" "" "" 455 109 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_ProSkill" "" "" 278 151 0 0 10 10 11 0 255 255 255
+IMAGEPICTURE "Img_line2" "" "" 275 172 240 3 1 0 "Icon\Compart.tga" ""
+LABEL "Lab_Pro01" "" "" 278 190 0 0 12 12 13 0 255 255 255
+IMAGEPICTURE "Skill_1531" "" "" 348 182 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1532" "" "" 405 182 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1533" "" "" 462 182 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_Pro02" "" "" 278 237 0 0 14 12 15 0 255 255 255
+IMAGEPICTURE "Skill_1534" "" "" 348 229 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_Pro03" "" "" 278 284 0 0 16 12 17 0 255 255 255
+IMAGEPICTURE "Skill_1537" "" "" 348 276 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_Pro04" "" "" 278 331 0 0 18 12 19 0 255 255 255
+IMAGEPICTURE "Skill_1540" "" "" 348 324 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_Pro05" "" "" 280 378 0 0 20 12 21 0 255 255 255
+IMAGEPICTURE "Skill_1543" "" "" 348 371 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1535" "" "" 405 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1536" "" "" 462 229 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1538" "" "" 405 276 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1539" "" "" 462 276 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1541" "" "" 405 324 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1542" "" "" 462 324 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1544" "" "" 405 371 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1545" "" "" 462 371 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1598" "add1598" "" 331 96 12 12 0 0 0 0 22 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 23 1 1
+STILLIMAGEBUTTON "Btn_1599" "add1599" "" 407 96 12 12 0 0 0 0 24 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 25 1 1
+STILLIMAGEBUTTON "Btn_1600" "add1600" "" 485 96 12 12 0 0 0 0 26 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 27 1 1
+STILLIMAGEBUTTON "Btn_1601" "add1601" "" 331 136 12 12 0 0 0 0 28 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 29 1 1
+STILLIMAGEBUTTON "Btn_1602" "add1602" "" 407 136 12 12 0 0 0 0 30 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 31 1 1
+STILLIMAGEBUTTON "Btn_1603" "add1603" "" 485 136 12 12 0 0 0 0 32 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 33 1 1
+STILLIMAGEBUTTON "Btn_1531" "add1531" "" 376 209 12 12 0 0 0 0 34 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 35 1 1
+STILLIMAGEBUTTON "Btn_1532" "add1532" "" 434 209 12 12 0 0 0 0 36 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 37 1 1
+STILLIMAGEBUTTON "Btn_1533" "add1533" "" 490 209 12 12 0 0 0 0 38 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 39 1 1
+STILLIMAGEBUTTON "Btn_1534" "add1534" "" 376 255 12 12 0 0 0 0 40 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 41 1 1
+STILLIMAGEBUTTON "Btn_1535" "add1535" "" 434 255 12 12 0 0 0 0 42 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 43 1 1
+STILLIMAGEBUTTON "Btn_1536" "add1536" "" 490 255 12 12 0 0 0 0 44 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 45 1 1
+STILLIMAGEBUTTON "Btn_1537" "add1537" "" 376 303 12 12 0 0 0 0 46 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 47 1 1
+STILLIMAGEBUTTON "Btn_1538" "add1538" "" 434 303 12 12 0 0 0 0 48 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 49 1 1
+STILLIMAGEBUTTON "Btn_1539" "add1539" "" 490 303 12 12 0 0 0 0 50 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 51 1 1
+STILLIMAGEBUTTON "Btn_1540" "add1540" "" 376 351 12 12 0 0 0 0 52 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 53 1 1
+STILLIMAGEBUTTON "Btn_1544" "add1544" "" 434 398 12 12 0 0 0 0 54 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 55 1 1
+STILLIMAGEBUTTON "Btn_1541" "add1541" "" 434 351 12 12 0 0 0 0 56 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 57 1 1
+STILLIMAGEBUTTON "Btn_1542" "add1542" "" 490 351 12 12 0 0 0 0 58 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 59 1 1
+STILLIMAGEBUTTON "Btn_1543" "add1543" "" 376 398 12 12 0 0 0 0 60 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 61 1 1
+STILLIMAGEBUTTON "Btn_1545" "add1545" "" 490 398 12 12 0 0 0 0 62 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 63 1 1
+STILLIMAGEBUTTON "Btn_1521" "add1521" "" 152 86 12 12 0 0 0 0 64 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 65 1 1
+STILLIMAGEBUTTON "Btn_1523" "add1523" "" 219 118 12 12 0 0 0 0 66 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 67 1 1
+STILLIMAGEBUTTON "Btn_1525" "add1525" "" 247 173 12 12 0 0 0 0 68 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 69 1 1
+STILLIMAGEBUTTON "Btn_1527" "add1527" "" 236 234 12 12 0 0 0 0 70 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 71 1 1
+STILLIMAGEBUTTON "Btn_1520" "add1520" "" 152 173 12 12 0 0 0 0 72 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 73 1 1
+STILLIMAGEBUTTON "Btn_1528" "add1528" "" 152 265 12 12 0 0 0 0 74 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 75 1 1
+STILLIMAGEBUTTON "Btn_1529" "add1529" "" 152 326 12 12 0 0 0 0 76 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 77 1 1
+STILLIMAGEBUTTON "Btn_1530" "add1530" "" 152 389 12 12 0 0 0 0 78 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 79 1 1
+STILLIMAGEBUTTON "Btn_1526" "add1526" "" 66 234 12 12 0 0 0 0 80 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 81 1 1
+STILLIMAGEBUTTON "Btn_1524" "add1524" "" 54 173 12 12 0 0 0 0 82 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 83 1 1
+IMAGEPICTURE "Skill_1521" "" "" 124 59 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1520" "" "" 124 147 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1528" "" "" 124 238 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1529" "" "" 124 300 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1530" "" "" 124 362 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1527" "" "" 208 207 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1525" "" "" 218 146 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1523" "" "" 190 92 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1522" "" "" 56 92 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1524" "" "" 24 147 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Skill_1526" "" "" 37 208 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_1522" "add1522" "" 85 118 12 12 0 0 0 0 84 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 85 1 1
+IMAGEPICTURE "Img_左下" "" "" 5 406 20 20 1 0 "Icon\外框左下角花.tga" ""
+IMAGEPICTURE "Img_左上" "" "" 5 30 20 20 1 0 "Icon\外框左上角花.tga" ""
+IMAGEPICTURE "Img_右下" "" "" 505 406 20 20 1 0 "Icon\外框右下角花.tga" ""
+IMAGEPICTURE "Img_右上" "" "" 505 30 20 20 1 0 "Icon\外框右上角花.tga" ""
+IMAGEPICTURE "Img_竖1" "" "" 5 50 4 355 1 0 "Icon\外框竖边线.tga" ""
+IMAGEPICTURE "Img_竖2" "" "" 521 50 4 355 1 0 "Icon\外框竖边线.tga" ""
+IMAGEPICTURE "Img_横1" "" "" 20 30 485 4 1 0 "Icon\外框横边线.tga" ""
+IMAGEPICTURE "Img_横2" "" "" 20 422 485 4 1 0 "Icon\外框横边线.tga" ""
+RADIO "Rdo_1" "power01" "" 319 425 68 25 "Button\仙.tga" 1 1
+RADIO "Rdo_2" "power02" "" 387 425 68 25 "Button\魔.tga" 2 1
+RADIO "Rdo_3" "power03" "" 455 425 68 25 "Button\佛.tga" 3 1
+EDIT "Txt_10" "" "" 7 422 310 27 "Window\Window.tga" 86 10 255 255 255 "TEXT" 1 0 20 0
+PROGRESS "Prgs_Taoism" "" "" 99 427 210 18 "Editbox\Input.tga" "Progress\进度条_天2.bmp" 0 0 0 0 0
+LABEL "Lab_Taoism" "" "" 20 425 0 0 87 14 88 0 255 255 255
+LABEL "Txt_TaoismTitle" "" "" 200 428 0 0 89 10 90 0 255 255 255

@@ -1,0 +1,33 @@
+DIALOG "Win_EquipEnchase" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 100 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 239 6 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Txt_BagNum" "" "" 196 116 0 0 6 10 7 0 255 255 255
+IMAGEPICTURE "Item_Equip" "" "" 28 90 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_01" "" "" 39 174 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_02" "" "" 76 174 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_03" "" "" 113 174 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_04" "" "" 150 174 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_05" "" "" 187 174 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_Soul" "" "" 116 274 36 36 1 0 "Icon\Frame.tga" ""
+LABEL "Lab_Money" "" "" 20 403 0 0 8 10 9 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 86 403 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Txt_Money3" "" "" 227 403 0 0 10 10 11 255 255 255 255
+LABEL "Txt_Money2" "" "" 188 403 0 0 12 10 13 255 255 255 255
+LABEL "Txt_Money1" "" "" 151 403 0 0 14 10 15 255 255 255 255
+STILLIMAGEBUTTON "Btn_Enchase" "enchase" "" 62 337 45 21 0 0 0 0 16 10 254 241 220 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+LABEL "Txt_Limit" "" "" 197 93 0 0 18 10 19 0 255 255 255
+LABEL "Lab_Limit" "" "" 125 93 0 0 20 10 21 213 190 164 255
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 145 337 45 21 0 0 0 0 22 10 255 239 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 23 1 0
+LABEL "Lab_Left" "" "" 118 114 0 0 24 10 25 213 189 164 255
+LABEL "Txt_1" "" "" 8 130 0 0 26 10 27 213 190 164 255
+LABEL "Txt_2" "" "" 95 314 0 0 28 10 29 213 190 164 255
+IMAGEPICTURE "Img_Compart" "" "" 6 233 255 3 1 0 "Icon\Compart.tga" ""
+LABEL "Lab_1" "" "" 46 181 0 0 30 14 31 192 192 192 255
+LABEL "Lab_2" "" "" 83 181 0 0 32 14 33 192 192 192 255
+LABEL "Lab_3" "" "" 121 181 0 0 34 14 35 192 192 192 255
+LABEL "Lab_4" "" "" 158 181 0 0 36 14 37 192 192 192 255
+LABEL "Lab_5" "" "" 194 181 0 0 38 14 39 192 192 192 255
+LABEL "Lab_Hint1" "" "" 22 43 0 0 40 10 41 241 179 31 255
+LABEL "Lab_Hint2" "" "" 7 59 0 0 42 10 43 241 179 31 255
+LABEL "Lab_Hint3" "" "" 47 154 0 0 44 10 45 213 190 164 255
+LABEL "Lab_Hint4" "" "" 21 247 0 0 46 10 47 213 190 164 255

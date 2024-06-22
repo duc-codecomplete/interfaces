@@ -1,0 +1,19 @@
+DIALOG "Win_FriendSeekingPerCenter" 0 0 308 147 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Title" "" "" 104 4 0 0 2 16 3 213 190 164 255
+LABEL "Lab_Per" "" "" 20 51 0 0 4 10 5 213 190 164 255
+LABEL "Txt_Per" "" "" 101 51 0 0 6 10 7 0 255 255 255
+LABEL "Lab_Friend" "" "" 20 69 0 0 8 10 9 213 190 164 255
+LABEL "Txt_Friend" "" "" 101 69 0 0 10 10 11 0 255 255 255
+LABEL "Lab_Teacher" "" "" 21 88 0 0 12 10 13 213 190 164 255
+LABEL "Txt_Teacher" "" "" 102 88 0 0 14 10 15 0 255 255 255
+LABEL "Lab_Guild" "" "" 20 106 0 0 16 10 17 213 190 164 255
+LABEL "Txt_Guild" "" "" 101 106 0 0 18 10 19 0 255 255 255
+LABEL "Lab_GuildStar" "" "" 182 106 0 0 20 10 21 213 190 164 255
+LABEL "Txt_GuildStar" "" "" 237 106 0 0 22 10 23 0 255 255 255
+LABEL "Lab_TeacherStar" "" "" 182 88 0 0 24 10 25 213 190 164 255
+LABEL "Txt_TeacherStar" "" "" 237 88 0 0 26 10 27 0 255 255 255
+LABEL "Lab_FriendStar" "" "" 182 69 0 0 28 10 29 213 190 164 255
+LABEL "Txt_FriendStar" "" "" 237 69 0 0 30 10 31 0 255 255 255
+LABEL "Lab_PerStar" "" "" 182 51 0 0 32 10 33 213 190 164 255
+LABEL "Txt_PerStar" "" "" 237 51 0 0 34 10 35 0 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 254 6 20 20 0 0 0 0 36 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 37 1 1

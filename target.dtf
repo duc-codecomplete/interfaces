@@ -1,0 +1,19 @@
+DIALOG "Win_Target" 0 0 172 64 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Pic_HpOtherL" "" "" 0 0 23 22 1 0 "Frame\HpOtherL.tga" ""
+IMAGEPICTURE "Pic_HpOtherM" "" "" 23 0 126 22 1 0 "Frame\HpOtherM.tga" ""
+IMAGEPICTURE "Pic_HpOtherR" "" "" 149 0 23 22 1 0 "Frame\HpOtherR.tga" ""
+LABEL "Txt_Name" "" "" 86 2 0 0 2 12 3 255 255 255 255
+IMAGEPICTURE "Pic_HpOtherHF" "" "" 0 23 172 12 1 0 "Frame\HpOtherF.tga" ""
+IMAGEPICTURE "Pic_HpOtherMF" "" "" 0 34 172 12 1 0 "Frame\HpOtherF.tga" ""
+PROGRESS "Prg_HP" "" "" 3 25 164 7 "" "Progress\HpColor.tga" 0 0 0 0 1
+PROGRESS "Prg_MP" "" "" 3 36 164 7 "" "Progress\MpColor.tga" 0 0 0 0 1
+IMAGEPICTURE "St_1" "" "" 0 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_2" "" "" 17 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_3" "" "" 34 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_4" "" "" 51 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_5" "" "" 68 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_6" "" "" 85 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_7" "" "" 102 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_8" "" "" 119 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_9" "" "" 126 48 16 16 1 0 "" ""
+IMAGEPICTURE "St_10" "" "" 143 48 16 16 1 0 "" ""

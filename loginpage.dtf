@@ -1,0 +1,4 @@
+DIALOG "Win_LoginPage" 0 0 700 540 0 1 10 "Window\WindowBDWiden.tga" "" "" 0 0 540 33 "" 30 6 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Y" "confirm" "" 314 502 72 21 0 0 0 0 2 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 3 1 0
+LABEL "Title" "" "" 318 3 0 0 4 16 5 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "confirm" "" 651 7 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 7 1 1

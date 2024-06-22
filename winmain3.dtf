@@ -1,0 +1,6 @@
+DIALOG "Win_Main3" 0 0 170 44 0 1 10 "" "Frame\SystemBack.tga" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_GM" "wgm" "" 39 9 25 25 0 0 0 0 2 18 255 255 255 255 "Button\SGm.tga" "Button\SGmDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Help" "whelp" "" 8 9 25 25 0 0 0 0 4 18 255 255 255 255 "Button\SHelp.tga" "Button\SHelpDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Setting" "wsetting" "" 71 10 25 25 0 0 0 0 6 18 255 255 255 255 "Button\SSetting.tga" "Button\SSettingDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Repick" "repick" "" 102 11 25 25 0 0 0 0 8 12 255 255 255 255 "Button\SRepick.tga" "Button\SRepickDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Quit" "quitgame" "" 132 10 25 25 0 0 0 0 10 12 255 255 255 255 "Button\SQuit.tga" "Button\SQuitDown.tga" "" 11 1 1

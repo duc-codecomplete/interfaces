@@ -1,0 +1,47 @@
+DIALOG "Win_TaskDaily" 0 0 600 484 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 550 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Lab_Title" "" "" 260 3 0 0 4 16 5 254 231 174 255
+LABEL "Lab_NPC" "" "" 23 324 0 0 6 10 7 213 190 164 255
+LABEL "Lab_TaskName" "" "" 23 304 0 0 8 10 9 213 190 164 255
+LABEL "Txt_Line" "" "" 280 304 0 0 10 10 11 255 255 255 255
+LABEL "Lab_Line" "" "" 205 304 0 0 12 10 13 213 190 164 255
+TEXT "Txt_Desc" "" "" 17 346 370 122 14 10 255 255 255 255 "Editbox\Input.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0
+LABEL "Txt_HotTask" "" "" 83 38 429 20 15 10 16 255 255 255 255
+LABEL "Txt_TaskName" "" "" 85 304 0 0 17 10 18 255 255 255 255
+LABEL "Lab_HotTask" "" "" 21 38 0 0 19 10 20 213 190 164 255
+LIST "Lst_Task" "" "" 17 109 559 191 21 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "12 +86 +123 +83 +77 +73 +99" 0
+STILLIMAGEBUTTON "Btn_Time" "time" "" 17 93 101 18 0 0 0 0 22 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 23 1 0
+STILLIMAGEBUTTON "Btn_TaskName" "taskname" "" 118 93 123 18 0 0 0 0 24 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 25 1 0
+STILLIMAGEBUTTON "Btn_Level" "level" "" 241 93 83 18 0 0 0 0 26 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 27 1 0
+STILLIMAGEBUTTON "Btn_Type" "type" "" 324 93 77 18 0 0 0 0 28 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 29 1 0
+STILLIMAGEBUTTON "Btn_Number" "number" "" 401 93 73 18 0 0 0 0 30 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 31 1 0
+STILLIMAGEBUTTON "Btn_Suggest" "suggest" "" 474 93 102 18 0 0 0 0 32 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 33 1 0
+TEXT "Txt_NPC" "" "" 85 324 286 20 34 10 255 255 255 255 "" "" "" "" "" 0
+LABEL "Lab_1" "" "" 35 73 0 0 35 10 36 255 255 255 255
+LABEL "Lab_2" "" "" 112 73 0 0 37 10 38 255 255 255 255
+LABEL "Lab_3" "" "" 192 73 0 0 39 10 40 255 255 255 255
+LABEL "Lab_4" "" "" 269 73 0 0 41 10 42 255 255 255 255
+LABEL "Lab_5" "" "" 350 73 0 0 43 10 44 255 255 255 255
+LABEL "Lab_6" "" "" 427 73 0 0 45 10 46 255 255 255 255
+LABEL "Lab_7" "" "" 502 73 0 0 47 10 48 255 255 255 255
+RADIO "Rdo_1" "rdo1" "" 18 71 78 20 "Extra\长按键.tga" 1 1
+RADIO "Rdo_2" "rdo2" "" 95 71 78 20 "Extra\长按键.tga" 2 1
+RADIO "Rdo_3" "rdo3" "" 173 71 78 20 "Extra\长按键.tga" 3 1
+RADIO "Rdo_4" "rdo4" "" 251 71 78 21 "Extra\长按键.tga" 4 1
+RADIO "Rdo_5" "rdo5" "" 329 71 78 20 "Extra\长按键.tga" 5 1
+RADIO "Rdo_6" "rdo6" "" 407 71 78 20 "Extra\长按键.tga" 6 1
+RADIO "Rdo_7" "rdo7" "" 485 71 78 20 "Extra\长按键.tga" 7 1
+CHECK "Chk_Tj1" "chktj1" "" 426 397 19 18 "Extra\Check.tga"
+LABEL "Lab_Tj1" "" "" 460 398 0 0 49 10 50 213 189 164 255
+LABEL "Lab_Red" "" "" 420 337 0 0 51 10 52 189 2 6 255
+LABEL "Lab_Redtxt" "" "" 460 337 0 0 53 10 54 255 255 255 255
+LABEL "Lab_blue" "" "" 420 364 0 0 55 10 56 0 0 255 255
+LABEL "Lab_BLuetxt" "" "" 460 364 0 0 57 10 58 255 255 255 255
+TEXT "Txa_Tj" "" "" 405 327 168 137 59 10 255 255 255 255 "Editbox\Input.tga" "" "" "" "" 0
+CHECK "Chk_tj2" "chktj2" "" 426 426 18 18 "Extra\Check.tga"
+LABEL "Lab_Tj2" "" "" 460 426 0 0 60 10 61 213 189 164 255
+LABEL "Lab_info" "" "" 406 307 0 0 62 10 63 213 189 164 255
+LABEL "Lab_R" "" "" 500 398 0 0 64 10 65 189 2 6 255
+LABEL "Lab_B" "" "" 500 426 0 0 66 10 67 0 0 255 255
+LABEL "Lab_huodong1" "" "" 526 398 0 0 68 10 69 213 189 164 255
+LABEL "Lab_huodong2" "" "" 526 426 0 0 70 10 71 213 189 164 255

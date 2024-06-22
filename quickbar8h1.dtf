@@ -1,0 +1,20 @@
+DIALOG "Win_QuickBar8H_1" 0 0 365 68 0 1 10 "Frame\8H1.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 0
+IMAGEPICTURE "Item_1" "" "" 35 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_2" "" "" 72 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_3" "" "" 109 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_4" "" "" 146 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_5" "" "" 183 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_6" "" "" 220 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_7" "" "" 257 28 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Item_8" "" "" 294 28 36 36 1 0 "Icon\Shortcut.tga" ""
+LABEL "Lab_1" "" "" 58 30 0 0 2 8 3 43 255 250 255
+LABEL "Lab_2" "" "" 97 30 0 0 4 8 5 43 255 250 255
+LABEL "Lab_3" "" "" 134 30 0 0 6 8 7 43 255 250 255
+LABEL "Lab_4" "" "" 171 30 0 0 8 8 9 43 255 250 255
+LABEL "Lab_5" "" "" 208 30 0 0 10 8 11 43 255 250 255
+LABEL "Lab_6" "" "" 245 30 0 0 12 8 13 43 255 250 255
+LABEL "Lab_7" "" "" 282 30 0 0 14 8 15 43 255 250 255
+LABEL "Lab_8" "" "" 319 30 0 0 16 8 17 43 255 250 255
+PROGRESS "Prgs_AP" "" "" 36 19 293 6 "" "Progress\¾­ÑéÌõ.bmp" 0 0 0 0 0
+LABEL "Txt_AP" "" "" 173 13 0 0 18 10 19 255 255 255 255
+CHECK "Chk_Lock" "lock" "" 339 45 16 16 "Extra\Lock1.tga"

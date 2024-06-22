@@ -1,0 +1,12 @@
+DIALOG "Win_PetRelease" 0 0 280 200 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Title" "" "" 96 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 235 7 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+IMAGEPICTURE "Item_Pet" "" "" 122 64 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_Enchase" "start" "" 87 127 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 147 127 45 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+LABEL "Lab_Money" "" "" 32 153 0 0 10 10 11 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 95 153 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Txt_Money3" "" "" 237 154 0 0 12 10 13 255 255 255 255
+LABEL "Txt_Money2" "" "" 198 154 0 0 14 10 15 255 255 255 255
+LABEL "Txt_Money1" "" "" 161 154 0 0 16 10 17 255 255 255 255
+LABEL "Txt_Name" "" "" 125 104 0 0 18 10 19 213 191 164 255

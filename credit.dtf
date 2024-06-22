@@ -1,0 +1,48 @@
+DIALOG "Win_Credit" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 239 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Help" "credithelp" "" 219 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 5 1 1
+LABEL "Title" "" "" 116 3 0 0 6 16 7 254 231 174 255
+EDIT "Shape" "" "" 12 39 240 186 "Frame\Frame.tga" 8 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Shape1" "" "" 12 228 240 186 "Frame\Frame.tga" 9 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Txt_02" "" "" 19 67 227 22 "Window\Window.tga" 10 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name02" "" "" 28 70 0 0 11 10 12 213 191 164 255
+PROGRESS "Pro_02" "" "" 122 71 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name02" "" "" 182 70 0 0 13 10 14 43 255 250 255
+EDIT "Txt_03" "" "" 19 97 227 22 "Window\Window.tga" 15 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name03" "" "" 28 100 0 0 16 10 17 213 191 164 255
+PROGRESS "Pro_03" "" "" 122 102 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name03" "" "" 182 100 0 0 18 10 19 43 255 250 255
+EDIT "Txt_04" "" "" 19 127 227 22 "Window\Window.tga" 20 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name04" "" "" 28 129 0 0 21 10 22 213 191 164 255
+PROGRESS "Pro_04" "" "" 122 131 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name04" "" "" 182 130 0 0 23 10 24 43 255 250 255
+EDIT "Txt_05" "" "" 19 157 227 22 "Window\Window.tga" 25 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name05" "" "" 28 159 0 0 26 10 27 213 191 164 255
+PROGRESS "Pro_05" "" "" 122 161 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name05" "" "" 182 160 0 0 28 10 29 43 255 250 255
+EDIT "Txt_Battle" "" "" 18 253 227 22 "Window\Window.tga" 30 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Battle" "" "" 28 255 0 0 31 10 32 213 191 164 255
+PROGRESS "Pro_Battle" "" "" 122 257 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Battlescore" "" "" 182 256 0 0 33 10 34 43 255 250 255
+EDIT "Txt_06" "" "" 18 283 227 22 "Window\Window.tga" 35 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name06" "" "" 28 285 0 0 36 10 37 213 191 164 255
+PROGRESS "Pro_06" "" "" 122 287 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name06" "" "" 182 286 0 0 38 10 39 43 255 250 255
+EDIT "Txt_07" "" "" 18 313 227 22 "Window\Window.tga" 40 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name07" "" "" 28 315 0 0 41 10 42 213 191 164 255
+PROGRESS "Pro_07" "" "" 122 317 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name07" "" "" 182 316 0 0 43 10 44 43 255 250 255
+EDIT "Txt_08" "" "" 18 343 227 22 "Window\Window.tga" 45 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name08" "" "" 28 345 0 0 46 10 47 213 191 164 255
+PROGRESS "Pro_08" "" "" 122 347 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name08" "" "" 182 346 0 0 48 10 49 43 255 250 255
+EDIT "Txt_09" "" "" 19 375 227 22 "Window\Window.tga" 50 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name09" "" "" 28 377 0 0 51 10 52 213 191 164 255
+PROGRESS "Pro_09" "" "" 122 379 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name09" "" "" 182 379 0 0 53 10 54 43 255 250 255
+EDIT "Txt_01" "" "" 19 188 227 22 "Window\Window.tga" 55 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_Name01" "" "" 28 190 0 0 56 10 57 213 191 164 255
+PROGRESS "Pro_01" "" "" 122 192 120 15 "Editbox\Input.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Txt_Name01" "" "" 182 190 0 0 58 10 59 43 255 250 255
+LABEL "Title1" "" "" 102 46 0 0 60 10 61 254 231 174 255
+LABEL "Title2" "" "" 111 233 0 0 62 10 63 254 231 174 255

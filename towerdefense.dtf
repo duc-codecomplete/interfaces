@@ -1,0 +1,25 @@
+DIALOG "Win_TowerDefense" 0 0 621 409 0 1 10 "TOWERDEFENSE\window\底板.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "cancel" "" 591 10 21 21 0 0 0 0 2 10 255 255 255 255 "TOWERDEFENSE\button\Td_Close.tga" "TOWERDEFENSE\button\Td_CloseDown.tga" "TOWERDEFENSE\button\Td_CloseDown.tga" 3 1 1
+STILLIMAGEBUTTON "Btn_Help" "help" "" 11 11 48 24 0 0 0 0 4 10 254 241 219 255 "TOWERDEFENSE\button\Td_Help.tga" "TOWERDEFENSE\button\Td_HelpDown.tga" "TOWERDEFENSE\button\Td_HelpDown.tga" 5 1 0
+IMAGEPICTURE "Pic_Map1" "" "" 24 51 127 109 3 0 "TOWERDEFENSE\extra\地图缩略1.tga" ""
+IMAGEPICTURE "Pic_Map2" "" "" 317 51 127 109 3 0 "TOWERDEFENSE\extra\地图缩略2.tga" ""
+RADIO "Rad_Easy" "" "" 161 365 65 26 "TOWERDEFENSE\button\简单选项.tga" 1 1
+RADIO "Rad_Midd" "" "" 231 365 65 26 "TOWERDEFENSE\button\中等选项.tga" 2 1
+RADIO "Rad_Hard" "" "" 301 365 65 26 "TOWERDEFENSE\button\困难选项.tga" 3 1
+IMAGEPICTURE "Pic_Score" "" "" 466 369 38 19 1 0 "TOWERDEFENSE\TextPic\得分.tga" ""
+EDIT "Edit_Score" "" "" 521 370 75 16 "" 6 10 255 248 153 "TEXT" 1 0 10 0
+IMAGEPICTURE "Pic_Score1" "" "" 153 138 38 19 1 0 "TOWERDEFENSE\TextPic\得分.tga" ""
+EDIT "Edit_Score1" "" "" 203 139 60 16 "" 7 10 255 248 153 "TEXT" 0 0 20 0
+IMAGEPICTURE "Pic_Score2" "" "" 447 138 38 19 1 0 "TOWERDEFENSE\TextPic\得分.tga" ""
+EDIT "Edit_Score2" "" "" 501 139 60 16 "" 8 10 255 248 153 "TEXT" 0 0 20 0
+TEXT "Text_Map1" "" "" 157 55 145 75 9 10 255 255 255 255 "" "" "" "" "" 0
+TEXT "Text_Map2" "" "" 450 55 145 75 10 10 255 255 255 255 "" "" "" "" "" 0
+IMAGEPICTURE "Pic_Map3" "" "" 24 201 127 109 3 0 "TOWERDEFENSE\extra\地图缩略3.tga" ""
+IMAGEPICTURE "Pic_Map4" "" "" 317 201 127 109 3 0 "TOWERDEFENSE\extra\地图缩略4.tga" ""
+TEXT "Text_Map3" "" "" 157 205 145 75 11 10 255 255 255 255 "" "" "" "" "" 0
+IMAGEPICTURE "Pic_Score3" "" "" 153 288 38 19 1 0 "TOWERDEFENSE\TextPic\得分.tga" ""
+EDIT "Edit_Score3" "" "" 203 289 60 16 "" 12 10 255 248 153 "TEXT" 1 0 20 0
+TEXT "Text_Map4" "" "" 450 205 145 75 13 10 255 255 255 255 "" "" "" "" "" 0
+IMAGEPICTURE "Pic_Score4" "" "" 447 288 38 19 1 0 "TOWERDEFENSE\TextPic\得分.tga" ""
+EDIT "Edit_Score4" "" "" 501 289 60 16 "" 14 10 255 248 153 "TEXT" 1 0 20 0
+IMAGEPICTURE "Pic_Title" "" "" 179 1 252 22 1 0 "TOWERDEFENSE\TextPic\题目字体2.tga" ""

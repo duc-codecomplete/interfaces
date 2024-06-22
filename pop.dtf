@@ -1,0 +1,9 @@
+DIALOG "Win_Pop" 0 0 156 39 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 0 1 0
+IMAGEPICTURE "Back_1" "f1" "" 0 0 40 40 1 0 "" ""
+IMAGEPICTURE "Back_2" "f2" "" 39 0 40 40 1 0 "" ""
+IMAGEPICTURE "Back_3" "f3" "" 78 0 40 40 1 0 "" ""
+IMAGEPICTURE "Back_4" "f4" "" 117 0 40 40 1 0 "" ""
+IMAGEPICTURE "F_1" "f2" "" 3 3 34 34 1 0 "Button\÷Ôœ…–°ŒÂ–«Õº±Í.tga" ""
+IMAGEPICTURE "F_2" "f2" "" 42 3 34 34 1 0 "Button\B-01.tga" ""
+IMAGEPICTURE "F_3" "f3" "" 81 2 34 34 1 0 "Button\B-02.tga" ""
+IMAGEPICTURE "F_4" "f4" "" 120 2 34 34 1 0 "Button\B-03.tga" ""

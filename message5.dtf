@@ -1,0 +1,2 @@
+DIALOG "Win_Message5" 0 0 190 120 0 1 10 "Window\Window.tga" "" "" 0 0 250 27 "" 27 6 96 96 96 255 1 0
+LABEL "Txt_Reward" "" "" 8 11 174 96 2 10 3 167 205 255 255

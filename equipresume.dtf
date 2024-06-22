@@ -1,0 +1,15 @@
+DIALOG "Win_EquipResume" 0 0 280 200 0 1 10 "Window\WindowSmall.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Title" "" "" 96 3 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 234 7 21 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+IMAGEPICTURE "Item_a" "" "" 123 76 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_Resume" "resume" "" 37 143 90 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 153 143 90 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+LABEL "Txt_1" "" "" 108 118 0 0 10 10 11 213 191 164 255
+LABEL "Txt_Money1" "" "" 161 179 0 0 12 10 13 255 255 255 255
+LABEL "Txt_Money2" "" "" 198 179 0 0 14 10 15 255 255 255 255
+LABEL "Txt_Money3" "" "" 237 179 0 0 16 10 17 255 255 255 255
+IMAGEPICTURE "Img_FrameMoeny" "" "" 95 177 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Lab_Money" "" "" 37 176 0 0 18 10 19 213 191 164 255
+LABEL "Lab_3" "" "" 5 62 0 0 20 10 21 241 179 31 255
+LABEL "Lab_2" "" "" 6 47 0 0 22 10 23 241 179 31 255
+LABEL "Lab_1" "" "" 19 33 0 0 24 10 25 241 179 31 255

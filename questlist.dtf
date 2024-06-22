@@ -1,0 +1,20 @@
+DIALOG "Win_QuestList" 0 0 540 422 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 487 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 225 3 0 0 4 16 5 254 231 174 255
+LIST "Lst_Quest" "" "" 11 38 182 315 6 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" 0 "0" 0
+TEXT "Txt_Content" "" "" 194 39 332 219 7 10 167 205 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+IMAGEPICTURE "Pic_Quest_M" "" "" 11 358 181 20 1 0 "Editbox\CharInput.tga"
+IMAGEPICTURE "Rank_01" "" "" 16 359 18 17 2 0 "Icon\Quest_Star.tga"
+IMAGEPICTURE "Rank_02" "" "" 36 359 18 17 2 0 "Icon\Quest_Star.tga"
+IMAGEPICTURE "Rank_03" "" "" 56 359 18 17 2 0 "Icon\Quest_Star.tga"
+IMAGEPICTURE "Rank_04" "" "" 76 359 18 17 2 0 "Icon\Quest_Star.tga"
+IMAGEPICTURE "Rank_05" "" "" 96 359 18 17 2 0 "Icon\Quest_Star.tga"
+EDIT "Quest_D" "" "" 194 260 332 92 "Frame\Frame.tga" 8 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Txt_BaseAward" "" "" 204 278 311 15 9 10 10 255 255 255 255
+LABEL "Txt_ItemAward" "" "" 204 317 311 15 11 10 12 255 255 255 255
+IMAGEPICTURE "Img_Item0" "" "" 203 304 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "Img_Item1" "" "" 245 304 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "Img_Item2" "" "" 288 304 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "Img_Item3" "" "" 331 304 36 36 1 0 "Icon\Frame.tga"
+STILLIMAGEBUTTON "Btn_Abandon" "IDCANCEL" "" 471 388 45 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Accept" "accept" "" 425 388 45 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0

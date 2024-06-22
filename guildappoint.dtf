@@ -1,0 +1,9 @@
+DIALOG "Win_GuildAppoint" 0 0 191 254 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Txt_Name" "" "" 9 8 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 170 2 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Lab_CurPosition" "" "" 9 37 0 0 6 10 7 213 191 164 255
+LABEL "Lab_NewPosition" "" "" 9 61 0 0 8 10 9 213 191 164 255
+LIST "Lst_Position" "appoint" "" 9 83 174 135 10 10 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0 "0" 0
+STILLIMAGEBUTTON "Btn_Up" "confirm" "" 40 224 48 21 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+STILLIMAGEBUTTON "Btn_Down" "IDCANCEL" "" 104 224 48 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+LABEL "Txt_CurPosition" "" "" 78 37 0 0 15 10 16 255 255 255 255

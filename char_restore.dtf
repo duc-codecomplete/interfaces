@@ -1,0 +1,2 @@
+DIALOG "Win_CharRestore" 0 0 273 33 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Restore" "restore" "" 105 0 136 33 0 0 0 0 2 10 255 255 255 255 "Button\Char_Resume.tga" "Button\Char_ResumeDown.tga" "" 3 1 1

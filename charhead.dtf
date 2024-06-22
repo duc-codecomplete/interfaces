@@ -1,0 +1,23 @@
+DIALOG "Win_CharHead" 0 0 276 130 0 1 10 "Window\CharHead.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "close" "" 11 0 20 20 0 0 0 0 2 10 255 255 255 255 "Button\最小化方形.tga" "Button\最小化方形按下.tga" "" "" 3 1 1
+PROGRESS "Prgs_HP" "" "" 123 41 118 11 "" "Progress\血条.bmp" 0 0 0 0 0
+LABEL "Txt_HP" "" "" 182 39 0 0 4 8 5 255 255 255 255
+PROGRESS "Prgs_MP" "" "" 123 59 118 11 "" "Progress\能量条.bmp" 0 0 0 0 0
+LABEL "Txt_MP" "" "" 182 57 0 0 6 8 7 255 255 255 255
+LABEL "Txt_Name" "" "" 105 13 0 0 8 10 9 255 255 255 255
+LABEL "Txt_Prof" "" "" 182 76 0 0 10 9 11 255 255 255 255
+LABEL "Txt_LV" "" "" 20 27 0 0 12 11 13 255 255 255 255
+IMAGEPICTURE "Pic_HeadFrame" "" "" 20 33 75 75 1 0 "" ""
+STILLIMAGEBUTTON "Btn_HeadHP" "headhp" "" 111 40 12 12 0 0 0 0 14 10 255 255 255 255 "Button\CHH.tga" "Button\CHHDown.tga" "" "" 15 1 0
+STILLIMAGEBUTTON "Btn_HeadMP" "headmp" "" 111 58 12 12 0 0 0 0 16 10 255 255 255 255 "Button\CHM.tga" "Button\CHMDown.tga" "" "" 17 1 0
+IMAGEPICTURE "Pic_Prof" "" "" 105 74 20 20 30 0 "InGame\Profession.tga" ""
+CHECK "Chk_SiegeScore" "siegescore" "" 235 70 24 24 "Extra\诛仙战场排队按钮.tga"
+CHECK "Chk_BattleInfo" "battleinfo" "" 235 69 24 24 "Extra\诛仙战场排队按钮.tga"
+CHECK "Chk_BattleScore" "battlescore" "" 235 70 24 24 "Extra\诛仙战场排队按钮.tga"
+CHECK "Chk_SwitchPK" "pk" "" 65 104 24 24 "Extra\Radar_PK.tga"
+IMAGEPICTURE "Img_Combat" "" "" 173 42 5 6 1 0 "" "界面\2D火.gfx"
+CHECK "Chk_AutoLock" "lock" "" 7 90 24 24 "Extra\安全锁.tga"
+STILLIMAGEBUTTON "Btn_Out" "out" "" 31 105 24 24 0 0 0 0 18 10 255 255 255 255 "Pet\召出宠物（普通）.tga" "Pet\召出宠物（按下）.tga" "" "" 19 1 1
+CHECK "Chk_EquipCompare" "" "" 0 66 24 24 "Extra\EquipCompare.tga"
+STILLIMAGEBUTTON "Btn_Combine" "combine" "" 31 105 24 24 0 0 0 0 20 10 255 255 255 255 "Pet\开启宠物通灵御宝.tga" "Pet\取消宠物通灵御宝.tga" "" "" 21 1 0
+IMAGEPICTURE "Img_VIP" "" "" 198 11 35 18 1 0 "Icon\VIP.tga" ""

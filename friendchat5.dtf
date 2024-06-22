@@ -1,0 +1,12 @@
+DIALOG "Win_FriendChat5" 0 0 260 300 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 237 3 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Txt_ToWho" "" "" 11 10 0 0 4 10 5 254 231 174 255
+EDIT "Txt_Content" "" "" 9 237 193 53 "Editbox\Input.tga" 6 12 167 205 255 "TEXT" 0 1 80 0
+STILLIMAGEBUTTON "Btn_Popface" "popface" "" 11 217 14 14 0 0 0 0 7 10 255 255 255 255 "Button\ChatFace.tga" "Button\ChatFaceDown.tga" "" 8 1 1
+STILLIMAGEBUTTON "Btn_Send" "send" "" 206 269 45 21 0 0 0 0 9 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 10 1 0
+STILLIMAGEBUTTON "Btn_History" "history" "" 206 246 45 21 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+STILLIMAGEBUTTON "Btn_DeleteAll" "delall" "" 161 215 90 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+TEXT "Txt_Chat" "" "" 9 29 242 184 15 12 167 205 255 255 "Editbox\Input.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+CHECK "Chk_Save" "save" "" 29 215 20 20 "Extra\Check.tga"
+LABEL "Lab_Save" "" "" 50 216 0 0 16 10 17 213 191 164 255
+STILLIMAGEBUTTON "Btn_Minimize" "minimize" "" 222 6 12 15 0 0 0 0 18 15 255 255 255 255 "Button\DMove.tga" "Button\DMoveDown.tga" "" 19 1 1

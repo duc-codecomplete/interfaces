@@ -1,0 +1,13 @@
+DIALOG "Win_Create" 0 0 273 768 0 1 10 "Window\PartList2.tga" "" "" 0 0 215 33 "" 30 3 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_FaceL" "facel" "" 82 267 21 21 0 0 0 0 2 15 255 0 255 255 "Button\CreateRight.tga" "Button\CreateRightDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_FaceR" "facer" "" 243 267 21 21 0 0 0 0 4 15 255 0 255 255 "Button\CreateLeft.tga" "Button\CreateLeftDown.tga" "" 5 1 1
+COMBO "Combo_Face" "change" "" 107 272 132 17 6 12 255 255 255 255 "ListBox\Create_Select.tga" "ListBox\Create_SelectR.tga" 1
+STILLIMAGEBUTTON "Btn_HairL" "hairl" "" 82 301 21 21 0 0 0 0 7 15 255 0 255 255 "Button\CreateRight.tga" "Button\CreateRightDown.tga" "" 8 1 1
+STILLIMAGEBUTTON "Btn_HairR" "hairr" "" 243 301 21 21 0 0 0 0 9 15 255 0 255 255 "Button\CreateLeft.tga" "Button\CreateLeftDown.tga" "" 10 1 1
+COMBO "Combo_Hair" "change" "" 107 306 132 17 11 12 255 255 255 255 "ListBox\Create_Select.tga" "ListBox\Create_SelectR.tga" 1
+IMAGEPICTURE "Pic_Gender" "" "" 102 195 142 133 1 0 "Editbox\Create_SelectB.tga" ""
+STILLIMAGEBUTTON "Btn_GenderL" "genderl" "" 82 233 21 21 0 0 0 0 12 15 255 0 255 255 "Button\CreateRight.tga" "Button\CreateRightDown.tga" "" 13 1 1
+STILLIMAGEBUTTON "Btn_GenderR" "genderr" "" 243 233 21 21 0 0 0 0 14 15 255 0 255 255 "Button\CreateLeft.tga" "Button\CreateLeftDown.tga" "" 15 1 1
+COMBO "Combo_Gender" "change" "" 107 237 132 17 16 12 255 255 255 255 "ListBox\Create_Select.tga" "ListBox\Create_SelectR.tga" 1
+IMAGEPICTURE "Img_Up" "" "" 127 380 5 6 1 0 "" "界面\界面_选人_上升光线.gfx"
+IMAGEPICTURE "Img_Logo" "" "" 172 105 5 6 1 0 "" "界面\界面_选人_水晶球.gfx"

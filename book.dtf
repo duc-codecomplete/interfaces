@@ -1,0 +1,7 @@
+DIALOG "Win_Book" 0 0 430 265 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Img_Book" "" "" 0 0 430 265 5 0 "Extra\Êé¾í¶¯»­2.dds" ""
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 388 23 17 17 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Prev" "prev" "" 32 217 40 15 0 0 0 0 4 10 255 255 255 255 "Button\LeftTurn1.tga" "Button\LeftTurnDown1.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Next" "next" "" 358 217 40 15 0 0 0 0 6 10 255 255 255 255 "Button\RightTurn1.tga" "Button\RightTurnDown1.tga" "" 7 1 0
+TEXT "Txt_Content" "" "" 40 68 348 128 8 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+IMAGEPICTURE "Img_Content" "" "" 40 68 348 128 1 0 "" ""

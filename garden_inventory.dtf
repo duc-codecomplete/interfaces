@@ -1,0 +1,61 @@
+DIALOG "Win_Garden_Inventory" 0 0 290 430 0 1 10 "Frame\Frame3.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+LABEL "Title" "" "" 105 8 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 264 6 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 5 1 1
+LABEL "Txt_BagNum" "" "" 242 42 0 0 6 10 7 255 255 255 255
+IMAGEPICTURE "Item_00" "" "" 27 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_01" "" "" 64 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_02" "" "" 101 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_03" "" "" 138 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_04" "" "" 175 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_05" "" "" 212 79 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_06" "" "" 27 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_07" "" "" 64 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_08" "" "" 101 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_09" "" "" 138 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_10" "" "" 175 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_11" "" "" 212 116 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_12" "" "" 27 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_13" "" "" 64 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_14" "" "" 101 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_15" "" "" 138 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_16" "" "" 175 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_17" "" "" 212 153 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_18" "" "" 27 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_19" "" "" 64 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_20" "" "" 101 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_21" "" "" 138 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_22" "" "" 175 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_23" "" "" 212 190 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_24" "" "" 27 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_25" "" "" 64 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_26" "" "" 101 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_27" "" "" 138 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_28" "" "" 175 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_29" "" "" 212 227 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_30" "" "" 27 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_31" "" "" 64 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_32" "" "" 101 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_33" "" "" 138 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_34" "" "" 175 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_35" "" "" 212 264 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_36" "" "" 27 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_37" "" "" 64 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_38" "" "" 101 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_39" "" "" 138 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_40" "" "" 175 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_41" "" "" 212 301 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_42" "" "" 27 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_43" "" "" 64 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_44" "" "" 101 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_45" "" "" 138 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_46" "" "" 175 338 36 36 1 0 "Icon\Frame.tga" ""
+IMAGEPICTURE "Item_47" "" "" 212 338 36 36 1 0 "Icon\Frame.tga" ""
+SCROLL "Scl_Item" "" "" 265 78 12 296 "ListBox\DragSlot.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragButton.tga" 1 
+LABEL "Lab_Money" "" "" 42 391 0 0 8 10 9 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 108 391 160 18 1 0 "Icon\FrameMoney.tga" ""
+LABEL "Txt_Money3" "" "" 249 391 0 0 10 10 11 255 255 255 255
+LABEL "Txt_Money2" "" "" 210 391 0 0 12 10 13 255 255 255 255
+LABEL "Txt_Money1" "" "" 173 391 0 0 14 10 15 255 255 255 255
+LABEL "Txt_Limit" "" "" 74 43 0 0 16 10 17 0 255 255 255
+LABEL "Lab_Limit" "" "" 12 43 0 0 18 10 19 213 190 164 255
+LABEL "Lab_Num" "" "" 176 35 0 0 20 10 21 255 255 255 255

@@ -1,0 +1,2 @@
+DIALOG "Win_CharHeadClose" 0 0 20 20 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Close" "close" "" 1 0 20 20 0 0 0 0 2 10 255 255 255 255 "Button\最小化方形.tga" "Button\最小化方形按下.tga" "" 3 1 1

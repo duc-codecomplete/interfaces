@@ -1,0 +1,57 @@
+DIALOG "Win_PetList" 0 0 311 440 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 283 33 "Window\对话框_标准关闭.tga" 41 33 96 96 96 255 1
+EDIT "Img_Title" "" "" 16 25 283 33 "Window\对话框_标题b.tga" 2 15 255 255 255 "TEXT" 1 0 20
+LABEL "Title" "" "" 115 29 0 0 3 16 4 255 203 74 255
+IMAGEPICTURE "L" "" "" -7 -2 32 512 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "U" "" "" 25 -4 512 64 1 0 "Window\花纹_U.dds"
+IMAGEPICTURE "R" "" "" 287 -3 31 512 1 0 "Window\花纹_R.dds"
+IMAGEPICTURE "D" "" "" 25 425 512 32 1 0 "Window\花纹_D.dds"
+EDIT "WPet1_Shap" "" "" 24 95 267 58 "Editbox\文本框_4.tga" 5 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_Level1" "" "" 34 103 0 0 6 10 7 255 203 74 255
+LABEL "Txt_Level1" "" "" 34 123 0 0 8 10 9 192 192 192 255
+IMAGEPICTURE "Img_Icon1" "" "" 69 103 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name1" "" "" 110 103 0 0 10 10 11 255 203 74 255
+LABEL "Txt_Name1" "" "" 168 103 0 0 12 10 13 192 192 192 255
+STILLIMAGEBUTTON "Btn_Detail1" "detail1" "SFX\Interface\ClickA.wav" 111 123 38 22 0 0 0 0 14 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 15 1
+STILLIMAGEBUTTON "Btn_Summon1" "summon1" "SFX\Interface\ClickA.wav" 150 123 38 22 0 0 0 0 16 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 17 1
+STILLIMAGEBUTTON "Btn_Recall1" "recall1" "SFX\Interface\ClickA.wav" 189 123 38 22 0 0 0 0 18 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 19 1
+STILLIMAGEBUTTON "Btn_Banish1" "banish1" "SFX\Interface\ClickA.wav" 247 123 38 22 0 0 0 0 20 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 21 1
+EDIT "WPet2_Shap" "" "" 25 155 267 58 "Editbox\文本框_4.tga" 22 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_Level2" "" "" 34 163 0 0 23 10 24 255 203 74 255
+LABEL "Txt_Level2" "" "" 34 183 0 0 25 10 26 192 192 192 255
+IMAGEPICTURE "Img_Icon2" "" "" 69 163 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name2" "" "" 110 163 0 0 27 10 28 255 203 74 255
+LABEL "Txt_Name2" "" "" 168 163 0 0 29 10 30 192 192 192 255
+STILLIMAGEBUTTON "Btn_Detail2" "detail2" "SFX\Interface\ClickA.wav" 111 183 38 22 0 0 0 0 31 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 32 1
+STILLIMAGEBUTTON "Btn_Summon2" "summon2" "SFX\Interface\ClickA.wav" 150 183 38 22 0 0 0 0 33 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 34 1
+STILLIMAGEBUTTON "Btn_Recall2" "recall2" "SFX\Interface\ClickA.wav" 189 183 38 22 0 0 0 0 35 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 36 1
+STILLIMAGEBUTTON "Btn_Banish2" "banish2" "SFX\Interface\ClickA.wav" 247 183 38 22 0 0 0 0 37 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 38 1
+EDIT "WPet3_Shap" "" "" 24 215 267 58 "Editbox\文本框_4.tga" 39 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_Level3" "" "" 34 223 0 0 40 10 41 255 203 74 255
+LABEL "Txt_Level3" "" "" 34 243 0 0 42 10 43 192 192 192 255
+IMAGEPICTURE "Img_Icon3" "" "" 69 223 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name3" "" "" 110 223 0 0 44 10 45 255 203 74 255
+LABEL "Txt_Name3" "" "" 168 223 0 0 46 10 47 192 192 192 255
+STILLIMAGEBUTTON "Btn_Detail3" "detail3" "SFX\Interface\ClickA.wav" 111 243 38 22 0 0 0 0 48 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 49 1
+STILLIMAGEBUTTON "Btn_Summon3" "summon3" "SFX\Interface\ClickA.wav" 150 243 38 22 0 0 0 0 50 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 51 1
+STILLIMAGEBUTTON "Btn_Recall3" "recall3" "SFX\Interface\ClickA.wav" 189 243 38 22 0 0 0 0 52 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 53 1
+STILLIMAGEBUTTON "Btn_Banish3" "banish3" "SFX\Interface\ClickA.wav" 247 243 38 22 0 0 0 0 54 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 55 1
+EDIT "WPet4_Shap" "" "" 24 275 267 58 "Editbox\文本框_4.tga" 56 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_Level4" "" "" 34 280 0 0 57 10 58 255 203 74 255
+LABEL "Txt_Level4" "" "" 34 300 0 0 59 10 60 192 192 192 255
+IMAGEPICTURE "Img_Icon4" "" "" 69 283 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name4" "" "" 110 280 0 0 61 10 62 255 203 74 255
+LABEL "Txt_Name4" "" "" 168 280 0 0 63 10 64 192 192 192 255
+STILLIMAGEBUTTON "Btn_Detail4" "detail4" "SFX\Interface\ClickA.wav" 111 303 38 22 0 0 0 0 65 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 66 1
+STILLIMAGEBUTTON "Btn_Summon4" "summon4" "SFX\Interface\ClickA.wav" 150 303 38 22 0 0 0 0 67 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 68 1
+STILLIMAGEBUTTON "Btn_Recall4" "recall4" "SFX\Interface\ClickA.wav" 189 303 38 22 0 0 0 0 69 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 70 1
+STILLIMAGEBUTTON "Btn_Banish4" "banish4" "SFX\Interface\ClickA.wav" 247 303 38 22 0 0 0 0 71 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 72 1
+EDIT "WPet5_Shap" "" "" 24 335 267 58 "Editbox\文本框_4.tga" 73 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_Level5" "" "" 34 340 0 0 74 10 75 255 203 74 255
+LABEL "Txt_Level5" "" "" 34 360 0 0 76 10 77 192 192 192 255
+IMAGEPICTURE "Img_Icon5" "" "" 69 343 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name5" "" "" 110 340 0 0 78 10 79 255 203 74 255
+LABEL "Txt_Name5" "" "" 168 340 0 0 80 10 81 192 192 192 255
+STILLIMAGEBUTTON "Btn_Detail5" "detail5" "SFX\Interface\ClickA.wav" 111 363 38 22 0 0 0 0 82 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 83 1
+STILLIMAGEBUTTON "Btn_Summon5" "summon5" "SFX\Interface\ClickA.wav" 150 363 38 22 0 0 0 0 84 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 85 1
+STILLIMAGEBUTTON "Btn_Recall5" "recall5" "SFX\Interface\ClickA.wav" 189 363 38 22 0 0 0 0 86 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 87 1
+STILLIMAGEBUTTON "Btn_Banish5" "banish5" "SFX\Interface\ClickA.wav" 247 363 38 22 0 0 0 0 88 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 89 1

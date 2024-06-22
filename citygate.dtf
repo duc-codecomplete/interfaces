@@ -1,0 +1,41 @@
+DIALOG "Win_CityGate" 0 0 540 380 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 487 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 225 3 0 0 4 16 5 254 231 174 255
+LIST "Lst_02" "" "" 11 80 516 45 6 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" 0 "0" 0
+LIST "Lst_04" "" "" 11 140 516 45 7 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" 0 "0" 0
+LIST "Lst_05" "" "" 11 200 516 45 8 10 255 255 255 255 "Frame\Frame.tga" "ListBox\Create_SelectR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "Listbox\DragButtonL.tga" 0 "0" 0
+LABEL "Lab_01" "" "" 17 45 0 0 9 10 10 255 255 255 255
+LABEL "Lab_Defence" "" "" 27 85 0 0 11 10 12 213 191 164 255
+LABEL "Txt_Defence" "" "" 126 85 0 0 13 10 14 43 255 250 255
+LABEL "Lab_Skill" "" "" 27 145 0 0 15 10 16 213 191 164 255
+LABEL "Txt_Skill" "" "" 126 145 0 0 17 10 18 43 255 250 255
+LABEL "Lab_Hp" "" "" 27 203 0 0 19 10 20 213 191 164 255
+LABEL "Txt_Hp" "" "" 126 203 0 0 21 10 22 43 255 250 255
+LABEL "Lab_DefenceNext" "" "" 198 85 0 0 23 10 24 213 191 164 255
+LABEL "Txt_DefenceNext" "" "" 333 85 0 0 25 10 26 43 255 250 255
+LABEL "Lab_SkillNext" "" "" 198 145 0 0 27 10 28 213 191 164 255
+LABEL "Txt_SkillNext" "" "" 333 145 0 0 29 10 30 43 255 250 255
+LABEL "Lab_HpNext" "" "" 198 204 0 0 31 10 32 213 191 164 255
+LABEL "Txt_HpNext" "" "" 333 204 0 0 33 10 34 43 255 250 255
+LABEL "Lab_DefenceNeed1" "" "" 141 105 0 0 35 10 36 213 191 164 255
+LABEL "Txt_DefenceNeed1" "" "" 241 105 0 0 37 10 38 43 255 250 255
+LABEL "Lab_SkillNeed1" "" "" 141 165 0 0 39 10 40 213 191 164 255
+LABEL "Txt_SkillNeed1" "" "" 241 165 0 0 41 10 42 43 255 250 255
+LABEL "Lab_HpNeed1" "" "" 141 224 0 0 43 10 44 213 191 164 255
+LABEL "Txt_HpNeed1" "" "" 241 224 0 0 45 10 46 43 255 250 255
+LABEL "Lab_DefenceNeed2" "" "" 300 105 0 0 47 10 48 213 191 164 255
+LABEL "Txt_DefenceNeed2" "" "" 400 105 0 0 49 10 50 43 255 250 255
+LABEL "Lab_SkillNeed2" "" "" 300 165 0 0 51 10 52 213 191 164 255
+LABEL "Txt_SkillNeed2" "" "" 400 165 0 0 53 10 54 43 255 250 255
+LABEL "Lab_HpNeed2" "" "" 300 224 0 0 55 10 56 213 191 164 255
+LABEL "Txt_HpNeed2" "" "" 400 224 0 0 57 10 58 43 255 250 255
+STILLIMAGEBUTTON "Btn_Defence" "UpgradeGateDefence" "" 458 96 45 20 0 0 0 0 59 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 60 1 0
+STILLIMAGEBUTTON "Btn_Skill" "UpgradeGateSkill" "" 458 156 45 20 0 0 0 0 61 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 62 1 0
+STILLIMAGEBUTTON "Btn_Hp" "UpgradeGateHp" "" 458 215 45 20 0 0 0 0 63 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 64 1 0
+LABEL "Lab_Resource" "" "" 179 260 0 0 65 10 66 213 191 164 255
+LABEL "Lab_Resource01" "" "" 226 278 0 0 67 10 68 213 191 164 255
+LABEL "Txt_Resource01" "" "" 301 278 0 0 69 10 70 43 255 250 255
+LABEL "Lab_Resource02" "" "" 399 278 0 0 71 10 72 213 191 164 255
+LABEL "Txt_Resource02" "" "" 474 278 0 0 73 10 74 43 255 250 255
+STILLIMAGEBUTTON "Btn_Resource01" "DonateRes01" "" 299 298 45 20 0 0 0 0 75 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 76 1 0
+STILLIMAGEBUTTON "Btn_Resource02" "DonateRes02" "" 472 298 45 20 0 0 0 0 77 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 78 1 0

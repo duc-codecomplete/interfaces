@@ -1,0 +1,12 @@
+DIALOG "Win_TargetNPC2" 0 0 242 99 0 1 10 "Window\NpcHead.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Txt_Name" "" "" 150 25 0 0 2 9 3 255 255 255 255
+PROGRESS "Prg_HP" "" "" 104 46 118 6 "" "Progress\ÑªÌõ2.bmp" 0 0 0 0 0
+IMAGEPICTURE "st_1" "" "" 94 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_2" "" "" 110 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_3" "" "" 126 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_4" "" "" 142 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_5" "" "" 158 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_6" "" "" 174 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_7" "" "" 190 58 16 16 1 0 "" ""
+IMAGEPICTURE "st_8" "" "" 206 58 16 16 1 0 "" ""
+IMAGEPICTURE "Pic_HeadFrameNpc" "" "" 14 7 75 75 1 0 "" ""

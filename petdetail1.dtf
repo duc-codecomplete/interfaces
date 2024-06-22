@@ -1,0 +1,37 @@
+DIALOG "Win_PetDetail1" 0 0 311 440 0 1 10 "Window\对话框_标准边框x.dds" "" "" 0 0 283 33 "Window\对话框_标准关闭.tga" 41 33 96 96 96 255 1
+EDIT "Img_Title" "" "" 16 25 283 33 "Window\对话框_标题b.tga" 2 15 255 255 255 "TEXT" 1 0 20
+LABEL "Title" "" "" 115 29 0 0 3 16 4 255 203 74 255
+IMAGEPICTURE "L" "" "" -7 -2 32 512 1 0 "Window\花纹_L.dds"
+IMAGEPICTURE "U" "" "" 25 -4 512 64 1 0 "Window\花纹_U.dds"
+IMAGEPICTURE "R" "" "" 287 -3 31 512 1 0 "Window\花纹_R.dds"
+IMAGEPICTURE "D" "" "" 25 425 512 32 1 0 "Window\花纹_D.dds"
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "SFX\Interface\ClickA.wav" 249 392 38 22 0 0 0 0 5 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" 6 1
+EDIT "WPet1_Shap" "" "" 24 62 267 58 "Editbox\文本框_4.tga" 7 15 255 255 255 "TEXT" 1 0 20
+IMAGEPICTURE "Img_Icon" "" "" 34 70 32 32 1 0 "Window\图标_物品栏t.dds"
+LABEL "Lab_Name" "" "" 72 70 0 0 8 10 9 255 203 74 255
+LABEL "Txt_Name" "" "" 132 70 0 0 10 10 11 255 255 255 255
+LABEL "Lab_Level" "" "" 72 94 0 0 12 10 13 255 203 74 255
+LABEL "Txt_Level" "" "" 105 94 0 0 14 10 15 255 255 255 255
+LABEL "Lab_Exp" "" "" 154 94 0 0 16 10 17 255 203 74 255
+LABEL "Txt_Exp" "" "" 204 94 0 0 18 10 19 255 255 255 255
+EDIT "Txt_Shap" "" "" 24 124 267 139 "Editbox\文本框_4.tga" 20 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_11" "" "" 37 139 0 0 21 10 22 255 203 74 255
+LABEL "Txt_Food" "" "" 77 139 0 0 23 10 24 255 255 255 255
+LABEL "Lab_01" "" "" 37 163 0 0 25 10 26 255 203 74 255
+LABEL "Txt_Attack" "" "" 77 163 0 0 27 10 28 255 255 255 255
+LABEL "Lab_02" "" "" 156 163 0 0 29 10 30 255 203 74 255
+LABEL "Txt_Defence" "" "" 195 163 0 0 31 10 32 255 255 255 255
+LABEL "Lab_03" "" "" 37 187 0 0 33 10 34 255 203 74 255
+LABEL "Txt_Hunger" "" "" 86 187 55 15 35 10 36 255 255 255 255
+LABEL "Lab_04" "" "" 164 187 0 0 37 10 38 255 203 74 255
+LABEL "Txt_Loyalty" "" "" 216 187 110 15 39 10 40 255 255 255 255
+LABEL "Lab_05" "" "" 37 211 0 0 41 10 42 255 203 74 255
+LABEL "Txt_MoveSpeed" "" "" 102 211 0 0 43 10 44 255 255 255 255
+LABEL "Lab_06" "" "" 37 235 0 0 45 10 46 255 203 74 255
+LABEL "Txt_RequireLevel" "" "" 102 235 0 0 47 10 48 255 255 255 255
+EDIT "WPet3_Shap" "" "" 24 267 267 119 "Editbox\文本框_4.tga" 49 15 255 255 255 "TEXT" 1 0 20
+LABEL "Lab_07" "" "" 37 280 0 0 50 10 51 255 203 74 255
+IMAGEPICTURE "Img_Skill01" "" "" 36 303 32 32 1 0 "Window\图标_物品栏t.dds"
+IMAGEPICTURE "Img_Skill02" "" "" 76 303 32 32 1 0 "Window\图标_物品栏t.dds"
+IMAGEPICTURE "Img_Skill03" "" "" 116 303 32 32 1 0 "Window\图标_物品栏t.dds"
+IMAGEPICTURE "Img_Skill04" "" "" 156 303 32 32 1 0 "Window\图标_物品栏t.dds"

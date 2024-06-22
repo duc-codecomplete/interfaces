@@ -1,0 +1,50 @@
+DIALOG "Win_Buff" 0 0 220 176 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Img_Buff8" "" "" 112 44 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff7" "" "" 149 44 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff6" "" "" 186 44 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff5" "" "" 1 0 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff4" "" "" 38 0 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff3" "" "" 75 0 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff2" "" "" 112 0 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff1" "" "" 149 0 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff0" "" "" 186 0 32 32 1 0 "" ""
+LABEL "Txt_Time8" "" "" 128 74 0 0 2 10 3 255 220 74 255
+LABEL "Txt_Time7" "" "" 165 74 0 0 4 10 5 255 220 74 255
+LABEL "Txt_Time6" "" "" 202 74 0 0 6 10 7 255 220 74 255
+LABEL "Txt_Time5" "" "" 17 30 0 0 8 10 9 255 220 74 255
+LABEL "Txt_Time4" "" "" 54 30 0 0 10 10 11 255 220 74 255
+LABEL "Txt_Time3" "" "" 91 30 0 0 12 10 13 255 220 74 255
+LABEL "Txt_Time2" "" "" 128 30 0 0 14 10 15 255 220 74 255
+LABEL "Txt_Time1" "" "" 165 30 0 0 16 10 17 255 220 74 255
+LABEL "Txt_Time0" "" "" 202 30 0 0 18 10 19 255 220 74 255
+IMAGEPICTURE "Img_Buff17" "" "" 1 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff16" "" "" 38 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff15" "" "" 75 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff14" "" "" 112 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff13" "" "" 149 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff12" "" "" 186 88 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff11" "" "" 1 44 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff10" "" "" 38 44 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff9" "" "" 75 44 32 32 1 0 "" ""
+LABEL "Txt_Time17" "" "" 17 118 0 0 20 10 21 255 220 74 255
+LABEL "Txt_Time16" "" "" 54 118 0 0 22 10 23 255 220 74 255
+LABEL "Txt_Time15" "" "" 91 118 0 0 24 10 25 255 220 74 255
+LABEL "Txt_Time14" "" "" 128 118 0 0 26 10 27 255 220 74 255
+LABEL "Txt_Time13" "" "" 165 118 0 0 28 10 29 255 220 74 255
+LABEL "Txt_Time12" "" "" 202 118 0 0 30 10 31 255 220 74 255
+LABEL "Txt_Time11" "" "" 17 74 0 0 32 10 33 255 220 74 255
+LABEL "Txt_Time10" "" "" 54 74 0 0 34 10 35 255 220 74 255
+LABEL "Txt_Time9" "" "" 91 74 0 0 36 10 37 255 220 74 255
+IMAGEPICTURE "Img_Captivation" "" "" 187 3 28 28 3 0 "Icon\∑¿≥¡√‘.tga" ""
+LABEL "Txt_Time19" "" "" 165 162 0 0 38 10 39 255 220 74 255
+LABEL "Txt_Time20" "" "" 128 162 0 0 40 10 41 255 220 74 255
+LABEL "Txt_Time21" "" "" 91 162 0 0 42 10 43 255 220 74 255
+LABEL "Txt_Time22" "" "" 54 162 0 0 44 10 45 255 220 74 255
+LABEL "Txt_Time23" "" "" 17 162 0 0 46 10 47 255 220 74 255
+IMAGEPICTURE "Img_Buff18" "" "" 186 132 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff19" "" "" 149 132 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff20" "" "" 112 132 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff21" "" "" 75 132 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff22" "" "" 38 132 32 32 1 0 "" ""
+IMAGEPICTURE "Img_Buff23" "" "" 1 132 32 32 1 0 "" ""
+LABEL "Txt_Time18" "" "" 202 162 0 0 48 10 49 255 220 74 255

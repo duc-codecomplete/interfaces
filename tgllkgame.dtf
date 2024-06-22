@@ -1,0 +1,35 @@
+DIALOG "Win_TGllkGame" 0 0 694 609 0 1 10 "" "TinyGame\Windows\Window05.tga" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Pic_Title" "" "" 54 3 586 39 1 0 "TinyGame\TGllk\TGllkTitle.tga" ""
+IMAGEPICTURE "Pic_BackGround" "" "" 20 113 659 487 1 0 "TinyGame\Windows\Window04.tga" ""
+IMAGEPICTURE "Pic_BackMap" "" "" 29 168 641 402 1 0 "TinyGame\Maps\Scene1.tga" ""
+EDIT "Edit_Score" "" "" 68 103 70 22 "TinyGame\Editbox\EditBox1.tga" 2 9 255 255 255 "TEXT" 1 0 10 0
+EDIT "Edit_Level" "" "" 350 55 50 22 "TinyGame\Editbox\EditBox1.tga" 3 9 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_LevelText" "" "" 281 55 60 30 4 16 5 255 237 174 255
+LABEL "Lab_TextScore" "" "" 26 103 40 30 6 14 7 255 237 174 255
+LABEL "Lab_MaxScoreText" "" "" 262 60 79 30 8 16 9 255 237 174 255
+LABEL "Lab_TextOut" "" "" 25 56 0 0 10 15 11 255 237 174 255
+IMAGEPICTURE "Pic_TimeText" "" "" 171 138 28 28 1 0 "TinyGame\Icon\LastTime.tga" ""
+PROGRESS "Prog_Time" "" "" 206 144 312 20 "TinyGame\Progress\ProgressFrame.tga" "TinyGame\Progress\RedFill.tga" 14 2 10 2 0
+STILLIMAGEBUTTON "Btn_close" "close" "" 664 13 19 19 0 0 0 0 12 10 255 255 255 255 "TinyGame\Button\CloseUp.tga" "TinyGame\Button\CloseDown.tga" "TinyGame\Button\CloseDown.tga" 13 1 0
+STILLIMAGEBUTTON "Btn_ToGamemin" "min" "" 641 13 19 19 0 0 0 0 14 15 255 255 255 255 "TinyGame\Button\MinWindowUp.tga" "TinyGame\Button\MinWindowDown.tga" "TinyGame\Button\MinWindowDown.tga" 15 1 0
+STILLIMAGEBUTTON "Btn_Pause" "pause" "" 510 82 49 48 0 0 0 0 16 10 255 255 255 255 "TinyGame\Button\PauseUp.tga" "TinyGame\Button\PauseDown.tga" "TinyGame\Button\PauseDown.tga" 17 1 0
+STILLIMAGEBUTTON "Btn_Continue" "continue" "" 508 82 49 48 0 0 0 0 18 10 255 255 255 255 "TinyGame\Button\StartUp.tga" "TinyGame\Button\StartDown.tga" "TinyGame\Button\StartDown.tga" 19 1 0
+STILLIMAGEBUTTON "Btn_Hint" "hint" "" 149 99 51 30 0 0 0 0 20 14 255 241 196 255 "TinyGame\Button\ButtonUp.tga" "TinyGame\Button\ButtonDown.tga" "TinyGame\Button\ButtonDown.tga" 21 1 0
+STILLIMAGEBUTTON "Btn_Wash" "wash" "" 275 99 51 30 0 0 0 0 22 14 255 241 196 255 "TinyGame\Button\ButtonUp.tga" "TinyGame\Button\ButtonDown.tga" "TinyGame\Button\ButtonDown.tga" 23 1 0
+STILLIMAGEBUTTON "Btn_Abandon" "abandon" "" 610 82 49 48 0 0 0 0 24 10 255 255 255 255 "TinyGame\Button\AbandonUp.tga" "TinyGame\Button\AbandonDown.tga" "TinyGame\Button\AbandonDown.tga" 25 1 0
+STILLIMAGEBUTTON "Btn_SoundOff" "sound" "" 560 82 49 48 0 0 0 0 26 10 255 255 255 255 "TinyGame\Button\SoundOnUp.tga" "TinyGame\Button\SoundOnDown.tga" "TinyGame\Button\SoundOnDown.tga" 27 1 0
+STILLIMAGEBUTTON "Btn_SoundOn" "sound" "" 560 82 49 48 0 0 0 0 28 10 255 255 255 255 "TinyGame\Button\SoundOffUp.tga" "TinyGame\Button\SoundOffDown.tga" "TinyGame\Button\SoundOffDown.tga" 29 1 0
+EDIT "Edit_WashNum" "" "" 331 103 60 22 "TinyGame\Editbox\EditBox1.tga" 30 9 255 255 255 "TEXT" 1 0 20 0
+EDIT "Edit_HintNum" "" "" 204 103 60 22 "TinyGame\Editbox\EditBox1.tga" 31 9 255 255 255 "TEXT" 1 0 20 0
+EDIT "Edit_MaxScore" "" "" 344 61 83 22 "TinyGame\Editbox\EditBox1.tga" 32 10 255 255 255 "TEXT" 1 0 20 0
+RADIO "Rdo_11" "" "" 304 282 66 23 "TinyGame\Button\SimpleChosen.tga" 1 1
+RADIO "Rdo_12" "" "" 304 320 66 23 "TinyGame\Button\MidChosen.tga" 2 1
+RADIO "Rdo_13" "" "" 304 360 66 23 "TinyGame\Button\HardChosen.tga" 3 1
+STILLIMAGEBUTTON "Btn_Start" "next" "" 292 404 97 30 0 0 0 0 33 15 255 237 174 255 "TinyGame\Button\BlueButton3Up.tga" "TinyGame\Button\BlueButton3Down.tga" "TinyGame\Button\BlueButton3Down.tga" 34 1 0
+STILLIMAGEBUTTON "Btn_ToNext" "next" "" 297 348 85 25 0 0 0 0 35 14 255 237 174 255 "TinyGame\Button\BlueButtonUp.tga" "TinyGame\Button\BlueButtonDown.tga" "TinyGame\Button\BlueButtonDown.tga" 36 1 0
+IMAGEPICTURE "Pic_MemberPic" "" "" 0 572 36 36 1 0 "TinyGame\TGllk\Icon\37ForPrepair.tga" ""
+IMAGEPICTURE "Pic_Pressed" "" "" 643 558 50 50 11 80 "TinyGame\TGllk\Icon\Chosen1.tga" ""
+IMAGEPICTURE "Pic_Hint1" "" "" 589 558 50 50 11 80 "TinyGame\TGllk\Icon\Chosen1.tga" ""
+IMAGEPICTURE "Pic_Hint2" "" "" 533 558 50 50 11 80 "TinyGame\TGllk\Icon\Chosen1.tga" ""
+IMAGEPICTURE "Pic_Line" "" "" 38 585 200 3 1 0 "TinyGame\TGllk\LinePixel.tga" ""
+IMAGEPICTURE "Pic_Disapear" "" "" 472 558 50 50 12 30 "TinyGame\TGllk\Icon\Disapear1.tga" ""

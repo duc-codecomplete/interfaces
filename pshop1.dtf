@@ -1,0 +1,66 @@
+DIALOG "Win_PShop1" 0 0 532 430 0 1 10 "Window\WindowDouble.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Close1" "IDCANCEL" "" 507 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+LABEL "Title" "" "" 100 4 0 0 6 16 7 254 231 174 255
+LABEL "Title2" "" "" 367 4 0 0 8 16 9 254 231 174 255
+LABEL "Lab_Sell" "" "" 274 62 0 0 10 10 11 213 191 164 255
+IMAGEPICTURE "SellItem_01" "" "" 287 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_02" "" "" 324 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_03" "" "" 361 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_04" "" "" 398 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_05" "" "" 435 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_06" "" "" 472 82 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_07" "" "" 287 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_08" "" "" 324 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_09" "" "" 361 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_10" "" "" 398 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_11" "" "" 435 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_12" "" "" 472 119 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_13" "" "" 287 156 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_14" "" "" 324 156 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_15" "" "" 361 156 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_16" "" "" 398 156 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_17" "" "" 435 156 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "SellItem_18" "" "" 472 156 36 36 1 0 "Icon\Frame.tga"
+LABEL "Lab_SellMoney" "" "" 284 203 0 0 12 10 13 213 191 164 255
+IMAGEPICTURE "Img_FrameMoneySell" "" "" 356 202 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_SellMoney3" "" "" 498 202 0 0 14 10 15 255 255 255 255
+LABEL "Txt_SellMoney2" "" "" 460 202 0 0 16 10 17 255 255 255 255
+LABEL "Txt_SellMoney1" "" "" 422 202 0 0 18 10 19 255 255 255 255
+LABEL "Lab_Buy" "" "" 275 230 0 0 20 10 21 213 191 164 255
+IMAGEPICTURE "BuyItem_01" "" "" 287 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_02" "" "" 324 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_03" "" "" 361 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_04" "" "" 398 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_05" "" "" 435 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_06" "" "" 472 251 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_07" "" "" 287 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_08" "" "" 324 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_09" "" "" 361 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_10" "" "" 398 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_11" "" "" 435 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_12" "" "" 472 288 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_13" "" "" 287 325 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_14" "" "" 324 325 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_15" "" "" 361 325 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_16" "" "" 398 325 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_17" "" "" 435 325 36 36 1 0 "Icon\Frame.tga"
+IMAGEPICTURE "BuyItem_18" "" "" 472 325 36 36 1 0 "Icon\Frame.tga"
+LABEL "Lab_BuyMoney" "" "" 285 371 0 0 22 10 23 213 191 164 255
+IMAGEPICTURE "Img_FrameMoneyBuy" "" "" 356 372 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_BuyMoney3" "" "" 498 372 0 0 24 10 25 255 255 255 255
+LABEL "Txt_BuyMoney2" "" "" 460 373 0 0 26 10 27 255 255 255 255
+LABEL "Txt_BuyMoney1" "" "" 422 372 0 0 28 10 29 255 255 255 255
+LABEL "Lab_Money" "" "" 285 403 0 0 30 10 31 213 191 164 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 356 402 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money3" "" "" 497 402 0 0 32 10 33 255 255 255 255
+LABEL "Txt_Money2" "" "" 459 403 0 0 34 10 35 255 255 255 255
+LABEL "Txt_Money1" "" "" 421 402 0 0 36 10 37 255 255 255 255
+LABEL "Lab_Msg" "" "" 12 65 0 0 38 10 39 213 191 164 255
+STILLIMAGEBUTTON "Btn_ClearMsg" "clearmsg" "" 203 37 45 21 0 0 0 0 40 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 41 1 0
+TEXT "Txt_MsgList" "msglist" "" 11 85 240 280 42 10 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0
+LABEL "Lab_Name" "" "" 12 374 0 0 43 10 44 213 191 164 255
+EDIT "DEFAULT_Txt_Name" "" "" 74 372 176 21 "Editbox\Input.tga" 45 10 255 255 255 "TEXT" 0 0 13 0
+STILLIMAGEBUTTON "Btn_Reset" "reset" "" 11 401 72 21 0 0 0 0 46 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 47 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 159 401 45 21 0 0 0 0 48 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 49 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 205 401 45 21 0 0 0 0 50 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 51 1 0

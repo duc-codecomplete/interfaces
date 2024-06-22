@@ -1,0 +1,12 @@
+DIALOG "Win_GuildWar" 0 0 420 422 0 1 12 "Window\WindowSmall.tga" "" "" 0 0 476 33 "" 30 6 96 96 96 255 1 0
+LABEL "Title" "" "" 147 5 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 362 7 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_SortName" "" "" 24 46 170 19 0 0 0 0 6 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_SortKill1" "" "" 195 46 100 19 0 0 0 0 8 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_SortKill2" "" "" 296 46 100 19 0 0 0 0 10 10 255 255 255 255 "Editbox\Input.tga" "Editbox\Input.tga" "" 11 1 0
+LIST "List_Member" "listmember" "" 24 64 373 310 12 10 255 255 255 255 "Editbox\Input.tga" "Listbox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "170 +100 +100" 0
+STILLIMAGEBUTTON "Btn_Bottom" "refresh2" "" 349 380 48 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Next" "refresh1" "" 300 380 48 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Refresh" "refresh0" "" 251 380 48 21 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 18 1 0
+STILLIMAGEBUTTON "Btn_Prec" "refresh-1" "" 202 380 48 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 20 1 0
+STILLIMAGEBUTTON "Btn_Top" "refresh-2" "first" 153 380 48 21 0 0 0 0 21 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 22 1 0

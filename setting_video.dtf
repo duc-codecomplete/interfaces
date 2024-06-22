@@ -1,0 +1,56 @@
+DIALOG "Win_SettingVideo" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 0
+LABEL "Title" "" "" 100 5 0 0 2 16 3 254 231 174 255
+EDIT "BG1" "" "" 11 81 240 229 "Editbox\Input.tga" 4 15 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "BG2" "" "" 12 339 240 50 "Editbox\Input.tga" 5 15 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+STILLIMAGEBUTTON "Btn_Game" "gamesetting" "" 170 31 80 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Video" "videosetting" "" 91 31 80 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 9 1 0
+STILLIMAGEBUTTON "Btn_System" "systemsetting" "" 12 31 80 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Default" "default" "" 21 401 45 21 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 13 1 0
+STILLIMAGEBUTTON "Btn_Apply" "apply" "" 119 401 45 21 0 0 0 0 14 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 15 1 0
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "" 164 401 45 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 209 401 45 21 0 0 0 0 18 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 19 1 0
+LABEL "显示选项" "" "" 11 58 0 0 20 10 21 213 191 164 255
+LABEL "Control_110234292" "" "" 168 127 0 0 22 10 23 255 255 255 255
+LABEL "Control_301097886" "" "" 168 107 0 0 24 10 25 255 255 255 255
+LABEL "Control_227619345" "" "" 60 127 0 0 26 10 27 255 255 255 255
+LABEL "Lab_PlayerName" "" "" 60 107 0 0 28 10 29 255 255 255 255
+LABEL "Lab_ShowName" "" "" 46 88 0 0 30 10 31 255 255 255 255
+LABEL "Lab_Space" "" "" 60 246 0 0 32 10 33 255 255 255 255
+LABEL "Control_587995728" "" "" 122 270 0 0 34 10 35 255 255 255 255
+LABEL "Control_230569780" "" "" 231 270 0 0 36 10 37 255 255 255 255
+LABEL "Control_905430680" "" "" 169 187 0 0 38 10 39 255 255 255 255
+LABEL "Lab_NpcName" "" "" 169 167 0 0 40 10 41 255 255 255 255
+LABEL "Lab_GroundGoods" "" "" 60 206 0 0 42 10 43 255 255 255 255
+CHECK "Chk_Player" "player" "SFX\Interface\ClickA.wav" 142 127 18 18 "Extra\Check.tga"
+CHECK "Chk_OtherPlayer" "otherplayer" "SFX\Interface\ClickA.wav" 21 88 18 18 "Extra\Check.tga"
+CHECK "Chk_Name" "" "SFX\Interface\ClickA.wav" 34 107 18 18 "Extra\Check.tga"
+CHECK "Chk_Faction" "" "SFX\Interface\ClickA.wav" 34 127 18 18 "Extra\Check.tga"
+CHECK "Chk_Title" "" "SFX\Interface\ClickA.wav" 142 107 18 18 "Extra\Check.tga"
+CHECK "Chk_ModelLimit" "" "SFX\Interface\ClickA.wav" 34 247 18 18 "Extra\Check.tga"
+CHECK "Chk_Monster" "" "SFX\Interface\ClickA.wav" 142 187 18 18 "Extra\Check.tga"
+CHECK "Chk_NPC" "" "SFX\Interface\ClickA.wav" 142 167 18 18 "Extra\Check.tga"
+CHECK "Chk_Item" "" "SFX\Interface\ClickA.wav" 34 207 18 18 "Extra\Check.tga"
+CHECK "Chk_Family" "" "SFX\Interface\ClickA.wav" 34 147 18 18 "Extra\Check.tga"
+LABEL "显示家族" "" "" 60 147 0 0 44 10 45 255 255 255 255
+SLIDER "Slider_ModelLimit" "modellimit" "" 142 274 85 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 100 0
+CHECK "Chk_SelfName" "" "SFX\Interface\ClickA.wav" 34 187 18 18 "Extra\Check.tga"
+LABEL "显示自己的名字" "" "" 60 186 0 0 46 10 47 255 255 255 255
+CHECK "Chk_Talk" "" "SFX\Interface\ClickA.wav" 34 167 18 18 "Extra\Check.tga"
+CHECK "Chk_Talkbubble" "player" "SFX\Interface\ClickA.wav" 142 147 18 18 "Extra\Check.tga"
+LABEL "Control_76593939" "" "" 60 167 0 0 48 10 49 255 255 255 255
+LABEL "Talkbubble" "" "" 168 147 0 0 50 10 51 255 255 255 255
+LABEL "Lab_MiniMap" "" "" 12 319 0 0 52 10 53 213 191 164 255
+CHECK "Chk_MapMonster" "" "SFX\Interface\ClickA.wav" 144 343 18 18 "Extra\Check.tga"
+CHECK "Chk_MapNPC" "" "SFX\Interface\ClickA.wav" 21 343 18 18 "Extra\Check.tga"
+CHECK "Chk_MapPlayer" "" "SFX\Interface\ClickA.wav" 21 367 18 18 "Extra\Check.tga"
+LABEL "Lab_MiniOgre" "" "" 168 344 0 0 54 10 55 255 255 255 255
+LABEL "Control_5808192" "" "" 47 344 0 0 56 10 57 255 255 255 255
+LABEL "Control_74013646" "" "" 47 367 0 0 58 10 59 255 255 255 255
+LABEL "Control_91016838" "" "" 19 288 0 0 60 10 61 255 255 255 255
+LABEL "Control_1593328" "" "" 60 226 0 0 62 10 63 255 255 255 255
+CHECK "Chk_Personize" "personize" "SFX\Interface\ClickA.wav" 34 227 18 18 "Extra\Check.tga"
+LABEL "Control_241121184" "" "" 122 288 0 0 64 10 65 255 255 255 255
+LABEL "Control_757588832" "" "" 231 288 0 0 66 10 67 255 255 255 255
+SLIDER "Slider_SpEffect" "speffect" "" 142 292 85 9 "Listbox\DragSlotA.tga" "Listbox\DragButton.tga" 3 0
+LABEL "Control_97319990" "" "" 19 270 0 0 68 10 69 255 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 70 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 71 1 1

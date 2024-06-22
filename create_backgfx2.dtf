@@ -1,0 +1,2 @@
+DIALOG "Win_CreateBackGfx2" 0 0 1 1 0 1 10 "" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Gfx_1" "" "" 0 0 1 1 0 0 "" "界面\仙魔人物建立界面.gfx"

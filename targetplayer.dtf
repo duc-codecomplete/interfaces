@@ -1,0 +1,22 @@
+DIALOG "Win_TargetPlayer" 0 0 230 108 0 1 10 "Window\Target.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+LABEL "Txt_Name" "" "" 148 6 0 0 2 10 3 255 255 255 255
+PROGRESS "Prg_HP" "" "" 103 30 107 9 "" "Progress\血条.bmp" 0 0 0 0 0
+PROGRESS "Prg_MP" "" "" 103 46 107 9 "" "Progress\能量条.bmp" 0 0 0 0 0
+IMAGEPICTURE "st_1" "" "" 0 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_2" "" "" 17 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_3" "" "" 34 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_4" "" "" 51 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_5" "" "" 68 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_6" "" "" 85 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_7" "" "" 102 90 16 16 1 0 "" ""
+IMAGEPICTURE "st_8" "" "" 119 90 16 16 1 0 "" ""
+IMAGEPICTURE "Pic_HeadFrame" "" "" 19 14 64 64 0 0 "" ""
+STILLIMAGEBUTTON "Btn_Team" "InviteGroup" "" 139 67 22 22 0 0 0 0 4 10 255 255 255 255 "Button\TargetTeam.tga" "Button\TargetTeamDown.tga" "Button\TargetTeamDis.tga" 5 1 1
+STILLIMAGEBUTTON "Btn_Trade" "Trade" "" 117 67 22 22 0 0 0 0 6 10 255 255 255 255 "Button\TargetTrade.tga" "Button\TargetTradeDown.tga" "Button\TargetTradeDis.tga" 7 1 1
+STILLIMAGEBUTTON "Btn_EPEquip" "EPEquip" "" 95 67 22 22 0 0 0 0 8 10 255 255 255 255 "Button\TargetEPEquip.tga" "Button\TargetEPEquipDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Follow" "Follow" "" 161 67 22 22 0 0 0 0 10 10 255 255 255 255 "Button\TargetFollow.tga" "Button\TargetFollowDown.tga" "" 11 1 1
+STILLIMAGEBUTTON "Btn_GuildBattle" "guildbattle" "" 183 67 22 22 0 0 0 0 12 10 255 255 255 255 "Button\GuildBattle.tga" "Button\GuildBattleDown.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_GuildEnemies" "" "" 205 67 22 22 0 0 0 0 14 10 255 255 255 255 "Button\GuildEnemies.tga" "Button\GuildEnemiesDown.tga" "" 15 1 0
+IMAGEPICTURE "Img_GuildCombat" "" "" 5 0 24 28 1 0 "Icon\GuildCombat.tga" ""
+IMAGEPICTURE "Pic_Prof" "" "" 207 5 20 20 30 0 "InGame\Profession.tga" ""
+LABEL "Txt_Lv" "" "" 15 70 0 0 16 10 17 255 255 255 255

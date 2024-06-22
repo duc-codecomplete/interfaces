@@ -1,0 +1,4 @@
+DIALOG "Win_ItemDesc" 0 0 120 115 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+IMAGEPICTURE "Img_Item" "" "" 9 9 36 36 1 0 "Icon\Frame.tga"
+LABEL "Txt_Desc" "" "" 9 54 0 0 2 12 3 255 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 95 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1

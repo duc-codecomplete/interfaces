@@ -1,0 +1,10 @@
+DIALOG "Win_SiegeHelperCh" 0 0 230 156 0 1 10 "Window\Window.tga" "" "" 0 0 185 27 "" 27 7 96 96 96 255 1 0
+LABEL "Title" "" "" 5 2 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 171 115 45 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirmassist" "" 116 115 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+EDIT "DEFAULT_Txt_Input" "assist" "" 17 57 197 21 "Editbox\Input.tga" 8 10 255 255 255 "TEXT" 0 0 8 0
+LABEL "Control_1" "" "" 10 29 0 0 9 10 10 213 191 164 255
+LABEL "Control_2" "" "" 17 89 0 0 11 10 12 213 191 164 255
+LABEL "Control_96846750" "" "" 10 88 0 0 13 10 14 213 191 164 255
+LABEL "Control_498935199" "" "" 10 105 0 0 15 10 16 213 191 164 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 207 2 20 20 0 0 0 0 17 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 18 1 1

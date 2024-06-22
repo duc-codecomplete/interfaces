@@ -1,0 +1,16 @@
+DIALOG "Win_GameCasual" 0 0 200 300 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_TDGame" "tdgame" "" 12 43 36 36 0 0 0 0 2 10 255 255 255 255 "Button\GameTD.tga" "Button\GameTDDown.tga" "" "" 3 1 1
+LABEL "Lab_1" "" "" 71 29 0 0 4 14 5 0 255 255 255
+LABEL "Txt_TD1" "" "" 54 51 0 0 6 10 7 0 128 255 255
+LABEL "Txt_TD2" "" "" 54 65 0 0 8 10 9 0 128 255 255
+STILLIMAGEBUTTON "Btn_Game2" "llk" "" 12 110 36 36 0 0 0 0 10 10 255 255 255 255 "Button\TGllk.tga" "Button\TGllkDown.tga" "" "" 11 1 1
+LABEL "Lab_2" "" "" 71 98 0 0 12 14 13 0 255 255 255
+LABEL "Txt_Game2_1" "" "" 54 117 0 0 14 10 15 0 128 255 255
+LABEL "Txt_Game2_2" "" "" 54 133 0 0 16 10 17 0 128 255 255
+STILLIMAGEBUTTON "Btn_Game3" "wquest" "" 10 176 36 36 0 0 0 0 18 10 255 255 255 255 "Button\Question.tga" "Button\QuestionDown.tga" "" "" 19 1 1
+LABEL "Lab_Game2" "" "" 71 183 0 0 20 14 21 0 255 255 255
+LABEL "Txt_Game3_1" "" "" 62 194 0 0 22 10 23 255 255 255 255
+LABEL "Txt_Game3_2" "" "" 60 208 0 0 24 10 25 255 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 178 2 20 20 0 0 0 0 26 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 27 1 1
+LABEL "Lab_3" "" "" 71 252 0 0 28 14 29 0 255 255 255
+STILLIMAGEBUTTON "Btn_Game4" "wquest" "" 10 244 36 36 0 0 0 0 30 10 255 255 255 255 "Button\Question.tga" "Button\QuestionDown.tga" "" "" 31 1 1

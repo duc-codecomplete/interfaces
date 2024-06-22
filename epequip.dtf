@@ -1,0 +1,34 @@
+DIALOG "Win_EPEquip" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Txt_Name" "" "" 133 4 0 0 4 16 5 254 231 174 255
+IMAGEPICTURE "Img_InfoBack" "" "" 7 36 250 363 1 0 "Window\InfoBack.tga" ""
+IMAGEPICTURE "Pic_Part" "" "" 19 66 228 304 1 0 "" ""
+IMAGEPICTURE "Equip_09" "" "" 214 45 36 36 1 0 "Icon\法身.dds" ""
+IMAGEPICTURE "Equip_01" "" "" 15 45 36 36 1 0 "Icon\帽子.dds" ""
+IMAGEPICTURE "Equip_02" "" "" 15 87 36 36 1 0 "Icon\衣服.dds" ""
+IMAGEPICTURE "Equip_14" "" "" 120 344 36 36 1 0 "Icon\护符.tga" ""
+IMAGEPICTURE "Equip_04" "" "" 15 171 36 36 1 0 "Icon\项链.dds" ""
+IMAGEPICTURE "Equip_05" "" "" 15 213 36 36 1 0 "Icon\戒指.dds" ""
+IMAGEPICTURE "Equip_06" "" "" 15 255 36 36 1 0 "Icon\戒指2.dds" ""
+IMAGEPICTURE "Equip_15" "" "" 15 297 36 36 1 0 "Icon\飞剑.dds" ""
+IMAGEPICTURE "Equip_03" "" "" 15 129 36 36 1 0 "Icon\鞋子.dds" ""
+IMAGEPICTURE "Equip_00" "" "" 69 344 36 36 1 0 "Icon\武器.dds" ""
+IMAGEPICTURE "Equip_19" "" "" 214 87 36 36 1 0 "Icon\时装表情.dds" ""
+IMAGEPICTURE "Equip_07" "" "" 214 129 36 36 1 0 "Icon\眼镜.dds" ""
+IMAGEPICTURE "Equip_10" "" "" 214 171 36 36 1 0 "Icon\时装头饰.dds" ""
+IMAGEPICTURE "Equip_11" "" "" 214 213 36 36 1 0 "Icon\时装上衣.dds" ""
+IMAGEPICTURE "Equip_12" "" "" 214 255 36 36 1 0 "Icon\时装裤子.dds" ""
+IMAGEPICTURE "Equip_13" "" "" 214 297 36 36 1 0 "Icon\时装鞋子.dds" ""
+STILLIMAGEBUTTON "Btn_LeftTurn" "" "" 58 85 13 13 0 0 0 0 6 10 255 255 255 255 "Button\LeftTurn.tga" "Button\LeftTurnDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_RightTurn" "" "" 72 85 13 13 0 0 0 0 8 10 255 255 255 255 "Button\RightTurn.tga" "Button\RightTurnDown.tga" "" 9 1 1
+RADIO "Rdo_Equip" "normal" "" 180 83 36 20 "Button\Equip.tga" 1 1
+RADIO "Rdo_FashDress" "wear" "" 180 102 36 20 "Button\FashDress.tga" 2 1
+CHECK "Chk_ShowEquip" "showequip" "" 182 401 66 22 "Extra\ShowEquip.tga"
+IMAGEPICTURE "Equip_16" "" "" 65 45 36 36 1 0 "Icon\法宝.dds" ""
+IMAGEPICTURE "Equip_17" "" "" 115 45 36 36 1 0 "Icon\秘笈.dds" ""
+IMAGEPICTURE "Equip_18" "" "" 165 45 36 36 1 0 "Icon\秘笈.dds" ""
+IMAGEPICTURE "Equip_Pet" "" "" 168 297 36 36 1 0 "Icon\宠物_动物.dds" ""
+IMAGEPICTURE "Equip_22" "" "" 17 344 36 36 1 0 "Icon\罡气.dds" ""
+IMAGEPICTURE "Equip_21" "" "" 168 344 36 36 1 0 "Icon\玺绶.dds" ""
+IMAGEPICTURE "Equip_20" "" "" 214 344 36 36 1 0 "Icon\锦囊.dds" ""
+STILLIMAGEBUTTON "Btn_CheckInfo" "info" "" 7 402 48 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0

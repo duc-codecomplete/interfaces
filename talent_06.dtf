@@ -1,0 +1,44 @@
+DIALOG "Win_Talent_06" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 93 5 0 0 4 16 5 254 231 174 255
+LABEL "Lab_SkillPoint" "" "" 10 39 0 0 6 10 7 213 191 164 255
+EDIT "Shape" "" "" 4 60 226 335 "Window\Ìì¸³°å1.tga" 8 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Lab_SkillTree" "" "" 192 401 0 0 9 10 10 213 191 164 255
+STILLIMAGEBUTTON "Btn_SkillTree" "tree" "" 241 403 14 14 0 0 0 0 11 15 255 255 255 255 "Button\RMove.tga" "Button\RMoveDown.tga" "" 12 1 1
+IMAGEPICTURE "Skill_653" "" "" 21 76 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_653" "add653" "" 50 105 12 12 0 0 0 0 13 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 14 1 1
+IMAGEPICTURE "Skill_652" "" "" 126 77 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_652" "add652" "" 154 105 12 12 0 0 0 0 15 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 16 1 1
+IMAGEPICTURE "Skill_656" "" "" 21 128 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_656" "add656" "" 50 157 12 12 0 0 0 0 17 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 18 1 1
+IMAGEPICTURE "Skill_655" "" "" 73 128 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_655" "add655" "" 102 157 12 12 0 0 0 0 19 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 20 1 1
+IMAGEPICTURE "Skill_654" "" "" 177 128 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_654" "add654" "" 206 157 12 12 0 0 0 0 21 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 22 1 1
+IMAGEPICTURE "Skill_660" "" "" 21 180 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_660" "add660" "" 50 209 12 12 0 0 0 0 23 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 24 1 1
+IMAGEPICTURE "Skill_659" "" "" 73 180 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_659" "add659" "" 102 209 12 12 0 0 0 0 25 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 26 1 1
+IMAGEPICTURE "Skill_658" "" "" 125 180 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_658" "add658" "" 154 209 12 12 0 0 0 0 27 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 28 1 1
+IMAGEPICTURE "Skill_657" "" "" 177 180 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_657" "add657" "" 206 209 12 12 0 0 0 0 29 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 30 1 1
+IMAGEPICTURE "Skill_664" "" "" 21 232 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_664" "add664" "" 50 261 12 12 0 0 0 0 31 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 32 1 1
+IMAGEPICTURE "Skill_663" "" "" 73 232 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_663" "add663" "" 102 261 12 12 0 0 0 0 33 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 34 1 1
+IMAGEPICTURE "Skill_662" "" "" 125 232 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_662" "add662" "" 154 261 12 12 0 0 0 0 35 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 36 1 1
+IMAGEPICTURE "Skill_661" "" "" 177 232 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_661" "add661" "" 206 261 12 12 0 0 0 0 37 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 38 1 1
+IMAGEPICTURE "Skill_667" "" "" 21 284 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_667" "add667" "" 50 313 12 12 0 0 0 0 39 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 40 1 1
+IMAGEPICTURE "Skill_666" "" "" 73 284 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_666" "add666" "" 102 313 12 12 0 0 0 0 41 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 42 1 1
+IMAGEPICTURE "Skill_665" "" "" 125 284 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_665" "add665" "" 154 313 12 12 0 0 0 0 43 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 44 1 1
+IMAGEPICTURE "Skill_668" "" "" 125 336 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_668" "add668" "" 154 365 12 12 0 0 0 0 45 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 46 1 1
+RADIO "Rdo_04" "talent04" "" 229 79 25 68 "Button\Â¾»ê.tga" 4 1
+RADIO "Rdo_05" "talent05" "" 229 148 25 68 "Button\Ä§Çú.tga" 5 1
+RADIO "Rdo_06" "talent06" "" 229 217 25 68 "Button\ÌìÃü.tga" 6 1

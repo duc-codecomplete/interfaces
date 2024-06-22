@@ -1,0 +1,29 @@
+DIALOG "Win_Skill13" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 90 3 0 0 4 16 5 254 231 174 255
+LABEL "Lab_SkillPoint" "" "" 10 39 0 0 6 10 7 213 191 164 255
+EDIT "Shape" "" "" 4 60 256 335 "Frame\Pro01.tga" 8 10 255 255 255 "TEXT" 1 0 20 0
+STILLIMAGEBUTTON "Btn_LMove" "left" "" 22 369 14 14 0 0 0 0 9 10 255 255 255 255 "Button\LMove.tga" "Button\LMoveDown.tga" "" 10 1 1
+STILLIMAGEBUTTON "Btn_RMove" "right" "" 228 369 14 14 0 0 0 0 11 10 255 255 255 255 "Button\RMove.tga" "Button\RMoveDown.tga" "" 12 1 1
+LABEL "Lab_SkillTree" "" "" 192 401 0 0 13 10 14 213 191 164 255
+STILLIMAGEBUTTON "Btn_SkillTree" "tree" "" 241 403 14 14 0 0 0 0 15 15 255 255 255 255 "Button\RMove.tga" "Button\RMoveDown.tga" "" 16 1 1
+IMAGEPICTURE "Skill_519" "" "" 114 73 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_519" "add519" "" 142 101 12 12 0 0 0 0 17 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 18 1 1
+IMAGEPICTURE "Skill_520" "" "" 38 121 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_520" "add520" "" 67 149 12 12 0 0 0 0 19 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 20 1 1
+IMAGEPICTURE "Skill_521" "" "" 190 121 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_521" "add521" "" 218 148 12 12 0 0 0 0 21 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 22 1 1
+IMAGEPICTURE "Skill_522" "" "" 114 158 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_522" "add522" "" 143 186 12 12 0 0 0 0 23 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 24 1 1
+IMAGEPICTURE "Skill_523" "" "" 38 205 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_523" "add523" "" 67 233 12 12 0 0 0 0 25 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 26 1 1
+IMAGEPICTURE "Skill_524" "" "" 190 205 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_524" "add524" "" 219 233 12 12 0 0 0 0 27 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 28 1 1
+IMAGEPICTURE "Skill_525" "" "" 114 249 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_525" "add525" "" 143 277 12 12 0 0 0 0 29 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 30 1 1
+IMAGEPICTURE "Skill_526" "" "" 190 290 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_526" "add526" "" 219 318 12 12 0 0 0 0 31 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 32 1 1
+IMAGEPICTURE "Skill_527" "" "" 38 324 36 36 1 0 "Icon\Frame.tga" ""
+STILLIMAGEBUTTON "Btn_527" "add527" "" 67 352 12 12 0 0 0 0 33 10 255 255 255 255 "Button\SmallAdd.tga" "Button\SmallAddDown.tga" "" 34 1 1
+STILLIMAGEBUTTON "Btn_Talent" "talent4" "" 12 398 72 21 0 0 0 0 35 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 36 1 1
+LABEL "Lab_AddedSkillPoint" "" "" 40 367 0 0 37 10 38 213 190 164 255

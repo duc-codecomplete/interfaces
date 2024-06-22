@@ -1,0 +1,65 @@
+DIALOG "Win_SettingGame" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 0
+LABEL "Title" "" "" 100 5 0 0 2 16 3 254 231 174 255
+EDIT "BG1" "" "" 153 130 100 236 "Editbox\Input.tga" 4 15 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "BG2" "" "" 11 75 240 54 "Editbox\Input.tga" 5 15 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+EDIT "BG3" "" "" 30 151 93 157 "Editbox\Input.tga" 6 15 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+STILLIMAGEBUTTON "Btn_Game" "gamesetting" "" 170 31 80 21 0 0 0 0 7 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 8 1 0
+STILLIMAGEBUTTON "Btn_Video" "videosetting" "" 91 31 80 21 0 0 0 0 9 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 10 1 0
+STILLIMAGEBUTTON "Btn_System" "systemsetting" "" 12 31 80 21 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 12 1 0
+STILLIMAGEBUTTON "Btn_Default" "default" "" 12 401 45 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Apply" "apply" "" 119 401 45 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "" 164 401 45 21 0 0 0 0 17 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 18 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 209 401 45 21 0 0 0 0 19 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" "" 20 1 0
+LABEL "聊天栏设置" "" "" 11 57 0 0 21 10 22 213 191 164 255
+LABEL "Control_146429638" "" "" 90 79 0 0 23 10 24 255 255 255 255
+LABEL "lb_普通频道" "" "" 189 136 0 0 25 10 26 179 179 179 255
+LABEL "lb_呐喊频道" "" "" 189 159 0 0 27 10 28 255 128 0 255
+LABEL "lb_队伍频道" "" "" 189 227 0 0 29 10 30 0 255 0 255
+LABEL "lb_帮派频道" "" "" 189 183 0 0 31 10 32 0 255 255 255
+LABEL "lb_密语信息" "" "" 189 249 0 0 33 10 34 255 128 255 255
+LABEL "lb_伤害信息" "" "" 189 296 0 0 35 10 36 192 192 192 255
+LABEL "lb_系统信息" "" "" 189 273 0 0 37 10 38 255 255 0 255
+LABEL "Control_627138188" "" "" 33 371 0 0 39 10 40 255 255 255 255
+CHECK "Chk_ReverseMouse" "" "" 70 80 19 18 "Extra\Check.tga"
+CHECK "Chk_SwitchAD" "" "" 177 80 18 18 "Extra\Check.tga"
+CHECK "Ch_1" "ch1" "" 165 136 18 18 "Extra\Check.tga"
+CHECK "Ch_2" "ch2" "" 165 159 18 18 "Extra\Check.tga"
+CHECK "Ch_3" "ch3" "" 165 228 18 18 "Extra\Check.tga"
+CHECK "Ch_4" "ch4" "" 165 182 18 18 "Extra\Check.tga"
+CHECK "Ch_6" "ch6" "" 165 297 18 18 "Extra\Check.tga"
+CHECK "Ch_9" "ch9" "" 165 274 18 18 "Extra\Check.tga"
+CHECK "Ch_5" "ch5" "" 165 251 18 18 "Extra\Check.tga"
+CHECK "Chk_Autoreply" "autoreply" "" 12 372 18 18 "Extra\Check.tga"
+EDIT "Txt_Reply" "" "" 126 370 128 21 "Editbox\Input.tga" 41 10 255 255 255 "TEXT" 0 0 40 0 "" "" "" "" 
+CHECK "Ch_10" "ch10" "" 165 320 18 18 "Extra\Check.tga"
+CHECK "Ch_11" "ch11" "" 165 343 18 18 "Extra\Check.tga"
+LABEL "lb_系统广播" "" "" 189 319 0 0 42 10 43 255 0 0 255
+LABEL "lb_其它信息" "" "" 189 342 0 0 44 10 45 154 166 255 255
+LABEL "Control_234063724" "" "" 13 81 0 0 46 10 47 255 255 255 255
+LABEL "lb_聊天区域1" "" "" 12 129 0 0 48 10 49 213 191 164 255
+RADIO "Radio_Set1" "set1" "" 34 153 120 25 "Extra\Channel.tga" 1 1
+RADIO "Radio_Set2" "set2" "" 34 178 120 25 "Extra\Channel.tga" 2 1
+RADIO "Radio_Set3" "set3" "" 34 203 120 25 "Extra\Channel.tga" 3 1
+RADIO "Radio_Set4" "set4" "" 34 228 120 25 "Extra\Channel.tga" 4 1
+RADIO "Radio_Set5" "set5" "" 34 253 120 25 "Extra\Channel.tga" 5 1
+RADIO "Radio_Set6" "set6" "" 34 278 120 25 "Extra\Channel.tga" 6 1
+LABEL "Lb_普通聊天b" "" "" 49 158 0 0 50 10 51 255 255 255 255
+LABEL "Lb_组队聊天2" "" "" 49 183 0 0 52 10 53 255 255 255 255
+LABEL "Lb_帮派聊天b" "" "" 49 234 0 0 54 10 55 255 255 255 255
+LABEL "Lb_密语聊天b" "" "" 49 209 0 0 56 10 57 255 255 255 255
+LABEL "Lb_交易信息b" "" "" 49 258 0 0 58 10 59 255 255 255 255
+LABEL "Lb_通用信息b" "" "" 49 283 0 0 60 10 61 255 255 255 255
+LABEL "Control_127768844" "" "" 11 325 0 0 62 10 63 255 203 74 255
+SLIDER "Slider_ChatFsize" "size" "" 26 352 104 9 "ListBox\DragSlotA.tga" "ListBox\DragButton.tga" 4 0
+LABEL "Control_459260872" "" "" 10 349 0 0 64 9 65 255 255 255 255
+LABEL "Control_153391203" "" "" 133 348 0 0 66 9 67 255 255 255 255
+LABEL "Control_320404434" "" "" 198 79 0 0 68 10 69 255 255 255 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 70 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" "" 71 1 1
+CHECK "Ch_12" "ch12" "" 165 205 18 18 "Extra\Check.tga"
+LABEL "lb_家族频道" "" "" 189 205 0 0 72 10 73 20 69 255 255
+CHECK "Chk_BossKey" "bosskey" "" 15 106 19 18 "Extra\Check.tga"
+LABEL "Lab_BossKey" "" "" 41 106 0 0 74 10 75 255 255 255 255
+LABEL "Txt_BossKey" "" "" 170 107 0 0 76 10 77 43 255 250 255
+EDIT "Edt_BossKey" "" "" 111 106 121 20 "Editbox\Input.tga" 78 10 255 255 255 "TEXT" 1 0 20 0 "" "" "" "" 
+STILLIMAGEBUTTON "Btn_LeftTurn" "left" "" 95 109 14 13 0 0 0 0 79 10 255 255 255 255 "Button\LMove.tga" "Button\LMoveDown.tga" "" "" 80 1 1
+STILLIMAGEBUTTON "Btn_RightTurn" "right" "" 234 109 14 14 0 0 0 0 81 10 255 255 255 255 "Button\RMove.tga" "Button\RMoveDown.tga" "" "" 82 1 1

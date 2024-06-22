@@ -1,0 +1,18 @@
+DIALOG "Win_Record" 0 0 256 217 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+CHECK "Chk_1" "" "" 12 68 20 20 "Extra\Check.tga"
+CHECK "Chk_2" "" "" 12 88 20 20 "Extra\Check.tga"
+CHECK "Chk_3" "" "" 12 108 20 20 "Extra\Check.tga"
+CHECK "Chk_4" "" "" 12 148 20 20 "Extra\Check.tga"
+CHECK "Chk_5" "" "" 12 168 20 20 "Extra\Check.tga"
+CHECK "Chk_6" "" "" 12 128 20 20 "Extra\Check.tga"
+LABEL "Txt_1" "" "" 35 68 0 0 2 10 3 255 255 255 255
+LABEL "Txt_2" "" "" 35 88 0 0 4 10 5 255 255 255 255
+LABEL "Txt_3" "" "" 35 108 0 0 6 10 7 255 255 255 255
+LABEL "Txt_4" "" "" 35 148 0 0 8 10 9 255 255 255 255
+LABEL "Txt_5" "" "" 35 168 0 0 10 10 11 255 255 255 255
+LABEL "Txt_6" "" "" 35 128 0 0 12 10 13 255 255 255 255
+LABEL "Lab_Title" "" "" 11 50 0 0 14 10 15 213 191 164 255
+STILLIMAGEBUTTON "Btn_Confirm" "start" "" 89 188 72 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 230 5 20 20 0 0 0 0 18 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 19 1 0
+LABEL "Lab_RecordName" "" "" 90 6 0 0 20 10 21 254 231 174 255
+EDIT "Txt_RecordName" "" "" 13 25 233 22 "Editbox\Input.tga" 22 10 255 255 255 "TEXT" 0 0 29 0

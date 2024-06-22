@@ -1,0 +1,16 @@
+DIALOG "Win_MiniMap" 0 0 182 197 0 1 10 "" "Window\Radar.tga" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+IMAGEPICTURE "Hide_2" "" "" 14 29 153 153 0 0 "" ""
+STILLIMAGEBUTTON "Btn_Close" "close" "" 159 0 22 22 0 0 0 0 2 10 255 255 255 255 "Button\SmallClose.tga" "Button\SmallCloseDown.tga" "" 3 1 1
+IMAGEPICTURE "Img_ServerLine" "" "" 15 31 15 15 3 0 "Icon\ServerLine.tga" ""
+IMAGEPICTURE "Img_ServerTime" "" "" 115 163 25 25 12 0 "Icon\ServerTime.tga" ""
+LABEL "Txt_Name" "" "" 80 7 0 0 4 10 5 43 255 250 255
+CHECK "Chk_Mail" "" "" 135 41 22 22 "Extra\Radar_Email.tga"
+STILLIMAGEBUTTON "Btn_BigMap" "bigmap" "" -3 96 26 26 0 0 0 0 6 10 255 255 255 255 "Button\Radar_World.tga" "Button\Radar_WorldDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Help" "help" "" 5 57 27 27 0 0 0 0 8 10 255 255 255 255 "Button\Radar_Help.tga" "Button\Radar_HelpDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_AreaMap" "midmap" "" 4 127 26 26 0 0 0 0 10 10 255 255 255 255 "Button\Radar_Loca.tga" "Button\Radar_LocaDown.tga" "" 11 1 1
+STILLIMAGEBUTTON "Btn_+" "roomout" "" 48 170 26 26 0 0 0 0 12 10 255 255 255 255 "Button\Radar_Zoom.tga" "Button\Radar_ZoomDwon.tga" "" 13 1 1
+STILLIMAGEBUTTON "Btn_-" "roomin" "" 85 175 26 26 0 0 0 0 14 10 255 255 255 255 "Button\Radar_Less.tga" "Button\Radar_LessDown.tga" "" 15 1 1
+STILLIMAGEBUTTON "Btn_FindMark" "openmarkwin" "" 20 154 26 26 0 0 0 0 16 10 255 255 255 255 "Button\Radar_FindMark.tga" "Button\Radar_FindMarkDown.tga" "" 17 1 1
+STILLIMAGEBUTTON "Btn_Daily" "daily" "" 139 144 26 26 0 0 0 0 18 10 255 255 255 255 "Button\Ì¾ºÅ°´¼ü3.tga" "Button\Ì¾ºÅ°´¼ü4.tga" "" 19 1 1
+CHECK "Chk_VisionLock" "visionlock" "" 33 24 27 27 "Extra\VisionLock.tga"
+CHECK "Chk_OnExp" "onexp" "" 153 20 27 27 "Extra\OnlineExp.tga"

@@ -1,0 +1,52 @@
+DIALOG "Win_PetStsSetting" 0 0 265 430 0 1 10 "Frame\PetBackground1.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Confirm" "confirm" "" 82 389 100 19 0 0 0 0 2 10 206 181 149 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 242 5 20 20 0 0 0 0 4 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 5 1 1
+EDIT "Edit_MakeNature" "" "" 21 186 232 168 "Frame\Frame.tga" 6 10 255 255 255 "TEXT" 1 0 20 0
+LABEL "Txt_Word01" "" "" 30 200 0 0 7 12 8 206 181 149 255
+LABEL "Txt_Word02" "" "" 30 225 0 0 9 12 10 206 181 149 255
+LABEL "Txt_Word03" "" "" 30 250 0 0 11 12 12 206 181 149 255
+LABEL "Txt_Word04" "" "" 30 275 0 0 13 12 14 206 181 149 255
+LABEL "Txt_Word05" "" "" 30 300 0 0 15 12 16 206 181 149 255
+LABEL "Txt_Word06" "" "" 30 325 0 0 17 12 18 206 181 149 255
+LABEL "Lab_Live0" "" "" 56 210 0 0 19 10 20 206 181 149 255
+LABEL "Lab_Live1" "" "" 56 232 0 0 21 10 22 206 181 149 255
+LABEL "Lab_Live2" "" "" 56 254 0 0 23 10 24 206 181 149 255
+LABEL "Lab_Live3" "" "" 56 276 0 0 25 10 26 206 181 149 255
+LABEL "Lab_Live4" "" "" 56 298 0 0 27 10 28 206 181 149 255
+LABEL "Lab_Live5" "" "" 56 318 0 0 29 10 30 206 181 149 255
+RADIO "Radio_00" "" "" 20 50 40 20 "Extra\PetStsSetting.tga" 0 1
+LABEL "Lab_0" "" "" 26 52 0 0 31 10 32 206 181 149 255
+RADIO "Radio_10" "" "" 64 102 40 20 "Extra\PetStsSetting.tga" 10 1
+LABEL "Lab_10" "" "" 70 103 0 0 33 10 34 206 181 149 255
+RADIO "Radio_11" "" "" 134 102 40 20 "Extra\PetStsSetting.tga" 11 1
+LABEL "Lab_11" "" "" 140 103 0 0 35 10 36 206 181 149 255
+RADIO "Radio_12" "" "" 205 102 40 20 "Extra\PetStsSetting.tga" 12 1
+LABEL "Lab_12" "" "" 210 103 0 0 37 10 38 206 181 149 255
+RADIO "Radio_13" "" "" 64 133 40 20 "Extra\PetStsSetting.tga" 13 1
+LABEL "Lab_13" "" "" 70 134 0 0 39 10 40 206 181 149 255
+RADIO "Radio_14" "" "" 134 133 40 20 "Extra\PetStsSetting.tga" 14 1
+LABEL "Lab_14" "" "" 140 134 0 0 41 10 42 206 181 149 255
+RADIO "Radio_15" "" "" 205 133 40 20 "Extra\PetStsSetting.tga" 15 1
+LABEL "Lab_15" "" "" 210 134 0 0 43 10 44 206 181 149 255
+LABEL "Lab_Make" "" "" 22 163 0 0 45 12 46 206 181 149 255
+RADIO "Radio_30" "" "" 20 358 40 20 "Extra\PetStsSetting.tga" 30 1
+LABEL "Lab_3" "" "" 26 359 0 0 47 10 48 206 181 149 255
+LABEL "Title" "" "" 90 3 0 0 49 16 50 206 181 149 255
+STILLIMAGEBUTTON "Btn_Help" "help" "" 223 5 20 20 0 0 0 0 51 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 52 1 1
+PROGRESS "Pro_Live0" "" "" 115 212 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+PROGRESS "Pro_Live1" "" "" 115 234 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+PROGRESS "Pro_Live2" "" "" 115 257 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+PROGRESS "Pro_Live3" "" "" 115 278 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+PROGRESS "Pro_Live4" "" "" 115 300 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+PROGRESS "Pro_Live5" "" "" 115 321 130 15 "Editbox\InputChat.tga" "Progress\Green.bmp" 0 0 0 0 0
+LABEL "Lab_Plant" "" "" 22 75 0 0 53 12 54 206 181 149 255
+IMAGEPICTURE "Img_Plant" "" "" 63 82 190 3 1 0 "Icon\Compart.tga" ""
+EDIT "Edit_Plant" "" "" 20 74 40 20 "Window\Window.tga" 55 10 255 255 255 "TEXT" 1 0 20 0
+IMAGEPICTURE "Img_20" "" "" 63 169 190 3 1 0 "Icon\Compart.tga" ""
+LABEL "Lab_NumLive0" "" "" 176 210 0 0 56 10 57 255 255 255 255
+LABEL "Lab_NumLive1" "" "" 176 232 0 0 58 10 59 255 255 255 255
+LABEL "Lab_NumLive2" "" "" 176 255 0 0 60 10 61 255 255 255 255
+LABEL "Lab_NumLive3" "" "" 176 278 0 0 62 10 63 255 255 255 255
+LABEL "Lab_NumLive4" "" "" 176 300 0 0 64 10 65 255 255 255 255
+LABEL "Lab_NumLive5" "" "" 176 321 0 0 66 10 67 255 255 255 255
+EDIT "Edit_Make" "" "" 20 162 40 20 "Window\Window.tga" 68 10 255 255 255 "TEXT" 1 0 20 0

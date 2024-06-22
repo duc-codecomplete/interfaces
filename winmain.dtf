@@ -1,0 +1,9 @@
+DIALOG "Win_Main" 0 0 355 55 0 1 10 "Frame\SBack.tga" "" "" 0 0 -1 -1 "" 0 0 255 255 255 255 1 1
+STILLIMAGEBUTTON "Btn_Inventory" "winventory" "" 52 11 36 36 0 0 0 0 2 18 255 255 255 255 "Button\SBag.tga" "Button\SBagDown.tga" "" 3 1 1
+STILLIMAGEBUTTON "Btn_Character" "wcharacter" "" 10 11 36 36 0 0 0 0 4 18 255 255 255 255 "Button\SPartInfo.tga" "Button\SPartInfoDown.tga" "" 5 1 1
+STILLIMAGEBUTTON "Btn_Skill" "wskill" "" 94 11 36 36 0 0 0 0 6 10 255 255 255 255 "Button\SSkill.tga" "Button\SSkillDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Quest" "wquest" "" 137 11 36 36 0 0 0 0 8 10 255 255 255 255 "Button\SQuest.tga" "Button\SQuestDown.tga" "" 9 1 1
+STILLIMAGEBUTTON "Btn_Community" "wcommunity" "" 221 11 36 36 0 0 0 0 10 18 255 255 255 255 "Button\SCommunity.tga" "Button\SCommunityDown.tga" "" 11 1 1
+STILLIMAGEBUTTON "Btn_QShop" "wshop" "" 179 11 36 36 0 0 0 0 12 18 255 255 255 255 "Button\SQShop.tga" "Button\SQShopDown.tga" "" 13 1 1
+STILLIMAGEBUTTON "Btn_Menu" "wmain2" "" 263 11 36 36 0 0 0 0 14 15 255 255 255 255 "Button\SMenu.tga" "Button\SMenuDown.tga" "" 15 1 1
+STILLIMAGEBUTTON "Btn_System" "wmain3" "" 304 11 36 36 0 0 0 0 16 15 255 255 255 255 "Button\SSystem.tga" "Button\SSystemDown.tga" "" 17 1 1

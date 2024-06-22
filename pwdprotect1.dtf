@@ -1,0 +1,10 @@
+DIALOG "Win_PwdProtect1" 0 0 294 158 0 1 10 "Window\Window.tga" "" "" 0 0 250 27 "" 28 9 96 96 96 220 1 0
+LABEL "titletext" "" "" 85 6 0 0 2 16 3 254 231 174 255
+LABEL "hint1" "" "" 22 36 0 0 4 10 5 213 191 164 255
+LABEL "hint2" "" "" 12 54 0 0 6 10 7 213 191 164 255
+LABEL "txt_1" "" "" 144 71 0 0 8 16 9 255 0 0 255
+EDIT "Input_1" "confirm" "" 101 98 91 25 "Editbox\Input.tga" 10 10 255 255 255 "PASSWORD" 0 0 10 0
+STILLIMAGEBUTTON "Btn_Clear" "clear" "" 43 127 48 21 0 0 0 0 11 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 12 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 206 127 48 21 0 0 0 0 13 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 14 1 0
+STILLIMAGEBUTTON "Btn_Decide" "confirm" "" 124 127 48 21 0 0 0 0 15 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 16 1 0
+STILLIMAGEBUTTON "Btn_Link" "link" "" 177 54 108 16 0 0 0 0 17 10 43 255 250 255 "Frame\Clarity.bmp" "Frame\Clarity.bmp" "" 18 1 0

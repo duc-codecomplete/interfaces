@@ -1,0 +1,12 @@
+DIALOG "Win_Help" 0 0 540 422 0 1 10 "Window\WindowDWiden.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 494 7 20 20 0 0 0 0 2 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 1
+LABEL "Title" "" "" 230 3 0 0 4 16 5 254 231 174 255
+STILLIMAGEBUTTON "Btn_Wizard" "wizard" "" 27 38 20 20 0 0 0 0 6 10 255 255 255 255 "Button\Help.tga" "Button\HelpDown.tga" "" 7 1 1
+STILLIMAGEBUTTON "Btn_Basic" "helpmain1" "" 51 38 90 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_Newhand" "helpmain2" "" 142 38 90 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Friend" "helpmain3" "" 233 38 90 21 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 13 1 0
+STILLIMAGEBUTTON "Btn_Faction" "helpmain4" "" 324 38 90 21 0 0 0 0 14 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 15 1 0
+STILLIMAGEBUTTON "Btn_Faq" "helpmain5" "" 415 38 90 21 0 0 0 0 16 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 17 1 0
+TREE "Tree" "" "" 16 60 189 341 18 12 255 255 255 255 "Frame\Frame.tga" "ListBox\SpeakWayR.tga" "ListBox\DragUp.tga" "ListBox\DragDown.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" "Extra\TreePlus.bmp" "Extra\TreeMinus.bmp" "Extra\TreeLeaf.bmp" 0
+IMAGEPICTURE "Image" "" "" 236 61 256 128 1 0 ""
+TEXT "Content" "" "" 210 189 312 212 19 12 255 255 255 255 "Frame\Frame.tga" "ListBox\DragUp.tga" "ListBox\DragButton.tga" "ListBox\DragSlot.tga" "ListBox\DragButton.tga" 0

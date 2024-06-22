@@ -1,0 +1,3 @@
+DIALOG "Win_LoginWait" 0 0 400 70 0 1 10 "Window\Window.tga" "" "" 0 0 250 27 "" 27 6 96 96 96 255 1 0
+LABEL "Txt_Message" "" "" 200 8 0 0 2 14 3 167 205 255 255
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 164 38 72 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0

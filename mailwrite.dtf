@@ -1,0 +1,22 @@
+DIALOG "Win_MailWrite" 0 0 265 430 0 1 10 "Window\WindowStandard.tga" "" "" 0 0 283 33 "" 41 33 96 96 96 255 1 0
+IMAGEPICTURE "Img_AttachItem" "" "" 14 328 36 36 1 0 "Icon\Frame.tga"
+EDIT "Txt_MailTo" "" "" 62 38 120 21 "Editbox\Input.tga" 2 10 255 255 255 "TEXT" 0 0 10 0
+STILLIMAGEBUTTON "Btn_Send" "send" "" 158 400 45 21 0 0 0 0 3 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 4 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 204 400 45 21 0 0 0 0 5 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 6 1 0
+LABEL "Control_473590271" "" "" 11 40 0 0 7 10 8 213 191 164 255
+LABEL "Control_238744830" "" "" 61 344 0 0 9 10 10 213 191 164 255
+LABEL "Title" "" "" 100 5 0 0 11 16 12 254 231 174 255
+LABEL "Control_791587405" "" "" 189 40 0 0 13 10 14 43 255 250 255
+LABEL "Control_398831595" "" "" 12 71 0 0 15 10 16 213 191 164 255
+EDIT "Txt_Subject" "" "" 52 68 198 21 "Editbox\Input.tga" 17 10 255 255 255 "TEXT" 0 0 20 0
+EDIT "Txt_Content" "" "" 11 97 242 226 "Editbox\Input.tga" 18 10 255 255 255 "TEXT" 0 1 200 0
+LABEL "Control_705820584" "" "" 17 368 0 0 19 10 20 213 191 164 255
+STILLIMAGEBUTTON "Btn_Close" "IDCANCEL" "" 240 5 20 20 0 0 0 0 21 10 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 22 1 1
+IMAGEPICTURE "Img_Money" "" "" 96 343 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Txt_Money3" "" "" 238 343 0 0 23 10 24 255 255 255 255
+LABEL "Txt_Money2" "" "" 199 343 0 0 25 10 26 255 255 255 255
+LABEL "Txt_Money1" "" "" 162 343 0 0 27 10 28 255 255 255 255
+IMAGEPICTURE "Img_FrameMoney" "" "" 96 367 160 18 1 0 "Icon\FrameMoney.tga"
+LABEL "Lab_Money3" "" "" 239 368 0 0 29 10 30 255 255 255 255
+LABEL "Lab_Money2" "" "" 199 368 0 0 31 10 32 255 255 255 255
+LABEL "Lab_Money1" "" "" 162 368 0 0 33 10 34 255 255 255 255

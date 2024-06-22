@@ -1,0 +1,67 @@
+DIALOG "Win_TalismanSettingOther" 0 0 295 460 0 1 10 "Window\Window.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+STILLIMAGEBUTTON "Btn_Cancel" "IDCANCEL" "" 259 4 20 20 0 0 0 0 2 9 255 255 255 255 "Button\Close.tga" "Button\CloseDown.tga" "" 3 1 0
+LABEL "Title" "" "" 5 3 0 0 4 16 5 254 231 174 255
+LABEL "Control_001" "" "" 15 50 0 0 6 10 7 213 191 164 255
+LABEL "Control_002" "" "" 15 72 0 0 8 10 9 213 191 164 255
+LABEL "Control_003" "" "" 39 134 0 0 10 10 11 213 191 164 255
+LABEL "Control_004" "" "" 39 154 0 0 12 10 13 213 191 164 255
+LABEL "Control_005" "" "" 39 174 0 0 14 10 15 213 191 164 255
+LABEL "Control_006" "" "" 39 194 0 0 16 10 17 213 191 164 255
+LABEL "Control_1" "" "" 142 106 0 0 18 10 19 254 231 174 255
+LABEL "Control_2" "" "" 142 120 0 0 20 10 21 254 231 174 255
+LABEL "Control_3" "" "" 142 134 0 0 22 10 23 254 231 174 255
+LABEL "Control_4" "" "" 142 148 0 0 24 10 25 254 231 174 255
+LABEL "Control_5" "" "" 142 162 0 0 26 10 27 254 231 174 255
+LABEL "Control_6" "" "" 142 176 0 0 28 10 29 254 231 174 255
+STILLIMAGEBUTTON "Btn_1" "confirm" "" 71 432 45 21 0 0 0 0 30 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 31 1 0
+STILLIMAGEBUTTON "Btn_2" "IDCANCEL" "" 174 432 45 21 0 0 0 0 32 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 33 1 0
+EDIT "Shape1" "" "" 9 26 277 72 "Editbox\Input.tga" 34 10 255 255 255 "TEXT" 1 0 20 0
+EDIT "Shape2" "" "" 9 106 132 113 "Editbox\Input.tga" 35 10 255 255 255 "TEXT" 1 0 20 0
+RADIO "Rdo_All" "changetype" "" 15 132 16 16 "Extra\Option.tga" 1 1
+RADIO "Rdo_None" "changetype" "" 15 153 16 16 "Extra\Option.tga" 2 1
+RADIO "Rdo_Include" "changetype" "" 15 174 16 16 "Extra\Option.tga" 3 1
+RADIO "Rdo_Exclude" "changetype" "" 15 195 16 16 "Extra\Option.tga" 4 1
+LABEL "Lab_1" "" "" 13 30 0 0 36 10 37 254 231 174 255
+LABEL "Lab_2" "" "" 15 111 0 0 38 10 39 254 231 174 255
+LABEL "Lab_3" "" "" 7 230 0 0 40 10 41 254 231 174 255
+LABEL "Lab_4" "" "" 7 245 0 0 42 10 43 254 231 174 255
+LABEL "Lab_5" "" "" 7 260 0 0 44 10 45 254 231 174 255
+EDIT "Txt_Hp" "" "" 53 49 35 21 "Editbox\Input.tga" 46 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_HpTime" "" "" 214 49 42 21 "Editbox\Input.tga" 47 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Mp" "" "" 53 71 35 21 "Editbox\Input.tga" 48 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_MpTime" "" "" 214 71 42 21 "Editbox\Input.tga" 49 10 255 255 255 "TEXT" 0 0 256 0
+IMAGEPICTURE "Img_Skill01" "" "" 8 308 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill02" "" "" 103 308 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill03" "" "" 198 308 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill04" "" "" 8 348 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill05" "" "" 103 348 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill06" "" "" 198 348 36 36 1 0 "Icon\Shortcut.tga" ""
+IMAGEPICTURE "Img_Skill07" "" "" 8 388 36 36 1 0 "Icon\Shortcut.tga" ""
+EDIT "Txt_Skill01Time" "" "" 48 318 50 21 "Editbox\Input.tga" 50 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill02Time" "" "" 143 318 50 21 "Editbox\Input.tga" 51 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill03Time" "" "" 238 318 50 21 "Editbox\Input.tga" 52 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill04Time" "" "" 48 358 50 21 "Editbox\Input.tga" 53 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill05Time" "" "" 143 357 50 22 "Editbox\Input.tga" 54 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill06Time" "" "" 238 358 50 21 "Editbox\Input.tga" 55 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_Skill07Time" "" "" 48 398 50 21 "Editbox\Input.tga" 56 10 255 255 255 "TEXT" 0 0 256 0
+EDIT "Txt_ItemName" "" "" 157 106 111 21 "Editbox\Input.tga" 57 10 255 255 255 "TEXT" 0 0 256 0
+LIST "Lst_Info" "" "" 157 127 111 92 58 10 255 255 255 255 "Editbox\Input.tga" "ListBox\Create_SelectR.tga" "Listbox\DragUp.tga" "Listbox\DragDown.tga" "Listbox\DragSlot.tga" "Listbox\DragButton.tga" 0 "0" 0
+LABEL "Lab_ItemList" "" "" 7 6 0 0 59 10 60 213 191 164 255
+STILLIMAGEBUTTON "Btn_Delete" "delete" "" 272 126 14 14 0 0 0 0 61 10 255 255 255 255 "Button\Mark_Delete.tga" "Button\Mark_DeleteDown.tga" "" 62 1 1
+STILLIMAGEBUTTON "Btn_DeleteAll" "deleteall" "" 272 146 14 14 0 0 0 0 63 10 255 255 255 255 "Button\Mark_DeleteAll.tga" "Button\Mark_DeleteAllDown.tga" "" 64 1 1
+STILLIMAGEBUTTON "Btn_Add" "add" "" 272 109 14 14 0 0 0 0 65 10 255 255 255 255 "Button\RMove.tga" "Button\RMoveDown.tga" "" 66 1 1
+LABEL "Lab_Skill01" "" "" 10 329 0 0 67 8 68 43 255 250 255
+LABEL "Lab_Skill02" "" "" 106 329 0 0 69 8 70 43 255 250 255
+LABEL "Lab_Skill03" "" "" 202 329 0 0 71 8 72 43 255 250 255
+LABEL "Lab_Skill04" "" "" 10 369 0 0 73 8 74 43 255 250 255
+LABEL "Lab_Skill05" "" "" 106 369 0 0 75 8 76 43 255 250 255
+LABEL "Lab_Skill06" "" "" 202 369 0 0 77 8 78 43 255 250 255
+LABEL "Lab_Skill07" "" "" 10 409 0 0 79 8 80 43 255 250 255
+CHECK "Chk_Skill" "" "" 11 284 16 16 "Extra\Check.tga"
+LABEL "Lab_Skill" "" "" 32 283 0 0 81 10 82 213 191 164 255
+IMAGEPICTURE "Img_Skill08" "" "" 103 388 36 36 1 0 "Icon\Shortcut.tga" ""
+EDIT "Txt_Skill08Time" "" "" 143 398 50 21 "Editbox\Input.tga" 83 10 255 255 255 "TEXT" 0 0 256 0
+LABEL "Lab_Skill08" "" "" 106 409 0 0 84 8 85 43 255 250 255
+IMAGEPICTURE "Img_Skill09" "" "" 198 388 36 36 1 0 "Icon\Shortcut.tga" ""
+EDIT "Txt_Skill09Time" "" "" 238 398 50 21 "Editbox\Input.tga" 86 10 255 255 255 "TEXT" 0 0 256 0
+LABEL "Lab_Skill09" "" "" 202 409 0 0 87 8 88 43 255 250 255

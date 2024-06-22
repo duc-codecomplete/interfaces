@@ -1,0 +1,8 @@
+DIALOG "Win_Message1" 0 0 250 112 0 1 10 "Window\Window.tga" "" "" 0 0 250 27 "" 27 6 96 96 96 255 1 0
+LABEL "Title" "" "" 8 4 0 0 2 16 3 254 231 174 255
+STILLIMAGEBUTTON "Btn_Apply" "accept" "" 8 64 45 21 0 0 0 0 4 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 5 1 0
+STILLIMAGEBUTTON "Btn_Refuse" "refuse" "" 8 86 45 21 0 0 0 0 6 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 7 1 0
+STILLIMAGEBUTTON "Btn_Add" "add" "" 55 64 72 21 0 0 0 0 8 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 9 1 0
+STILLIMAGEBUTTON "Btn_BlackList" "blacklist" "" 55 86 72 21 0 0 0 0 10 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 11 1 0
+STILLIMAGEBUTTON "Btn_Exit" "IDCANCEL" "" 198 86 45 21 0 0 0 0 12 10 254 241 219 255 "Button\Button.tga" "Button\ButtonDown.tga" "" 13 1 0
+LABEL "Txt_Message" "" "" 9 36 233 18 14 10 15 255 255 255 255

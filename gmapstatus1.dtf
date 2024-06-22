@@ -1,0 +1,14 @@
+DIALOG "Win_GMapStatus1" 0 0 190 150 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Lab_Name" "" "" 4 6 0 0 2 10 3 255 203 74 255
+LABEL "Txt_Name" "" "" 66 6 0 0 4 10 5 192 192 192 255
+LABEL "Lab_Attack2" "" "" 4 26 0 0 6 10 7 255 203 74 255
+LABEL "Txt_Attack2" "" "" 66 26 0 0 8 10 9 192 192 192 255
+LABEL "Lab_Time2" "" "" 4 46 0 0 10 10 11 255 203 74 255
+LABEL "Txt_Time2" "" "" 66 46 0 0 12 10 13 192 192 192 255
+LABEL "Lab_Attach" "" "" 4 66 0 0 14 10 15 255 203 74 255
+LABEL "Txt_Attach" "" "" 66 66 0 0 16 10 17 192 192 192 255
+LABEL "Lab_Attack1" "" "" 4 86 0 0 18 10 19 255 203 74 255
+LABEL "Txt_Attack1" "" "" 66 86 0 0 20 10 21 192 192 192 255
+LABEL "Lab_Time1" "" "" 4 106 0 0 22 10 23 255 203 74 255
+LABEL "Txt_Time1" "" "" 66 106 0 0 24 10 25 192 192 192 255
+STILLIMAGEBUTTON "Btn_AllBattleTime" "allbattletime" "" 0 125 117 24 0 0 0 0 26 10 255 203 74 255 "Button\按钮_文本1.dds" "Button\按钮_文本2.dds" "" 27 1 0

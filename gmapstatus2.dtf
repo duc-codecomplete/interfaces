@@ -1,0 +1,11 @@
+DIALOG "Win_GMapStatus2" 0 0 190 104 0 1 10 "Window\对话框_透明色.bmp" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 0
+LABEL "Lab_Name" "" "" 4 6 0 0 2 10 3 255 203 74 255
+LABEL "Txt_Name" "" "" 66 6 0 0 4 10 5 192 192 192 255
+LABEL "Lab_Attach" "" "" 4 25 0 0 6 10 7 255 203 74 255
+LABEL "Txt_Attach" "" "" 66 25 0 0 8 10 9 192 192 192 255
+LABEL "Lab_Attack1" "" "" 4 45 0 0 10 10 11 255 203 74 255
+LABEL "Txt_Attack1" "" "" 66 45 0 0 12 10 13 192 192 192 255
+LABEL "Lab_Attack2" "" "" 4 65 0 0 14 10 15 255 203 74 255
+LABEL "Txt_Attack2" "" "" 67 65 0 0 16 10 17 192 192 192 255
+LABEL "Lab_Time" "" "" 4 85 0 0 18 10 19 255 203 74 255
+LABEL "Txt_Time" "" "" 92 85 0 0 20 10 21 192 192 192 255

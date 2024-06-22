@@ -1,0 +1,3 @@
+DIALOG "MagicProgress1" 0 0 325 38 0 1 10 "Progress\Ò÷³ª_3.tga" "" "" 0 0 -1 -1 "" 0 0 96 96 96 255 1 1
+PROGRESS "Prgs" "" "" 21 11 283 14 "Frame\Clarity.bmp" "Progress\Ò÷³ª_2.tga" 0 1 0 1 0
+LABEL "Txt" "" "" 162 9 0 0 2 12 3 255 203 74 255
